@@ -1,0 +1,24 @@
+predictor,dim,AUC,sd
+century,6,0.883,0.036
+century + start_yy,7,0.947,0.022
+century + start_yy + noun,15,0.981,0.011
+raw residual (768),768,0.999,0.003
+SAE top-1 LEAKY (original protocol),1,0.864,0.041
+SAE top-1 NESTED (in-fold selection),1,0.852,0.037
+SAE top-10 LEAKY (original protocol),10,0.96,0.017
+SAE top-10 NESTED (in-fold selection),10,0.956,0.019
+SAE top-50 LEAKY (original protocol),50,0.987,0.01
+SAE top-50 NESTED (in-fold selection),50,0.988,0.01
+SAE top-100 LEAKY (original protocol),100,0.993,0.006
+SAE top-100 NESTED (in-fold selection),100,0.993,0.006
+raw @ noun,768,0.64,0.068
+raw @ lasted,768,0.64,0.068
+raw @ from,768,0.64,0.068
+raw @ the1,768,0.64,0.068
+raw @ year1,768,0.64,0.068
+raw @ start_cc,768,0.926,0.031
+raw @ start_yy,768,0.999,0.002
+raw @ to,768,0.997,0.004
+raw @ the2,768,0.997,0.004
+raw @ year2,768,0.999,0.003
+raw @ end_cc,768,0.999,0.003

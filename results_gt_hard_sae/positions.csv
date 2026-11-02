@@ -1,0 +1,7801 @@
+row,id,pos,role,token
+0,0,0,bos,<|endoftext|>
+1,0,1,the0,The
+2,0,2,noun, expedition
+3,0,3,lasted, lasted
+4,0,4,from, from
+5,0,5,the1, the
+6,0,6,year1, year
+7,0,7,start_cc, 12
+8,0,8,start_yy,92
+9,0,9,to, to
+10,0,10,the2, the
+11,0,11,year2, year
+12,0,12,end_cc, 12
+13,1,0,bos,<|endoftext|>
+14,1,1,the0,The
+15,1,2,noun, conflict
+16,1,3,lasted, lasted
+17,1,4,from, from
+18,1,5,the1, the
+19,1,6,year1, year
+20,1,7,start_cc, 16
+21,1,8,start_yy,98
+22,1,9,to, to
+23,1,10,the2, the
+24,1,11,year2, year
+25,1,12,end_cc, 16
+26,2,0,bos,<|endoftext|>
+27,2,1,the0,The
+28,2,2,noun, conflict
+29,2,3,lasted, lasted
+30,2,4,from, from
+31,2,5,the1, the
+32,2,6,year1, year
+33,2,7,start_cc, 15
+34,2,8,start_yy,96
+35,2,9,to, to
+36,2,10,the2, the
+37,2,11,year2, year
+38,2,12,end_cc, 15
+39,3,0,bos,<|endoftext|>
+40,3,1,the0,The
+41,3,2,noun, expedition
+42,3,3,lasted, lasted
+43,3,4,from, from
+44,3,5,the1, the
+45,3,6,year1, year
+46,3,7,start_cc, 12
+47,3,8,start_yy,98
+48,3,9,to, to
+49,3,10,the2, the
+50,3,11,year2, year
+51,3,12,end_cc, 12
+52,4,0,bos,<|endoftext|>
+53,4,1,the0,The
+54,4,2,noun, war
+55,4,3,lasted, lasted
+56,4,4,from, from
+57,4,5,the1, the
+58,4,6,year1, year
+59,4,7,start_cc, 15
+60,4,8,start_yy,93
+61,4,9,to, to
+62,4,10,the2, the
+63,4,11,year2, year
+64,4,12,end_cc, 15
+65,5,0,bos,<|endoftext|>
+66,5,1,the0,The
+67,5,2,noun, drought
+68,5,3,lasted, lasted
+69,5,4,from, from
+70,5,5,the1, the
+71,5,6,year1, year
+72,5,7,start_cc, 12
+73,5,8,start_yy,97
+74,5,9,to, to
+75,5,10,the2, the
+76,5,11,year2, year
+77,5,12,end_cc, 12
+78,6,0,bos,<|endoftext|>
+79,6,1,the0,The
+80,6,2,noun, voyage
+81,6,3,lasted, lasted
+82,6,4,from, from
+83,6,5,the1, the
+84,6,6,year1, year
+85,6,7,start_cc, 17
+86,6,8,start_yy,90
+87,6,9,to, to
+88,6,10,the2, the
+89,6,11,year2, year
+90,6,12,end_cc, 17
+91,7,0,bos,<|endoftext|>
+92,7,1,the0,The
+93,7,2,noun, siege
+94,7,3,lasted, lasted
+95,7,4,from, from
+96,7,5,the1, the
+97,7,6,year1, year
+98,7,7,start_cc, 16
+99,7,8,start_yy,96
+100,7,9,to, to
+101,7,10,the2, the
+102,7,11,year2, year
+103,7,12,end_cc, 16
+104,8,0,bos,<|endoftext|>
+105,8,1,the0,The
+106,8,2,noun, famine
+107,8,3,lasted, lasted
+108,8,4,from, from
+109,8,5,the1, the
+110,8,6,year1, year
+111,8,7,start_cc, 13
+112,8,8,start_yy,92
+113,8,9,to, to
+114,8,10,the2, the
+115,8,11,year2, year
+116,8,12,end_cc, 13
+117,9,0,bos,<|endoftext|>
+118,9,1,the0,The
+119,9,2,noun, expedition
+120,9,3,lasted, lasted
+121,9,4,from, from
+122,9,5,the1, the
+123,9,6,year1, year
+124,9,7,start_cc, 17
+125,9,8,start_yy,95
+126,9,9,to, to
+127,9,10,the2, the
+128,9,11,year2, year
+129,9,12,end_cc, 17
+130,10,0,bos,<|endoftext|>
+131,10,1,the0,The
+132,10,2,noun, conflict
+133,10,3,lasted, lasted
+134,10,4,from, from
+135,10,5,the1, the
+136,10,6,year1, year
+137,10,7,start_cc, 13
+138,10,8,start_yy,95
+139,10,9,to, to
+140,10,10,the2, the
+141,10,11,year2, year
+142,10,12,end_cc, 13
+143,11,0,bos,<|endoftext|>
+144,11,1,the0,The
+145,11,2,noun, voyage
+146,11,3,lasted, lasted
+147,11,4,from, from
+148,11,5,the1, the
+149,11,6,year1, year
+150,11,7,start_cc, 17
+151,11,8,start_yy,90
+152,11,9,to, to
+153,11,10,the2, the
+154,11,11,year2, year
+155,11,12,end_cc, 17
+156,12,0,bos,<|endoftext|>
+157,12,1,the0,The
+158,12,2,noun, reign
+159,12,3,lasted, lasted
+160,12,4,from, from
+161,12,5,the1, the
+162,12,6,year1, year
+163,12,7,start_cc, 15
+164,12,8,start_yy,91
+165,12,9,to, to
+166,12,10,the2, the
+167,12,11,year2, year
+168,12,12,end_cc, 15
+169,13,0,bos,<|endoftext|>
+170,13,1,the0,The
+171,13,2,noun, voyage
+172,13,3,lasted, lasted
+173,13,4,from, from
+174,13,5,the1, the
+175,13,6,year1, year
+176,13,7,start_cc, 17
+177,13,8,start_yy,95
+178,13,9,to, to
+179,13,10,the2, the
+180,13,11,year2, year
+181,13,12,end_cc, 17
+182,14,0,bos,<|endoftext|>
+183,14,1,the0,The
+184,14,2,noun, expedition
+185,14,3,lasted, lasted
+186,14,4,from, from
+187,14,5,the1, the
+188,14,6,year1, year
+189,14,7,start_cc, 16
+190,14,8,start_yy,91
+191,14,9,to, to
+192,14,10,the2, the
+193,14,11,year2, year
+194,14,12,end_cc, 16
+195,15,0,bos,<|endoftext|>
+196,15,1,the0,The
+197,15,2,noun, war
+198,15,3,lasted, lasted
+199,15,4,from, from
+200,15,5,the1, the
+201,15,6,year1, year
+202,15,7,start_cc, 16
+203,15,8,start_yy,93
+204,15,9,to, to
+205,15,10,the2, the
+206,15,11,year2, year
+207,15,12,end_cc, 16
+208,16,0,bos,<|endoftext|>
+209,16,1,the0,The
+210,16,2,noun, conflict
+211,16,3,lasted, lasted
+212,16,4,from, from
+213,16,5,the1, the
+214,16,6,year1, year
+215,16,7,start_cc, 14
+216,16,8,start_yy,94
+217,16,9,to, to
+218,16,10,the2, the
+219,16,11,year2, year
+220,16,12,end_cc, 14
+221,17,0,bos,<|endoftext|>
+222,17,1,the0,The
+223,17,2,noun, reign
+224,17,3,lasted, lasted
+225,17,4,from, from
+226,17,5,the1, the
+227,17,6,year1, year
+228,17,7,start_cc, 16
+229,17,8,start_yy,95
+230,17,9,to, to
+231,17,10,the2, the
+232,17,11,year2, year
+233,17,12,end_cc, 16
+234,18,0,bos,<|endoftext|>
+235,18,1,the0,The
+236,18,2,noun, siege
+237,18,3,lasted, lasted
+238,18,4,from, from
+239,18,5,the1, the
+240,18,6,year1, year
+241,18,7,start_cc, 13
+242,18,8,start_yy,95
+243,18,9,to, to
+244,18,10,the2, the
+245,18,11,year2, year
+246,18,12,end_cc, 13
+247,19,0,bos,<|endoftext|>
+248,19,1,the0,The
+249,19,2,noun, expedition
+250,19,3,lasted, lasted
+251,19,4,from, from
+252,19,5,the1, the
+253,19,6,year1, year
+254,19,7,start_cc, 16
+255,19,8,start_yy,94
+256,19,9,to, to
+257,19,10,the2, the
+258,19,11,year2, year
+259,19,12,end_cc, 16
+260,20,0,bos,<|endoftext|>
+261,20,1,the0,The
+262,20,2,noun, conflict
+263,20,3,lasted, lasted
+264,20,4,from, from
+265,20,5,the1, the
+266,20,6,year1, year
+267,20,7,start_cc, 15
+268,20,8,start_yy,92
+269,20,9,to, to
+270,20,10,the2, the
+271,20,11,year2, year
+272,20,12,end_cc, 15
+273,21,0,bos,<|endoftext|>
+274,21,1,the0,The
+275,21,2,noun, expedition
+276,21,3,lasted, lasted
+277,21,4,from, from
+278,21,5,the1, the
+279,21,6,year1, year
+280,21,7,start_cc, 12
+281,21,8,start_yy,97
+282,21,9,to, to
+283,21,10,the2, the
+284,21,11,year2, year
+285,21,12,end_cc, 12
+286,22,0,bos,<|endoftext|>
+287,22,1,the0,The
+288,22,2,noun, drought
+289,22,3,lasted, lasted
+290,22,4,from, from
+291,22,5,the1, the
+292,22,6,year1, year
+293,22,7,start_cc, 13
+294,22,8,start_yy,98
+295,22,9,to, to
+296,22,10,the2, the
+297,22,11,year2, year
+298,22,12,end_cc, 13
+299,23,0,bos,<|endoftext|>
+300,23,1,the0,The
+301,23,2,noun, expedition
+302,23,3,lasted, lasted
+303,23,4,from, from
+304,23,5,the1, the
+305,23,6,year1, year
+306,23,7,start_cc, 16
+307,23,8,start_yy,95
+308,23,9,to, to
+309,23,10,the2, the
+310,23,11,year2, year
+311,23,12,end_cc, 16
+312,24,0,bos,<|endoftext|>
+313,24,1,the0,The
+314,24,2,noun, war
+315,24,3,lasted, lasted
+316,24,4,from, from
+317,24,5,the1, the
+318,24,6,year1, year
+319,24,7,start_cc, 12
+320,24,8,start_yy,90
+321,24,9,to, to
+322,24,10,the2, the
+323,24,11,year2, year
+324,24,12,end_cc, 12
+325,25,0,bos,<|endoftext|>
+326,25,1,the0,The
+327,25,2,noun, famine
+328,25,3,lasted, lasted
+329,25,4,from, from
+330,25,5,the1, the
+331,25,6,year1, year
+332,25,7,start_cc, 14
+333,25,8,start_yy,94
+334,25,9,to, to
+335,25,10,the2, the
+336,25,11,year2, year
+337,25,12,end_cc, 14
+338,26,0,bos,<|endoftext|>
+339,26,1,the0,The
+340,26,2,noun, conflict
+341,26,3,lasted, lasted
+342,26,4,from, from
+343,26,5,the1, the
+344,26,6,year1, year
+345,26,7,start_cc, 12
+346,26,8,start_yy,95
+347,26,9,to, to
+348,26,10,the2, the
+349,26,11,year2, year
+350,26,12,end_cc, 12
+351,27,0,bos,<|endoftext|>
+352,27,1,the0,The
+353,27,2,noun, expedition
+354,27,3,lasted, lasted
+355,27,4,from, from
+356,27,5,the1, the
+357,27,6,year1, year
+358,27,7,start_cc, 16
+359,27,8,start_yy,97
+360,27,9,to, to
+361,27,10,the2, the
+362,27,11,year2, year
+363,27,12,end_cc, 16
+364,28,0,bos,<|endoftext|>
+365,28,1,the0,The
+366,28,2,noun, drought
+367,28,3,lasted, lasted
+368,28,4,from, from
+369,28,5,the1, the
+370,28,6,year1, year
+371,28,7,start_cc, 16
+372,28,8,start_yy,97
+373,28,9,to, to
+374,28,10,the2, the
+375,28,11,year2, year
+376,28,12,end_cc, 16
+377,29,0,bos,<|endoftext|>
+378,29,1,the0,The
+379,29,2,noun, siege
+380,29,3,lasted, lasted
+381,29,4,from, from
+382,29,5,the1, the
+383,29,6,year1, year
+384,29,7,start_cc, 13
+385,29,8,start_yy,92
+386,29,9,to, to
+387,29,10,the2, the
+388,29,11,year2, year
+389,29,12,end_cc, 13
+390,30,0,bos,<|endoftext|>
+391,30,1,the0,The
+392,30,2,noun, expedition
+393,30,3,lasted, lasted
+394,30,4,from, from
+395,30,5,the1, the
+396,30,6,year1, year
+397,30,7,start_cc, 16
+398,30,8,start_yy,98
+399,30,9,to, to
+400,30,10,the2, the
+401,30,11,year2, year
+402,30,12,end_cc, 16
+403,31,0,bos,<|endoftext|>
+404,31,1,the0,The
+405,31,2,noun, voyage
+406,31,3,lasted, lasted
+407,31,4,from, from
+408,31,5,the1, the
+409,31,6,year1, year
+410,31,7,start_cc, 16
+411,31,8,start_yy,96
+412,31,9,to, to
+413,31,10,the2, the
+414,31,11,year2, year
+415,31,12,end_cc, 16
+416,32,0,bos,<|endoftext|>
+417,32,1,the0,The
+418,32,2,noun, drought
+419,32,3,lasted, lasted
+420,32,4,from, from
+421,32,5,the1, the
+422,32,6,year1, year
+423,32,7,start_cc, 13
+424,32,8,start_yy,93
+425,32,9,to, to
+426,32,10,the2, the
+427,32,11,year2, year
+428,32,12,end_cc, 13
+429,33,0,bos,<|endoftext|>
+430,33,1,the0,The
+431,33,2,noun, siege
+432,33,3,lasted, lasted
+433,33,4,from, from
+434,33,5,the1, the
+435,33,6,year1, year
+436,33,7,start_cc, 15
+437,33,8,start_yy,97
+438,33,9,to, to
+439,33,10,the2, the
+440,33,11,year2, year
+441,33,12,end_cc, 15
+442,34,0,bos,<|endoftext|>
+443,34,1,the0,The
+444,34,2,noun, conflict
+445,34,3,lasted, lasted
+446,34,4,from, from
+447,34,5,the1, the
+448,34,6,year1, year
+449,34,7,start_cc, 17
+450,34,8,start_yy,90
+451,34,9,to, to
+452,34,10,the2, the
+453,34,11,year2, year
+454,34,12,end_cc, 17
+455,35,0,bos,<|endoftext|>
+456,35,1,the0,The
+457,35,2,noun, conflict
+458,35,3,lasted, lasted
+459,35,4,from, from
+460,35,5,the1, the
+461,35,6,year1, year
+462,35,7,start_cc, 12
+463,35,8,start_yy,92
+464,35,9,to, to
+465,35,10,the2, the
+466,35,11,year2, year
+467,35,12,end_cc, 12
+468,36,0,bos,<|endoftext|>
+469,36,1,the0,The
+470,36,2,noun, drought
+471,36,3,lasted, lasted
+472,36,4,from, from
+473,36,5,the1, the
+474,36,6,year1, year
+475,36,7,start_cc, 15
+476,36,8,start_yy,91
+477,36,9,to, to
+478,36,10,the2, the
+479,36,11,year2, year
+480,36,12,end_cc, 15
+481,37,0,bos,<|endoftext|>
+482,37,1,the0,The
+483,37,2,noun, drought
+484,37,3,lasted, lasted
+485,37,4,from, from
+486,37,5,the1, the
+487,37,6,year1, year
+488,37,7,start_cc, 14
+489,37,8,start_yy,97
+490,37,9,to, to
+491,37,10,the2, the
+492,37,11,year2, year
+493,37,12,end_cc, 14
+494,38,0,bos,<|endoftext|>
+495,38,1,the0,The
+496,38,2,noun, voyage
+497,38,3,lasted, lasted
+498,38,4,from, from
+499,38,5,the1, the
+500,38,6,year1, year
+501,38,7,start_cc, 15
+502,38,8,start_yy,90
+503,38,9,to, to
+504,38,10,the2, the
+505,38,11,year2, year
+506,38,12,end_cc, 15
+507,39,0,bos,<|endoftext|>
+508,39,1,the0,The
+509,39,2,noun, conflict
+510,39,3,lasted, lasted
+511,39,4,from, from
+512,39,5,the1, the
+513,39,6,year1, year
+514,39,7,start_cc, 16
+515,39,8,start_yy,98
+516,39,9,to, to
+517,39,10,the2, the
+518,39,11,year2, year
+519,39,12,end_cc, 16
+520,40,0,bos,<|endoftext|>
+521,40,1,the0,The
+522,40,2,noun, voyage
+523,40,3,lasted, lasted
+524,40,4,from, from
+525,40,5,the1, the
+526,40,6,year1, year
+527,40,7,start_cc, 17
+528,40,8,start_yy,95
+529,40,9,to, to
+530,40,10,the2, the
+531,40,11,year2, year
+532,40,12,end_cc, 17
+533,41,0,bos,<|endoftext|>
+534,41,1,the0,The
+535,41,2,noun, conflict
+536,41,3,lasted, lasted
+537,41,4,from, from
+538,41,5,the1, the
+539,41,6,year1, year
+540,41,7,start_cc, 13
+541,41,8,start_yy,96
+542,41,9,to, to
+543,41,10,the2, the
+544,41,11,year2, year
+545,41,12,end_cc, 13
+546,42,0,bos,<|endoftext|>
+547,42,1,the0,The
+548,42,2,noun, siege
+549,42,3,lasted, lasted
+550,42,4,from, from
+551,42,5,the1, the
+552,42,6,year1, year
+553,42,7,start_cc, 14
+554,42,8,start_yy,90
+555,42,9,to, to
+556,42,10,the2, the
+557,42,11,year2, year
+558,42,12,end_cc, 14
+559,43,0,bos,<|endoftext|>
+560,43,1,the0,The
+561,43,2,noun, voyage
+562,43,3,lasted, lasted
+563,43,4,from, from
+564,43,5,the1, the
+565,43,6,year1, year
+566,43,7,start_cc, 15
+567,43,8,start_yy,92
+568,43,9,to, to
+569,43,10,the2, the
+570,43,11,year2, year
+571,43,12,end_cc, 15
+572,44,0,bos,<|endoftext|>
+573,44,1,the0,The
+574,44,2,noun, conflict
+575,44,3,lasted, lasted
+576,44,4,from, from
+577,44,5,the1, the
+578,44,6,year1, year
+579,44,7,start_cc, 17
+580,44,8,start_yy,94
+581,44,9,to, to
+582,44,10,the2, the
+583,44,11,year2, year
+584,44,12,end_cc, 17
+585,45,0,bos,<|endoftext|>
+586,45,1,the0,The
+587,45,2,noun, expedition
+588,45,3,lasted, lasted
+589,45,4,from, from
+590,45,5,the1, the
+591,45,6,year1, year
+592,45,7,start_cc, 12
+593,45,8,start_yy,95
+594,45,9,to, to
+595,45,10,the2, the
+596,45,11,year2, year
+597,45,12,end_cc, 12
+598,46,0,bos,<|endoftext|>
+599,46,1,the0,The
+600,46,2,noun, siege
+601,46,3,lasted, lasted
+602,46,4,from, from
+603,46,5,the1, the
+604,46,6,year1, year
+605,46,7,start_cc, 15
+606,46,8,start_yy,98
+607,46,9,to, to
+608,46,10,the2, the
+609,46,11,year2, year
+610,46,12,end_cc, 15
+611,47,0,bos,<|endoftext|>
+612,47,1,the0,The
+613,47,2,noun, war
+614,47,3,lasted, lasted
+615,47,4,from, from
+616,47,5,the1, the
+617,47,6,year1, year
+618,47,7,start_cc, 15
+619,47,8,start_yy,95
+620,47,9,to, to
+621,47,10,the2, the
+622,47,11,year2, year
+623,47,12,end_cc, 15
+624,48,0,bos,<|endoftext|>
+625,48,1,the0,The
+626,48,2,noun, famine
+627,48,3,lasted, lasted
+628,48,4,from, from
+629,48,5,the1, the
+630,48,6,year1, year
+631,48,7,start_cc, 17
+632,48,8,start_yy,94
+633,48,9,to, to
+634,48,10,the2, the
+635,48,11,year2, year
+636,48,12,end_cc, 17
+637,49,0,bos,<|endoftext|>
+638,49,1,the0,The
+639,49,2,noun, conflict
+640,49,3,lasted, lasted
+641,49,4,from, from
+642,49,5,the1, the
+643,49,6,year1, year
+644,49,7,start_cc, 17
+645,49,8,start_yy,98
+646,49,9,to, to
+647,49,10,the2, the
+648,49,11,year2, year
+649,49,12,end_cc, 17
+650,50,0,bos,<|endoftext|>
+651,50,1,the0,The
+652,50,2,noun, siege
+653,50,3,lasted, lasted
+654,50,4,from, from
+655,50,5,the1, the
+656,50,6,year1, year
+657,50,7,start_cc, 12
+658,50,8,start_yy,97
+659,50,9,to, to
+660,50,10,the2, the
+661,50,11,year2, year
+662,50,12,end_cc, 12
+663,51,0,bos,<|endoftext|>
+664,51,1,the0,The
+665,51,2,noun, siege
+666,51,3,lasted, lasted
+667,51,4,from, from
+668,51,5,the1, the
+669,51,6,year1, year
+670,51,7,start_cc, 13
+671,51,8,start_yy,98
+672,51,9,to, to
+673,51,10,the2, the
+674,51,11,year2, year
+675,51,12,end_cc, 13
+676,52,0,bos,<|endoftext|>
+677,52,1,the0,The
+678,52,2,noun, drought
+679,52,3,lasted, lasted
+680,52,4,from, from
+681,52,5,the1, the
+682,52,6,year1, year
+683,52,7,start_cc, 12
+684,52,8,start_yy,98
+685,52,9,to, to
+686,52,10,the2, the
+687,52,11,year2, year
+688,52,12,end_cc, 12
+689,53,0,bos,<|endoftext|>
+690,53,1,the0,The
+691,53,2,noun, expedition
+692,53,3,lasted, lasted
+693,53,4,from, from
+694,53,5,the1, the
+695,53,6,year1, year
+696,53,7,start_cc, 16
+697,53,8,start_yy,94
+698,53,9,to, to
+699,53,10,the2, the
+700,53,11,year2, year
+701,53,12,end_cc, 16
+702,54,0,bos,<|endoftext|>
+703,54,1,the0,The
+704,54,2,noun, drought
+705,54,3,lasted, lasted
+706,54,4,from, from
+707,54,5,the1, the
+708,54,6,year1, year
+709,54,7,start_cc, 16
+710,54,8,start_yy,95
+711,54,9,to, to
+712,54,10,the2, the
+713,54,11,year2, year
+714,54,12,end_cc, 16
+715,55,0,bos,<|endoftext|>
+716,55,1,the0,The
+717,55,2,noun, reign
+718,55,3,lasted, lasted
+719,55,4,from, from
+720,55,5,the1, the
+721,55,6,year1, year
+722,55,7,start_cc, 15
+723,55,8,start_yy,97
+724,55,9,to, to
+725,55,10,the2, the
+726,55,11,year2, year
+727,55,12,end_cc, 15
+728,56,0,bos,<|endoftext|>
+729,56,1,the0,The
+730,56,2,noun, conflict
+731,56,3,lasted, lasted
+732,56,4,from, from
+733,56,5,the1, the
+734,56,6,year1, year
+735,56,7,start_cc, 12
+736,56,8,start_yy,93
+737,56,9,to, to
+738,56,10,the2, the
+739,56,11,year2, year
+740,56,12,end_cc, 12
+741,57,0,bos,<|endoftext|>
+742,57,1,the0,The
+743,57,2,noun, conflict
+744,57,3,lasted, lasted
+745,57,4,from, from
+746,57,5,the1, the
+747,57,6,year1, year
+748,57,7,start_cc, 13
+749,57,8,start_yy,90
+750,57,9,to, to
+751,57,10,the2, the
+752,57,11,year2, year
+753,57,12,end_cc, 13
+754,58,0,bos,<|endoftext|>
+755,58,1,the0,The
+756,58,2,noun, expedition
+757,58,3,lasted, lasted
+758,58,4,from, from
+759,58,5,the1, the
+760,58,6,year1, year
+761,58,7,start_cc, 15
+762,58,8,start_yy,93
+763,58,9,to, to
+764,58,10,the2, the
+765,58,11,year2, year
+766,58,12,end_cc, 15
+767,59,0,bos,<|endoftext|>
+768,59,1,the0,The
+769,59,2,noun, expedition
+770,59,3,lasted, lasted
+771,59,4,from, from
+772,59,5,the1, the
+773,59,6,year1, year
+774,59,7,start_cc, 13
+775,59,8,start_yy,97
+776,59,9,to, to
+777,59,10,the2, the
+778,59,11,year2, year
+779,59,12,end_cc, 13
+780,60,0,bos,<|endoftext|>
+781,60,1,the0,The
+782,60,2,noun, expedition
+783,60,3,lasted, lasted
+784,60,4,from, from
+785,60,5,the1, the
+786,60,6,year1, year
+787,60,7,start_cc, 15
+788,60,8,start_yy,92
+789,60,9,to, to
+790,60,10,the2, the
+791,60,11,year2, year
+792,60,12,end_cc, 15
+793,61,0,bos,<|endoftext|>
+794,61,1,the0,The
+795,61,2,noun, reign
+796,61,3,lasted, lasted
+797,61,4,from, from
+798,61,5,the1, the
+799,61,6,year1, year
+800,61,7,start_cc, 12
+801,61,8,start_yy,97
+802,61,9,to, to
+803,61,10,the2, the
+804,61,11,year2, year
+805,61,12,end_cc, 12
+806,62,0,bos,<|endoftext|>
+807,62,1,the0,The
+808,62,2,noun, drought
+809,62,3,lasted, lasted
+810,62,4,from, from
+811,62,5,the1, the
+812,62,6,year1, year
+813,62,7,start_cc, 12
+814,62,8,start_yy,91
+815,62,9,to, to
+816,62,10,the2, the
+817,62,11,year2, year
+818,62,12,end_cc, 12
+819,63,0,bos,<|endoftext|>
+820,63,1,the0,The
+821,63,2,noun, conflict
+822,63,3,lasted, lasted
+823,63,4,from, from
+824,63,5,the1, the
+825,63,6,year1, year
+826,63,7,start_cc, 16
+827,63,8,start_yy,96
+828,63,9,to, to
+829,63,10,the2, the
+830,63,11,year2, year
+831,63,12,end_cc, 16
+832,64,0,bos,<|endoftext|>
+833,64,1,the0,The
+834,64,2,noun, famine
+835,64,3,lasted, lasted
+836,64,4,from, from
+837,64,5,the1, the
+838,64,6,year1, year
+839,64,7,start_cc, 14
+840,64,8,start_yy,96
+841,64,9,to, to
+842,64,10,the2, the
+843,64,11,year2, year
+844,64,12,end_cc, 14
+845,65,0,bos,<|endoftext|>
+846,65,1,the0,The
+847,65,2,noun, reign
+848,65,3,lasted, lasted
+849,65,4,from, from
+850,65,5,the1, the
+851,65,6,year1, year
+852,65,7,start_cc, 17
+853,65,8,start_yy,90
+854,65,9,to, to
+855,65,10,the2, the
+856,65,11,year2, year
+857,65,12,end_cc, 17
+858,66,0,bos,<|endoftext|>
+859,66,1,the0,The
+860,66,2,noun, famine
+861,66,3,lasted, lasted
+862,66,4,from, from
+863,66,5,the1, the
+864,66,6,year1, year
+865,66,7,start_cc, 17
+866,66,8,start_yy,91
+867,66,9,to, to
+868,66,10,the2, the
+869,66,11,year2, year
+870,66,12,end_cc, 17
+871,67,0,bos,<|endoftext|>
+872,67,1,the0,The
+873,67,2,noun, expedition
+874,67,3,lasted, lasted
+875,67,4,from, from
+876,67,5,the1, the
+877,67,6,year1, year
+878,67,7,start_cc, 12
+879,67,8,start_yy,93
+880,67,9,to, to
+881,67,10,the2, the
+882,67,11,year2, year
+883,67,12,end_cc, 12
+884,68,0,bos,<|endoftext|>
+885,68,1,the0,The
+886,68,2,noun, reign
+887,68,3,lasted, lasted
+888,68,4,from, from
+889,68,5,the1, the
+890,68,6,year1, year
+891,68,7,start_cc, 12
+892,68,8,start_yy,96
+893,68,9,to, to
+894,68,10,the2, the
+895,68,11,year2, year
+896,68,12,end_cc, 12
+897,69,0,bos,<|endoftext|>
+898,69,1,the0,The
+899,69,2,noun, siege
+900,69,3,lasted, lasted
+901,69,4,from, from
+902,69,5,the1, the
+903,69,6,year1, year
+904,69,7,start_cc, 13
+905,69,8,start_yy,97
+906,69,9,to, to
+907,69,10,the2, the
+908,69,11,year2, year
+909,69,12,end_cc, 13
+910,70,0,bos,<|endoftext|>
+911,70,1,the0,The
+912,70,2,noun, expedition
+913,70,3,lasted, lasted
+914,70,4,from, from
+915,70,5,the1, the
+916,70,6,year1, year
+917,70,7,start_cc, 17
+918,70,8,start_yy,91
+919,70,9,to, to
+920,70,10,the2, the
+921,70,11,year2, year
+922,70,12,end_cc, 17
+923,71,0,bos,<|endoftext|>
+924,71,1,the0,The
+925,71,2,noun, reign
+926,71,3,lasted, lasted
+927,71,4,from, from
+928,71,5,the1, the
+929,71,6,year1, year
+930,71,7,start_cc, 17
+931,71,8,start_yy,98
+932,71,9,to, to
+933,71,10,the2, the
+934,71,11,year2, year
+935,71,12,end_cc, 17
+936,72,0,bos,<|endoftext|>
+937,72,1,the0,The
+938,72,2,noun, siege
+939,72,3,lasted, lasted
+940,72,4,from, from
+941,72,5,the1, the
+942,72,6,year1, year
+943,72,7,start_cc, 14
+944,72,8,start_yy,97
+945,72,9,to, to
+946,72,10,the2, the
+947,72,11,year2, year
+948,72,12,end_cc, 14
+949,73,0,bos,<|endoftext|>
+950,73,1,the0,The
+951,73,2,noun, reign
+952,73,3,lasted, lasted
+953,73,4,from, from
+954,73,5,the1, the
+955,73,6,year1, year
+956,73,7,start_cc, 12
+957,73,8,start_yy,96
+958,73,9,to, to
+959,73,10,the2, the
+960,73,11,year2, year
+961,73,12,end_cc, 12
+962,74,0,bos,<|endoftext|>
+963,74,1,the0,The
+964,74,2,noun, war
+965,74,3,lasted, lasted
+966,74,4,from, from
+967,74,5,the1, the
+968,74,6,year1, year
+969,74,7,start_cc, 12
+970,74,8,start_yy,96
+971,74,9,to, to
+972,74,10,the2, the
+973,74,11,year2, year
+974,74,12,end_cc, 12
+975,75,0,bos,<|endoftext|>
+976,75,1,the0,The
+977,75,2,noun, war
+978,75,3,lasted, lasted
+979,75,4,from, from
+980,75,5,the1, the
+981,75,6,year1, year
+982,75,7,start_cc, 14
+983,75,8,start_yy,94
+984,75,9,to, to
+985,75,10,the2, the
+986,75,11,year2, year
+987,75,12,end_cc, 14
+988,76,0,bos,<|endoftext|>
+989,76,1,the0,The
+990,76,2,noun, reign
+991,76,3,lasted, lasted
+992,76,4,from, from
+993,76,5,the1, the
+994,76,6,year1, year
+995,76,7,start_cc, 13
+996,76,8,start_yy,96
+997,76,9,to, to
+998,76,10,the2, the
+999,76,11,year2, year
+1000,76,12,end_cc, 13
+1001,77,0,bos,<|endoftext|>
+1002,77,1,the0,The
+1003,77,2,noun, reign
+1004,77,3,lasted, lasted
+1005,77,4,from, from
+1006,77,5,the1, the
+1007,77,6,year1, year
+1008,77,7,start_cc, 12
+1009,77,8,start_yy,93
+1010,77,9,to, to
+1011,77,10,the2, the
+1012,77,11,year2, year
+1013,77,12,end_cc, 12
+1014,78,0,bos,<|endoftext|>
+1015,78,1,the0,The
+1016,78,2,noun, voyage
+1017,78,3,lasted, lasted
+1018,78,4,from, from
+1019,78,5,the1, the
+1020,78,6,year1, year
+1021,78,7,start_cc, 12
+1022,78,8,start_yy,90
+1023,78,9,to, to
+1024,78,10,the2, the
+1025,78,11,year2, year
+1026,78,12,end_cc, 12
+1027,79,0,bos,<|endoftext|>
+1028,79,1,the0,The
+1029,79,2,noun, war
+1030,79,3,lasted, lasted
+1031,79,4,from, from
+1032,79,5,the1, the
+1033,79,6,year1, year
+1034,79,7,start_cc, 16
+1035,79,8,start_yy,95
+1036,79,9,to, to
+1037,79,10,the2, the
+1038,79,11,year2, year
+1039,79,12,end_cc, 16
+1040,80,0,bos,<|endoftext|>
+1041,80,1,the0,The
+1042,80,2,noun, conflict
+1043,80,3,lasted, lasted
+1044,80,4,from, from
+1045,80,5,the1, the
+1046,80,6,year1, year
+1047,80,7,start_cc, 17
+1048,80,8,start_yy,92
+1049,80,9,to, to
+1050,80,10,the2, the
+1051,80,11,year2, year
+1052,80,12,end_cc, 17
+1053,81,0,bos,<|endoftext|>
+1054,81,1,the0,The
+1055,81,2,noun, conflict
+1056,81,3,lasted, lasted
+1057,81,4,from, from
+1058,81,5,the1, the
+1059,81,6,year1, year
+1060,81,7,start_cc, 15
+1061,81,8,start_yy,91
+1062,81,9,to, to
+1063,81,10,the2, the
+1064,81,11,year2, year
+1065,81,12,end_cc, 15
+1066,82,0,bos,<|endoftext|>
+1067,82,1,the0,The
+1068,82,2,noun, expedition
+1069,82,3,lasted, lasted
+1070,82,4,from, from
+1071,82,5,the1, the
+1072,82,6,year1, year
+1073,82,7,start_cc, 14
+1074,82,8,start_yy,91
+1075,82,9,to, to
+1076,82,10,the2, the
+1077,82,11,year2, year
+1078,82,12,end_cc, 14
+1079,83,0,bos,<|endoftext|>
+1080,83,1,the0,The
+1081,83,2,noun, expedition
+1082,83,3,lasted, lasted
+1083,83,4,from, from
+1084,83,5,the1, the
+1085,83,6,year1, year
+1086,83,7,start_cc, 15
+1087,83,8,start_yy,90
+1088,83,9,to, to
+1089,83,10,the2, the
+1090,83,11,year2, year
+1091,83,12,end_cc, 15
+1092,84,0,bos,<|endoftext|>
+1093,84,1,the0,The
+1094,84,2,noun, conflict
+1095,84,3,lasted, lasted
+1096,84,4,from, from
+1097,84,5,the1, the
+1098,84,6,year1, year
+1099,84,7,start_cc, 14
+1100,84,8,start_yy,98
+1101,84,9,to, to
+1102,84,10,the2, the
+1103,84,11,year2, year
+1104,84,12,end_cc, 14
+1105,85,0,bos,<|endoftext|>
+1106,85,1,the0,The
+1107,85,2,noun, famine
+1108,85,3,lasted, lasted
+1109,85,4,from, from
+1110,85,5,the1, the
+1111,85,6,year1, year
+1112,85,7,start_cc, 13
+1113,85,8,start_yy,93
+1114,85,9,to, to
+1115,85,10,the2, the
+1116,85,11,year2, year
+1117,85,12,end_cc, 13
+1118,86,0,bos,<|endoftext|>
+1119,86,1,the0,The
+1120,86,2,noun, famine
+1121,86,3,lasted, lasted
+1122,86,4,from, from
+1123,86,5,the1, the
+1124,86,6,year1, year
+1125,86,7,start_cc, 12
+1126,86,8,start_yy,94
+1127,86,9,to, to
+1128,86,10,the2, the
+1129,86,11,year2, year
+1130,86,12,end_cc, 12
+1131,87,0,bos,<|endoftext|>
+1132,87,1,the0,The
+1133,87,2,noun, drought
+1134,87,3,lasted, lasted
+1135,87,4,from, from
+1136,87,5,the1, the
+1137,87,6,year1, year
+1138,87,7,start_cc, 12
+1139,87,8,start_yy,94
+1140,87,9,to, to
+1141,87,10,the2, the
+1142,87,11,year2, year
+1143,87,12,end_cc, 12
+1144,88,0,bos,<|endoftext|>
+1145,88,1,the0,The
+1146,88,2,noun, reign
+1147,88,3,lasted, lasted
+1148,88,4,from, from
+1149,88,5,the1, the
+1150,88,6,year1, year
+1151,88,7,start_cc, 13
+1152,88,8,start_yy,91
+1153,88,9,to, to
+1154,88,10,the2, the
+1155,88,11,year2, year
+1156,88,12,end_cc, 13
+1157,89,0,bos,<|endoftext|>
+1158,89,1,the0,The
+1159,89,2,noun, war
+1160,89,3,lasted, lasted
+1161,89,4,from, from
+1162,89,5,the1, the
+1163,89,6,year1, year
+1164,89,7,start_cc, 14
+1165,89,8,start_yy,91
+1166,89,9,to, to
+1167,89,10,the2, the
+1168,89,11,year2, year
+1169,89,12,end_cc, 14
+1170,90,0,bos,<|endoftext|>
+1171,90,1,the0,The
+1172,90,2,noun, conflict
+1173,90,3,lasted, lasted
+1174,90,4,from, from
+1175,90,5,the1, the
+1176,90,6,year1, year
+1177,90,7,start_cc, 15
+1178,90,8,start_yy,93
+1179,90,9,to, to
+1180,90,10,the2, the
+1181,90,11,year2, year
+1182,90,12,end_cc, 15
+1183,91,0,bos,<|endoftext|>
+1184,91,1,the0,The
+1185,91,2,noun, voyage
+1186,91,3,lasted, lasted
+1187,91,4,from, from
+1188,91,5,the1, the
+1189,91,6,year1, year
+1190,91,7,start_cc, 12
+1191,91,8,start_yy,95
+1192,91,9,to, to
+1193,91,10,the2, the
+1194,91,11,year2, year
+1195,91,12,end_cc, 12
+1196,92,0,bos,<|endoftext|>
+1197,92,1,the0,The
+1198,92,2,noun, conflict
+1199,92,3,lasted, lasted
+1200,92,4,from, from
+1201,92,5,the1, the
+1202,92,6,year1, year
+1203,92,7,start_cc, 12
+1204,92,8,start_yy,95
+1205,92,9,to, to
+1206,92,10,the2, the
+1207,92,11,year2, year
+1208,92,12,end_cc, 12
+1209,93,0,bos,<|endoftext|>
+1210,93,1,the0,The
+1211,93,2,noun, voyage
+1212,93,3,lasted, lasted
+1213,93,4,from, from
+1214,93,5,the1, the
+1215,93,6,year1, year
+1216,93,7,start_cc, 12
+1217,93,8,start_yy,97
+1218,93,9,to, to
+1219,93,10,the2, the
+1220,93,11,year2, year
+1221,93,12,end_cc, 12
+1222,94,0,bos,<|endoftext|>
+1223,94,1,the0,The
+1224,94,2,noun, voyage
+1225,94,3,lasted, lasted
+1226,94,4,from, from
+1227,94,5,the1, the
+1228,94,6,year1, year
+1229,94,7,start_cc, 15
+1230,94,8,start_yy,98
+1231,94,9,to, to
+1232,94,10,the2, the
+1233,94,11,year2, year
+1234,94,12,end_cc, 15
+1235,95,0,bos,<|endoftext|>
+1236,95,1,the0,The
+1237,95,2,noun, war
+1238,95,3,lasted, lasted
+1239,95,4,from, from
+1240,95,5,the1, the
+1241,95,6,year1, year
+1242,95,7,start_cc, 16
+1243,95,8,start_yy,98
+1244,95,9,to, to
+1245,95,10,the2, the
+1246,95,11,year2, year
+1247,95,12,end_cc, 16
+1248,96,0,bos,<|endoftext|>
+1249,96,1,the0,The
+1250,96,2,noun, voyage
+1251,96,3,lasted, lasted
+1252,96,4,from, from
+1253,96,5,the1, the
+1254,96,6,year1, year
+1255,96,7,start_cc, 16
+1256,96,8,start_yy,91
+1257,96,9,to, to
+1258,96,10,the2, the
+1259,96,11,year2, year
+1260,96,12,end_cc, 16
+1261,97,0,bos,<|endoftext|>
+1262,97,1,the0,The
+1263,97,2,noun, siege
+1264,97,3,lasted, lasted
+1265,97,4,from, from
+1266,97,5,the1, the
+1267,97,6,year1, year
+1268,97,7,start_cc, 13
+1269,97,8,start_yy,91
+1270,97,9,to, to
+1271,97,10,the2, the
+1272,97,11,year2, year
+1273,97,12,end_cc, 13
+1274,98,0,bos,<|endoftext|>
+1275,98,1,the0,The
+1276,98,2,noun, conflict
+1277,98,3,lasted, lasted
+1278,98,4,from, from
+1279,98,5,the1, the
+1280,98,6,year1, year
+1281,98,7,start_cc, 16
+1282,98,8,start_yy,98
+1283,98,9,to, to
+1284,98,10,the2, the
+1285,98,11,year2, year
+1286,98,12,end_cc, 16
+1287,99,0,bos,<|endoftext|>
+1288,99,1,the0,The
+1289,99,2,noun, siege
+1290,99,3,lasted, lasted
+1291,99,4,from, from
+1292,99,5,the1, the
+1293,99,6,year1, year
+1294,99,7,start_cc, 13
+1295,99,8,start_yy,94
+1296,99,9,to, to
+1297,99,10,the2, the
+1298,99,11,year2, year
+1299,99,12,end_cc, 13
+1300,100,0,bos,<|endoftext|>
+1301,100,1,the0,The
+1302,100,2,noun, expedition
+1303,100,3,lasted, lasted
+1304,100,4,from, from
+1305,100,5,the1, the
+1306,100,6,year1, year
+1307,100,7,start_cc, 16
+1308,100,8,start_yy,95
+1309,100,9,to, to
+1310,100,10,the2, the
+1311,100,11,year2, year
+1312,100,12,end_cc, 16
+1313,101,0,bos,<|endoftext|>
+1314,101,1,the0,The
+1315,101,2,noun, expedition
+1316,101,3,lasted, lasted
+1317,101,4,from, from
+1318,101,5,the1, the
+1319,101,6,year1, year
+1320,101,7,start_cc, 16
+1321,101,8,start_yy,94
+1322,101,9,to, to
+1323,101,10,the2, the
+1324,101,11,year2, year
+1325,101,12,end_cc, 16
+1326,102,0,bos,<|endoftext|>
+1327,102,1,the0,The
+1328,102,2,noun, reign
+1329,102,3,lasted, lasted
+1330,102,4,from, from
+1331,102,5,the1, the
+1332,102,6,year1, year
+1333,102,7,start_cc, 13
+1334,102,8,start_yy,90
+1335,102,9,to, to
+1336,102,10,the2, the
+1337,102,11,year2, year
+1338,102,12,end_cc, 13
+1339,103,0,bos,<|endoftext|>
+1340,103,1,the0,The
+1341,103,2,noun, conflict
+1342,103,3,lasted, lasted
+1343,103,4,from, from
+1344,103,5,the1, the
+1345,103,6,year1, year
+1346,103,7,start_cc, 16
+1347,103,8,start_yy,96
+1348,103,9,to, to
+1349,103,10,the2, the
+1350,103,11,year2, year
+1351,103,12,end_cc, 16
+1352,104,0,bos,<|endoftext|>
+1353,104,1,the0,The
+1354,104,2,noun, famine
+1355,104,3,lasted, lasted
+1356,104,4,from, from
+1357,104,5,the1, the
+1358,104,6,year1, year
+1359,104,7,start_cc, 17
+1360,104,8,start_yy,92
+1361,104,9,to, to
+1362,104,10,the2, the
+1363,104,11,year2, year
+1364,104,12,end_cc, 17
+1365,105,0,bos,<|endoftext|>
+1366,105,1,the0,The
+1367,105,2,noun, voyage
+1368,105,3,lasted, lasted
+1369,105,4,from, from
+1370,105,5,the1, the
+1371,105,6,year1, year
+1372,105,7,start_cc, 12
+1373,105,8,start_yy,97
+1374,105,9,to, to
+1375,105,10,the2, the
+1376,105,11,year2, year
+1377,105,12,end_cc, 12
+1378,106,0,bos,<|endoftext|>
+1379,106,1,the0,The
+1380,106,2,noun, drought
+1381,106,3,lasted, lasted
+1382,106,4,from, from
+1383,106,5,the1, the
+1384,106,6,year1, year
+1385,106,7,start_cc, 15
+1386,106,8,start_yy,90
+1387,106,9,to, to
+1388,106,10,the2, the
+1389,106,11,year2, year
+1390,106,12,end_cc, 15
+1391,107,0,bos,<|endoftext|>
+1392,107,1,the0,The
+1393,107,2,noun, war
+1394,107,3,lasted, lasted
+1395,107,4,from, from
+1396,107,5,the1, the
+1397,107,6,year1, year
+1398,107,7,start_cc, 17
+1399,107,8,start_yy,95
+1400,107,9,to, to
+1401,107,10,the2, the
+1402,107,11,year2, year
+1403,107,12,end_cc, 17
+1404,108,0,bos,<|endoftext|>
+1405,108,1,the0,The
+1406,108,2,noun, siege
+1407,108,3,lasted, lasted
+1408,108,4,from, from
+1409,108,5,the1, the
+1410,108,6,year1, year
+1411,108,7,start_cc, 14
+1412,108,8,start_yy,92
+1413,108,9,to, to
+1414,108,10,the2, the
+1415,108,11,year2, year
+1416,108,12,end_cc, 14
+1417,109,0,bos,<|endoftext|>
+1418,109,1,the0,The
+1419,109,2,noun, war
+1420,109,3,lasted, lasted
+1421,109,4,from, from
+1422,109,5,the1, the
+1423,109,6,year1, year
+1424,109,7,start_cc, 13
+1425,109,8,start_yy,95
+1426,109,9,to, to
+1427,109,10,the2, the
+1428,109,11,year2, year
+1429,109,12,end_cc, 13
+1430,110,0,bos,<|endoftext|>
+1431,110,1,the0,The
+1432,110,2,noun, war
+1433,110,3,lasted, lasted
+1434,110,4,from, from
+1435,110,5,the1, the
+1436,110,6,year1, year
+1437,110,7,start_cc, 13
+1438,110,8,start_yy,93
+1439,110,9,to, to
+1440,110,10,the2, the
+1441,110,11,year2, year
+1442,110,12,end_cc, 13
+1443,111,0,bos,<|endoftext|>
+1444,111,1,the0,The
+1445,111,2,noun, expedition
+1446,111,3,lasted, lasted
+1447,111,4,from, from
+1448,111,5,the1, the
+1449,111,6,year1, year
+1450,111,7,start_cc, 16
+1451,111,8,start_yy,91
+1452,111,9,to, to
+1453,111,10,the2, the
+1454,111,11,year2, year
+1455,111,12,end_cc, 16
+1456,112,0,bos,<|endoftext|>
+1457,112,1,the0,The
+1458,112,2,noun, famine
+1459,112,3,lasted, lasted
+1460,112,4,from, from
+1461,112,5,the1, the
+1462,112,6,year1, year
+1463,112,7,start_cc, 17
+1464,112,8,start_yy,98
+1465,112,9,to, to
+1466,112,10,the2, the
+1467,112,11,year2, year
+1468,112,12,end_cc, 17
+1469,113,0,bos,<|endoftext|>
+1470,113,1,the0,The
+1471,113,2,noun, drought
+1472,113,3,lasted, lasted
+1473,113,4,from, from
+1474,113,5,the1, the
+1475,113,6,year1, year
+1476,113,7,start_cc, 15
+1477,113,8,start_yy,92
+1478,113,9,to, to
+1479,113,10,the2, the
+1480,113,11,year2, year
+1481,113,12,end_cc, 15
+1482,114,0,bos,<|endoftext|>
+1483,114,1,the0,The
+1484,114,2,noun, expedition
+1485,114,3,lasted, lasted
+1486,114,4,from, from
+1487,114,5,the1, the
+1488,114,6,year1, year
+1489,114,7,start_cc, 17
+1490,114,8,start_yy,92
+1491,114,9,to, to
+1492,114,10,the2, the
+1493,114,11,year2, year
+1494,114,12,end_cc, 17
+1495,115,0,bos,<|endoftext|>
+1496,115,1,the0,The
+1497,115,2,noun, siege
+1498,115,3,lasted, lasted
+1499,115,4,from, from
+1500,115,5,the1, the
+1501,115,6,year1, year
+1502,115,7,start_cc, 14
+1503,115,8,start_yy,90
+1504,115,9,to, to
+1505,115,10,the2, the
+1506,115,11,year2, year
+1507,115,12,end_cc, 14
+1508,116,0,bos,<|endoftext|>
+1509,116,1,the0,The
+1510,116,2,noun, siege
+1511,116,3,lasted, lasted
+1512,116,4,from, from
+1513,116,5,the1, the
+1514,116,6,year1, year
+1515,116,7,start_cc, 16
+1516,116,8,start_yy,95
+1517,116,9,to, to
+1518,116,10,the2, the
+1519,116,11,year2, year
+1520,116,12,end_cc, 16
+1521,117,0,bos,<|endoftext|>
+1522,117,1,the0,The
+1523,117,2,noun, drought
+1524,117,3,lasted, lasted
+1525,117,4,from, from
+1526,117,5,the1, the
+1527,117,6,year1, year
+1528,117,7,start_cc, 17
+1529,117,8,start_yy,93
+1530,117,9,to, to
+1531,117,10,the2, the
+1532,117,11,year2, year
+1533,117,12,end_cc, 17
+1534,118,0,bos,<|endoftext|>
+1535,118,1,the0,The
+1536,118,2,noun, voyage
+1537,118,3,lasted, lasted
+1538,118,4,from, from
+1539,118,5,the1, the
+1540,118,6,year1, year
+1541,118,7,start_cc, 12
+1542,118,8,start_yy,91
+1543,118,9,to, to
+1544,118,10,the2, the
+1545,118,11,year2, year
+1546,118,12,end_cc, 12
+1547,119,0,bos,<|endoftext|>
+1548,119,1,the0,The
+1549,119,2,noun, drought
+1550,119,3,lasted, lasted
+1551,119,4,from, from
+1552,119,5,the1, the
+1553,119,6,year1, year
+1554,119,7,start_cc, 17
+1555,119,8,start_yy,90
+1556,119,9,to, to
+1557,119,10,the2, the
+1558,119,11,year2, year
+1559,119,12,end_cc, 17
+1560,120,0,bos,<|endoftext|>
+1561,120,1,the0,The
+1562,120,2,noun, reign
+1563,120,3,lasted, lasted
+1564,120,4,from, from
+1565,120,5,the1, the
+1566,120,6,year1, year
+1567,120,7,start_cc, 12
+1568,120,8,start_yy,93
+1569,120,9,to, to
+1570,120,10,the2, the
+1571,120,11,year2, year
+1572,120,12,end_cc, 12
+1573,121,0,bos,<|endoftext|>
+1574,121,1,the0,The
+1575,121,2,noun, reign
+1576,121,3,lasted, lasted
+1577,121,4,from, from
+1578,121,5,the1, the
+1579,121,6,year1, year
+1580,121,7,start_cc, 13
+1581,121,8,start_yy,94
+1582,121,9,to, to
+1583,121,10,the2, the
+1584,121,11,year2, year
+1585,121,12,end_cc, 13
+1586,122,0,bos,<|endoftext|>
+1587,122,1,the0,The
+1588,122,2,noun, expedition
+1589,122,3,lasted, lasted
+1590,122,4,from, from
+1591,122,5,the1, the
+1592,122,6,year1, year
+1593,122,7,start_cc, 12
+1594,122,8,start_yy,90
+1595,122,9,to, to
+1596,122,10,the2, the
+1597,122,11,year2, year
+1598,122,12,end_cc, 12
+1599,123,0,bos,<|endoftext|>
+1600,123,1,the0,The
+1601,123,2,noun, expedition
+1602,123,3,lasted, lasted
+1603,123,4,from, from
+1604,123,5,the1, the
+1605,123,6,year1, year
+1606,123,7,start_cc, 14
+1607,123,8,start_yy,95
+1608,123,9,to, to
+1609,123,10,the2, the
+1610,123,11,year2, year
+1611,123,12,end_cc, 14
+1612,124,0,bos,<|endoftext|>
+1613,124,1,the0,The
+1614,124,2,noun, voyage
+1615,124,3,lasted, lasted
+1616,124,4,from, from
+1617,124,5,the1, the
+1618,124,6,year1, year
+1619,124,7,start_cc, 17
+1620,124,8,start_yy,91
+1621,124,9,to, to
+1622,124,10,the2, the
+1623,124,11,year2, year
+1624,124,12,end_cc, 17
+1625,125,0,bos,<|endoftext|>
+1626,125,1,the0,The
+1627,125,2,noun, voyage
+1628,125,3,lasted, lasted
+1629,125,4,from, from
+1630,125,5,the1, the
+1631,125,6,year1, year
+1632,125,7,start_cc, 13
+1633,125,8,start_yy,98
+1634,125,9,to, to
+1635,125,10,the2, the
+1636,125,11,year2, year
+1637,125,12,end_cc, 13
+1638,126,0,bos,<|endoftext|>
+1639,126,1,the0,The
+1640,126,2,noun, drought
+1641,126,3,lasted, lasted
+1642,126,4,from, from
+1643,126,5,the1, the
+1644,126,6,year1, year
+1645,126,7,start_cc, 16
+1646,126,8,start_yy,98
+1647,126,9,to, to
+1648,126,10,the2, the
+1649,126,11,year2, year
+1650,126,12,end_cc, 16
+1651,127,0,bos,<|endoftext|>
+1652,127,1,the0,The
+1653,127,2,noun, voyage
+1654,127,3,lasted, lasted
+1655,127,4,from, from
+1656,127,5,the1, the
+1657,127,6,year1, year
+1658,127,7,start_cc, 12
+1659,127,8,start_yy,94
+1660,127,9,to, to
+1661,127,10,the2, the
+1662,127,11,year2, year
+1663,127,12,end_cc, 12
+1664,128,0,bos,<|endoftext|>
+1665,128,1,the0,The
+1666,128,2,noun, famine
+1667,128,3,lasted, lasted
+1668,128,4,from, from
+1669,128,5,the1, the
+1670,128,6,year1, year
+1671,128,7,start_cc, 16
+1672,128,8,start_yy,95
+1673,128,9,to, to
+1674,128,10,the2, the
+1675,128,11,year2, year
+1676,128,12,end_cc, 16
+1677,129,0,bos,<|endoftext|>
+1678,129,1,the0,The
+1679,129,2,noun, drought
+1680,129,3,lasted, lasted
+1681,129,4,from, from
+1682,129,5,the1, the
+1683,129,6,year1, year
+1684,129,7,start_cc, 15
+1685,129,8,start_yy,98
+1686,129,9,to, to
+1687,129,10,the2, the
+1688,129,11,year2, year
+1689,129,12,end_cc, 15
+1690,130,0,bos,<|endoftext|>
+1691,130,1,the0,The
+1692,130,2,noun, conflict
+1693,130,3,lasted, lasted
+1694,130,4,from, from
+1695,130,5,the1, the
+1696,130,6,year1, year
+1697,130,7,start_cc, 14
+1698,130,8,start_yy,93
+1699,130,9,to, to
+1700,130,10,the2, the
+1701,130,11,year2, year
+1702,130,12,end_cc, 14
+1703,131,0,bos,<|endoftext|>
+1704,131,1,the0,The
+1705,131,2,noun, war
+1706,131,3,lasted, lasted
+1707,131,4,from, from
+1708,131,5,the1, the
+1709,131,6,year1, year
+1710,131,7,start_cc, 15
+1711,131,8,start_yy,98
+1712,131,9,to, to
+1713,131,10,the2, the
+1714,131,11,year2, year
+1715,131,12,end_cc, 15
+1716,132,0,bos,<|endoftext|>
+1717,132,1,the0,The
+1718,132,2,noun, expedition
+1719,132,3,lasted, lasted
+1720,132,4,from, from
+1721,132,5,the1, the
+1722,132,6,year1, year
+1723,132,7,start_cc, 13
+1724,132,8,start_yy,96
+1725,132,9,to, to
+1726,132,10,the2, the
+1727,132,11,year2, year
+1728,132,12,end_cc, 13
+1729,133,0,bos,<|endoftext|>
+1730,133,1,the0,The
+1731,133,2,noun, conflict
+1732,133,3,lasted, lasted
+1733,133,4,from, from
+1734,133,5,the1, the
+1735,133,6,year1, year
+1736,133,7,start_cc, 16
+1737,133,8,start_yy,95
+1738,133,9,to, to
+1739,133,10,the2, the
+1740,133,11,year2, year
+1741,133,12,end_cc, 16
+1742,134,0,bos,<|endoftext|>
+1743,134,1,the0,The
+1744,134,2,noun, famine
+1745,134,3,lasted, lasted
+1746,134,4,from, from
+1747,134,5,the1, the
+1748,134,6,year1, year
+1749,134,7,start_cc, 16
+1750,134,8,start_yy,91
+1751,134,9,to, to
+1752,134,10,the2, the
+1753,134,11,year2, year
+1754,134,12,end_cc, 16
+1755,135,0,bos,<|endoftext|>
+1756,135,1,the0,The
+1757,135,2,noun, voyage
+1758,135,3,lasted, lasted
+1759,135,4,from, from
+1760,135,5,the1, the
+1761,135,6,year1, year
+1762,135,7,start_cc, 15
+1763,135,8,start_yy,94
+1764,135,9,to, to
+1765,135,10,the2, the
+1766,135,11,year2, year
+1767,135,12,end_cc, 15
+1768,136,0,bos,<|endoftext|>
+1769,136,1,the0,The
+1770,136,2,noun, drought
+1771,136,3,lasted, lasted
+1772,136,4,from, from
+1773,136,5,the1, the
+1774,136,6,year1, year
+1775,136,7,start_cc, 13
+1776,136,8,start_yy,96
+1777,136,9,to, to
+1778,136,10,the2, the
+1779,136,11,year2, year
+1780,136,12,end_cc, 13
+1781,137,0,bos,<|endoftext|>
+1782,137,1,the0,The
+1783,137,2,noun, voyage
+1784,137,3,lasted, lasted
+1785,137,4,from, from
+1786,137,5,the1, the
+1787,137,6,year1, year
+1788,137,7,start_cc, 15
+1789,137,8,start_yy,92
+1790,137,9,to, to
+1791,137,10,the2, the
+1792,137,11,year2, year
+1793,137,12,end_cc, 15
+1794,138,0,bos,<|endoftext|>
+1795,138,1,the0,The
+1796,138,2,noun, expedition
+1797,138,3,lasted, lasted
+1798,138,4,from, from
+1799,138,5,the1, the
+1800,138,6,year1, year
+1801,138,7,start_cc, 14
+1802,138,8,start_yy,96
+1803,138,9,to, to
+1804,138,10,the2, the
+1805,138,11,year2, year
+1806,138,12,end_cc, 14
+1807,139,0,bos,<|endoftext|>
+1808,139,1,the0,The
+1809,139,2,noun, siege
+1810,139,3,lasted, lasted
+1811,139,4,from, from
+1812,139,5,the1, the
+1813,139,6,year1, year
+1814,139,7,start_cc, 15
+1815,139,8,start_yy,94
+1816,139,9,to, to
+1817,139,10,the2, the
+1818,139,11,year2, year
+1819,139,12,end_cc, 15
+1820,140,0,bos,<|endoftext|>
+1821,140,1,the0,The
+1822,140,2,noun, drought
+1823,140,3,lasted, lasted
+1824,140,4,from, from
+1825,140,5,the1, the
+1826,140,6,year1, year
+1827,140,7,start_cc, 15
+1828,140,8,start_yy,90
+1829,140,9,to, to
+1830,140,10,the2, the
+1831,140,11,year2, year
+1832,140,12,end_cc, 15
+1833,141,0,bos,<|endoftext|>
+1834,141,1,the0,The
+1835,141,2,noun, voyage
+1836,141,3,lasted, lasted
+1837,141,4,from, from
+1838,141,5,the1, the
+1839,141,6,year1, year
+1840,141,7,start_cc, 13
+1841,141,8,start_yy,93
+1842,141,9,to, to
+1843,141,10,the2, the
+1844,141,11,year2, year
+1845,141,12,end_cc, 13
+1846,142,0,bos,<|endoftext|>
+1847,142,1,the0,The
+1848,142,2,noun, drought
+1849,142,3,lasted, lasted
+1850,142,4,from, from
+1851,142,5,the1, the
+1852,142,6,year1, year
+1853,142,7,start_cc, 17
+1854,142,8,start_yy,95
+1855,142,9,to, to
+1856,142,10,the2, the
+1857,142,11,year2, year
+1858,142,12,end_cc, 17
+1859,143,0,bos,<|endoftext|>
+1860,143,1,the0,The
+1861,143,2,noun, reign
+1862,143,3,lasted, lasted
+1863,143,4,from, from
+1864,143,5,the1, the
+1865,143,6,year1, year
+1866,143,7,start_cc, 14
+1867,143,8,start_yy,97
+1868,143,9,to, to
+1869,143,10,the2, the
+1870,143,11,year2, year
+1871,143,12,end_cc, 14
+1872,144,0,bos,<|endoftext|>
+1873,144,1,the0,The
+1874,144,2,noun, expedition
+1875,144,3,lasted, lasted
+1876,144,4,from, from
+1877,144,5,the1, the
+1878,144,6,year1, year
+1879,144,7,start_cc, 15
+1880,144,8,start_yy,97
+1881,144,9,to, to
+1882,144,10,the2, the
+1883,144,11,year2, year
+1884,144,12,end_cc, 15
+1885,145,0,bos,<|endoftext|>
+1886,145,1,the0,The
+1887,145,2,noun, siege
+1888,145,3,lasted, lasted
+1889,145,4,from, from
+1890,145,5,the1, the
+1891,145,6,year1, year
+1892,145,7,start_cc, 16
+1893,145,8,start_yy,91
+1894,145,9,to, to
+1895,145,10,the2, the
+1896,145,11,year2, year
+1897,145,12,end_cc, 16
+1898,146,0,bos,<|endoftext|>
+1899,146,1,the0,The
+1900,146,2,noun, voyage
+1901,146,3,lasted, lasted
+1902,146,4,from, from
+1903,146,5,the1, the
+1904,146,6,year1, year
+1905,146,7,start_cc, 15
+1906,146,8,start_yy,95
+1907,146,9,to, to
+1908,146,10,the2, the
+1909,146,11,year2, year
+1910,146,12,end_cc, 15
+1911,147,0,bos,<|endoftext|>
+1912,147,1,the0,The
+1913,147,2,noun, conflict
+1914,147,3,lasted, lasted
+1915,147,4,from, from
+1916,147,5,the1, the
+1917,147,6,year1, year
+1918,147,7,start_cc, 17
+1919,147,8,start_yy,93
+1920,147,9,to, to
+1921,147,10,the2, the
+1922,147,11,year2, year
+1923,147,12,end_cc, 17
+1924,148,0,bos,<|endoftext|>
+1925,148,1,the0,The
+1926,148,2,noun, voyage
+1927,148,3,lasted, lasted
+1928,148,4,from, from
+1929,148,5,the1, the
+1930,148,6,year1, year
+1931,148,7,start_cc, 12
+1932,148,8,start_yy,93
+1933,148,9,to, to
+1934,148,10,the2, the
+1935,148,11,year2, year
+1936,148,12,end_cc, 12
+1937,149,0,bos,<|endoftext|>
+1938,149,1,the0,The
+1939,149,2,noun, expedition
+1940,149,3,lasted, lasted
+1941,149,4,from, from
+1942,149,5,the1, the
+1943,149,6,year1, year
+1944,149,7,start_cc, 14
+1945,149,8,start_yy,91
+1946,149,9,to, to
+1947,149,10,the2, the
+1948,149,11,year2, year
+1949,149,12,end_cc, 14
+1950,150,0,bos,<|endoftext|>
+1951,150,1,the0,The
+1952,150,2,noun, reign
+1953,150,3,lasted, lasted
+1954,150,4,from, from
+1955,150,5,the1, the
+1956,150,6,year1, year
+1957,150,7,start_cc, 14
+1958,150,8,start_yy,93
+1959,150,9,to, to
+1960,150,10,the2, the
+1961,150,11,year2, year
+1962,150,12,end_cc, 14
+1963,151,0,bos,<|endoftext|>
+1964,151,1,the0,The
+1965,151,2,noun, drought
+1966,151,3,lasted, lasted
+1967,151,4,from, from
+1968,151,5,the1, the
+1969,151,6,year1, year
+1970,151,7,start_cc, 14
+1971,151,8,start_yy,96
+1972,151,9,to, to
+1973,151,10,the2, the
+1974,151,11,year2, year
+1975,151,12,end_cc, 14
+1976,152,0,bos,<|endoftext|>
+1977,152,1,the0,The
+1978,152,2,noun, expedition
+1979,152,3,lasted, lasted
+1980,152,4,from, from
+1981,152,5,the1, the
+1982,152,6,year1, year
+1983,152,7,start_cc, 12
+1984,152,8,start_yy,90
+1985,152,9,to, to
+1986,152,10,the2, the
+1987,152,11,year2, year
+1988,152,12,end_cc, 12
+1989,153,0,bos,<|endoftext|>
+1990,153,1,the0,The
+1991,153,2,noun, conflict
+1992,153,3,lasted, lasted
+1993,153,4,from, from
+1994,153,5,the1, the
+1995,153,6,year1, year
+1996,153,7,start_cc, 17
+1997,153,8,start_yy,96
+1998,153,9,to, to
+1999,153,10,the2, the
+2000,153,11,year2, year
+2001,153,12,end_cc, 17
+2002,154,0,bos,<|endoftext|>
+2003,154,1,the0,The
+2004,154,2,noun, expedition
+2005,154,3,lasted, lasted
+2006,154,4,from, from
+2007,154,5,the1, the
+2008,154,6,year1, year
+2009,154,7,start_cc, 12
+2010,154,8,start_yy,98
+2011,154,9,to, to
+2012,154,10,the2, the
+2013,154,11,year2, year
+2014,154,12,end_cc, 12
+2015,155,0,bos,<|endoftext|>
+2016,155,1,the0,The
+2017,155,2,noun, expedition
+2018,155,3,lasted, lasted
+2019,155,4,from, from
+2020,155,5,the1, the
+2021,155,6,year1, year
+2022,155,7,start_cc, 17
+2023,155,8,start_yy,91
+2024,155,9,to, to
+2025,155,10,the2, the
+2026,155,11,year2, year
+2027,155,12,end_cc, 17
+2028,156,0,bos,<|endoftext|>
+2029,156,1,the0,The
+2030,156,2,noun, reign
+2031,156,3,lasted, lasted
+2032,156,4,from, from
+2033,156,5,the1, the
+2034,156,6,year1, year
+2035,156,7,start_cc, 12
+2036,156,8,start_yy,97
+2037,156,9,to, to
+2038,156,10,the2, the
+2039,156,11,year2, year
+2040,156,12,end_cc, 12
+2041,157,0,bos,<|endoftext|>
+2042,157,1,the0,The
+2043,157,2,noun, famine
+2044,157,3,lasted, lasted
+2045,157,4,from, from
+2046,157,5,the1, the
+2047,157,6,year1, year
+2048,157,7,start_cc, 17
+2049,157,8,start_yy,97
+2050,157,9,to, to
+2051,157,10,the2, the
+2052,157,11,year2, year
+2053,157,12,end_cc, 17
+2054,158,0,bos,<|endoftext|>
+2055,158,1,the0,The
+2056,158,2,noun, drought
+2057,158,3,lasted, lasted
+2058,158,4,from, from
+2059,158,5,the1, the
+2060,158,6,year1, year
+2061,158,7,start_cc, 17
+2062,158,8,start_yy,98
+2063,158,9,to, to
+2064,158,10,the2, the
+2065,158,11,year2, year
+2066,158,12,end_cc, 17
+2067,159,0,bos,<|endoftext|>
+2068,159,1,the0,The
+2069,159,2,noun, reign
+2070,159,3,lasted, lasted
+2071,159,4,from, from
+2072,159,5,the1, the
+2073,159,6,year1, year
+2074,159,7,start_cc, 12
+2075,159,8,start_yy,97
+2076,159,9,to, to
+2077,159,10,the2, the
+2078,159,11,year2, year
+2079,159,12,end_cc, 12
+2080,160,0,bos,<|endoftext|>
+2081,160,1,the0,The
+2082,160,2,noun, reign
+2083,160,3,lasted, lasted
+2084,160,4,from, from
+2085,160,5,the1, the
+2086,160,6,year1, year
+2087,160,7,start_cc, 13
+2088,160,8,start_yy,93
+2089,160,9,to, to
+2090,160,10,the2, the
+2091,160,11,year2, year
+2092,160,12,end_cc, 13
+2093,161,0,bos,<|endoftext|>
+2094,161,1,the0,The
+2095,161,2,noun, voyage
+2096,161,3,lasted, lasted
+2097,161,4,from, from
+2098,161,5,the1, the
+2099,161,6,year1, year
+2100,161,7,start_cc, 17
+2101,161,8,start_yy,98
+2102,161,9,to, to
+2103,161,10,the2, the
+2104,161,11,year2, year
+2105,161,12,end_cc, 17
+2106,162,0,bos,<|endoftext|>
+2107,162,1,the0,The
+2108,162,2,noun, reign
+2109,162,3,lasted, lasted
+2110,162,4,from, from
+2111,162,5,the1, the
+2112,162,6,year1, year
+2113,162,7,start_cc, 16
+2114,162,8,start_yy,93
+2115,162,9,to, to
+2116,162,10,the2, the
+2117,162,11,year2, year
+2118,162,12,end_cc, 16
+2119,163,0,bos,<|endoftext|>
+2120,163,1,the0,The
+2121,163,2,noun, voyage
+2122,163,3,lasted, lasted
+2123,163,4,from, from
+2124,163,5,the1, the
+2125,163,6,year1, year
+2126,163,7,start_cc, 14
+2127,163,8,start_yy,91
+2128,163,9,to, to
+2129,163,10,the2, the
+2130,163,11,year2, year
+2131,163,12,end_cc, 14
+2132,164,0,bos,<|endoftext|>
+2133,164,1,the0,The
+2134,164,2,noun, voyage
+2135,164,3,lasted, lasted
+2136,164,4,from, from
+2137,164,5,the1, the
+2138,164,6,year1, year
+2139,164,7,start_cc, 12
+2140,164,8,start_yy,94
+2141,164,9,to, to
+2142,164,10,the2, the
+2143,164,11,year2, year
+2144,164,12,end_cc, 12
+2145,165,0,bos,<|endoftext|>
+2146,165,1,the0,The
+2147,165,2,noun, famine
+2148,165,3,lasted, lasted
+2149,165,4,from, from
+2150,165,5,the1, the
+2151,165,6,year1, year
+2152,165,7,start_cc, 13
+2153,165,8,start_yy,98
+2154,165,9,to, to
+2155,165,10,the2, the
+2156,165,11,year2, year
+2157,165,12,end_cc, 13
+2158,166,0,bos,<|endoftext|>
+2159,166,1,the0,The
+2160,166,2,noun, conflict
+2161,166,3,lasted, lasted
+2162,166,4,from, from
+2163,166,5,the1, the
+2164,166,6,year1, year
+2165,166,7,start_cc, 12
+2166,166,8,start_yy,92
+2167,166,9,to, to
+2168,166,10,the2, the
+2169,166,11,year2, year
+2170,166,12,end_cc, 12
+2171,167,0,bos,<|endoftext|>
+2172,167,1,the0,The
+2173,167,2,noun, expedition
+2174,167,3,lasted, lasted
+2175,167,4,from, from
+2176,167,5,the1, the
+2177,167,6,year1, year
+2178,167,7,start_cc, 14
+2179,167,8,start_yy,92
+2180,167,9,to, to
+2181,167,10,the2, the
+2182,167,11,year2, year
+2183,167,12,end_cc, 14
+2184,168,0,bos,<|endoftext|>
+2185,168,1,the0,The
+2186,168,2,noun, drought
+2187,168,3,lasted, lasted
+2188,168,4,from, from
+2189,168,5,the1, the
+2190,168,6,year1, year
+2191,168,7,start_cc, 13
+2192,168,8,start_yy,98
+2193,168,9,to, to
+2194,168,10,the2, the
+2195,168,11,year2, year
+2196,168,12,end_cc, 13
+2197,169,0,bos,<|endoftext|>
+2198,169,1,the0,The
+2199,169,2,noun, reign
+2200,169,3,lasted, lasted
+2201,169,4,from, from
+2202,169,5,the1, the
+2203,169,6,year1, year
+2204,169,7,start_cc, 14
+2205,169,8,start_yy,90
+2206,169,9,to, to
+2207,169,10,the2, the
+2208,169,11,year2, year
+2209,169,12,end_cc, 14
+2210,170,0,bos,<|endoftext|>
+2211,170,1,the0,The
+2212,170,2,noun, expedition
+2213,170,3,lasted, lasted
+2214,170,4,from, from
+2215,170,5,the1, the
+2216,170,6,year1, year
+2217,170,7,start_cc, 17
+2218,170,8,start_yy,96
+2219,170,9,to, to
+2220,170,10,the2, the
+2221,170,11,year2, year
+2222,170,12,end_cc, 17
+2223,171,0,bos,<|endoftext|>
+2224,171,1,the0,The
+2225,171,2,noun, drought
+2226,171,3,lasted, lasted
+2227,171,4,from, from
+2228,171,5,the1, the
+2229,171,6,year1, year
+2230,171,7,start_cc, 17
+2231,171,8,start_yy,90
+2232,171,9,to, to
+2233,171,10,the2, the
+2234,171,11,year2, year
+2235,171,12,end_cc, 17
+2236,172,0,bos,<|endoftext|>
+2237,172,1,the0,The
+2238,172,2,noun, drought
+2239,172,3,lasted, lasted
+2240,172,4,from, from
+2241,172,5,the1, the
+2242,172,6,year1, year
+2243,172,7,start_cc, 14
+2244,172,8,start_yy,90
+2245,172,9,to, to
+2246,172,10,the2, the
+2247,172,11,year2, year
+2248,172,12,end_cc, 14
+2249,173,0,bos,<|endoftext|>
+2250,173,1,the0,The
+2251,173,2,noun, famine
+2252,173,3,lasted, lasted
+2253,173,4,from, from
+2254,173,5,the1, the
+2255,173,6,year1, year
+2256,173,7,start_cc, 13
+2257,173,8,start_yy,96
+2258,173,9,to, to
+2259,173,10,the2, the
+2260,173,11,year2, year
+2261,173,12,end_cc, 13
+2262,174,0,bos,<|endoftext|>
+2263,174,1,the0,The
+2264,174,2,noun, drought
+2265,174,3,lasted, lasted
+2266,174,4,from, from
+2267,174,5,the1, the
+2268,174,6,year1, year
+2269,174,7,start_cc, 15
+2270,174,8,start_yy,98
+2271,174,9,to, to
+2272,174,10,the2, the
+2273,174,11,year2, year
+2274,174,12,end_cc, 15
+2275,175,0,bos,<|endoftext|>
+2276,175,1,the0,The
+2277,175,2,noun, expedition
+2278,175,3,lasted, lasted
+2279,175,4,from, from
+2280,175,5,the1, the
+2281,175,6,year1, year
+2282,175,7,start_cc, 14
+2283,175,8,start_yy,93
+2284,175,9,to, to
+2285,175,10,the2, the
+2286,175,11,year2, year
+2287,175,12,end_cc, 14
+2288,176,0,bos,<|endoftext|>
+2289,176,1,the0,The
+2290,176,2,noun, voyage
+2291,176,3,lasted, lasted
+2292,176,4,from, from
+2293,176,5,the1, the
+2294,176,6,year1, year
+2295,176,7,start_cc, 14
+2296,176,8,start_yy,97
+2297,176,9,to, to
+2298,176,10,the2, the
+2299,176,11,year2, year
+2300,176,12,end_cc, 14
+2301,177,0,bos,<|endoftext|>
+2302,177,1,the0,The
+2303,177,2,noun, war
+2304,177,3,lasted, lasted
+2305,177,4,from, from
+2306,177,5,the1, the
+2307,177,6,year1, year
+2308,177,7,start_cc, 14
+2309,177,8,start_yy,95
+2310,177,9,to, to
+2311,177,10,the2, the
+2312,177,11,year2, year
+2313,177,12,end_cc, 14
+2314,178,0,bos,<|endoftext|>
+2315,178,1,the0,The
+2316,178,2,noun, drought
+2317,178,3,lasted, lasted
+2318,178,4,from, from
+2319,178,5,the1, the
+2320,178,6,year1, year
+2321,178,7,start_cc, 16
+2322,178,8,start_yy,92
+2323,178,9,to, to
+2324,178,10,the2, the
+2325,178,11,year2, year
+2326,178,12,end_cc, 16
+2327,179,0,bos,<|endoftext|>
+2328,179,1,the0,The
+2329,179,2,noun, reign
+2330,179,3,lasted, lasted
+2331,179,4,from, from
+2332,179,5,the1, the
+2333,179,6,year1, year
+2334,179,7,start_cc, 12
+2335,179,8,start_yy,98
+2336,179,9,to, to
+2337,179,10,the2, the
+2338,179,11,year2, year
+2339,179,12,end_cc, 12
+2340,180,0,bos,<|endoftext|>
+2341,180,1,the0,The
+2342,180,2,noun, war
+2343,180,3,lasted, lasted
+2344,180,4,from, from
+2345,180,5,the1, the
+2346,180,6,year1, year
+2347,180,7,start_cc, 14
+2348,180,8,start_yy,90
+2349,180,9,to, to
+2350,180,10,the2, the
+2351,180,11,year2, year
+2352,180,12,end_cc, 14
+2353,181,0,bos,<|endoftext|>
+2354,181,1,the0,The
+2355,181,2,noun, conflict
+2356,181,3,lasted, lasted
+2357,181,4,from, from
+2358,181,5,the1, the
+2359,181,6,year1, year
+2360,181,7,start_cc, 16
+2361,181,8,start_yy,96
+2362,181,9,to, to
+2363,181,10,the2, the
+2364,181,11,year2, year
+2365,181,12,end_cc, 16
+2366,182,0,bos,<|endoftext|>
+2367,182,1,the0,The
+2368,182,2,noun, siege
+2369,182,3,lasted, lasted
+2370,182,4,from, from
+2371,182,5,the1, the
+2372,182,6,year1, year
+2373,182,7,start_cc, 17
+2374,182,8,start_yy,97
+2375,182,9,to, to
+2376,182,10,the2, the
+2377,182,11,year2, year
+2378,182,12,end_cc, 17
+2379,183,0,bos,<|endoftext|>
+2380,183,1,the0,The
+2381,183,2,noun, drought
+2382,183,3,lasted, lasted
+2383,183,4,from, from
+2384,183,5,the1, the
+2385,183,6,year1, year
+2386,183,7,start_cc, 13
+2387,183,8,start_yy,93
+2388,183,9,to, to
+2389,183,10,the2, the
+2390,183,11,year2, year
+2391,183,12,end_cc, 13
+2392,184,0,bos,<|endoftext|>
+2393,184,1,the0,The
+2394,184,2,noun, reign
+2395,184,3,lasted, lasted
+2396,184,4,from, from
+2397,184,5,the1, the
+2398,184,6,year1, year
+2399,184,7,start_cc, 13
+2400,184,8,start_yy,95
+2401,184,9,to, to
+2402,184,10,the2, the
+2403,184,11,year2, year
+2404,184,12,end_cc, 13
+2405,185,0,bos,<|endoftext|>
+2406,185,1,the0,The
+2407,185,2,noun, drought
+2408,185,3,lasted, lasted
+2409,185,4,from, from
+2410,185,5,the1, the
+2411,185,6,year1, year
+2412,185,7,start_cc, 13
+2413,185,8,start_yy,96
+2414,185,9,to, to
+2415,185,10,the2, the
+2416,185,11,year2, year
+2417,185,12,end_cc, 13
+2418,186,0,bos,<|endoftext|>
+2419,186,1,the0,The
+2420,186,2,noun, voyage
+2421,186,3,lasted, lasted
+2422,186,4,from, from
+2423,186,5,the1, the
+2424,186,6,year1, year
+2425,186,7,start_cc, 17
+2426,186,8,start_yy,91
+2427,186,9,to, to
+2428,186,10,the2, the
+2429,186,11,year2, year
+2430,186,12,end_cc, 17
+2431,187,0,bos,<|endoftext|>
+2432,187,1,the0,The
+2433,187,2,noun, war
+2434,187,3,lasted, lasted
+2435,187,4,from, from
+2436,187,5,the1, the
+2437,187,6,year1, year
+2438,187,7,start_cc, 13
+2439,187,8,start_yy,93
+2440,187,9,to, to
+2441,187,10,the2, the
+2442,187,11,year2, year
+2443,187,12,end_cc, 13
+2444,188,0,bos,<|endoftext|>
+2445,188,1,the0,The
+2446,188,2,noun, conflict
+2447,188,3,lasted, lasted
+2448,188,4,from, from
+2449,188,5,the1, the
+2450,188,6,year1, year
+2451,188,7,start_cc, 17
+2452,188,8,start_yy,90
+2453,188,9,to, to
+2454,188,10,the2, the
+2455,188,11,year2, year
+2456,188,12,end_cc, 17
+2457,189,0,bos,<|endoftext|>
+2458,189,1,the0,The
+2459,189,2,noun, war
+2460,189,3,lasted, lasted
+2461,189,4,from, from
+2462,189,5,the1, the
+2463,189,6,year1, year
+2464,189,7,start_cc, 12
+2465,189,8,start_yy,93
+2466,189,9,to, to
+2467,189,10,the2, the
+2468,189,11,year2, year
+2469,189,12,end_cc, 12
+2470,190,0,bos,<|endoftext|>
+2471,190,1,the0,The
+2472,190,2,noun, war
+2473,190,3,lasted, lasted
+2474,190,4,from, from
+2475,190,5,the1, the
+2476,190,6,year1, year
+2477,190,7,start_cc, 15
+2478,190,8,start_yy,92
+2479,190,9,to, to
+2480,190,10,the2, the
+2481,190,11,year2, year
+2482,190,12,end_cc, 15
+2483,191,0,bos,<|endoftext|>
+2484,191,1,the0,The
+2485,191,2,noun, expedition
+2486,191,3,lasted, lasted
+2487,191,4,from, from
+2488,191,5,the1, the
+2489,191,6,year1, year
+2490,191,7,start_cc, 12
+2491,191,8,start_yy,97
+2492,191,9,to, to
+2493,191,10,the2, the
+2494,191,11,year2, year
+2495,191,12,end_cc, 12
+2496,192,0,bos,<|endoftext|>
+2497,192,1,the0,The
+2498,192,2,noun, conflict
+2499,192,3,lasted, lasted
+2500,192,4,from, from
+2501,192,5,the1, the
+2502,192,6,year1, year
+2503,192,7,start_cc, 15
+2504,192,8,start_yy,93
+2505,192,9,to, to
+2506,192,10,the2, the
+2507,192,11,year2, year
+2508,192,12,end_cc, 15
+2509,193,0,bos,<|endoftext|>
+2510,193,1,the0,The
+2511,193,2,noun, reign
+2512,193,3,lasted, lasted
+2513,193,4,from, from
+2514,193,5,the1, the
+2515,193,6,year1, year
+2516,193,7,start_cc, 16
+2517,193,8,start_yy,94
+2518,193,9,to, to
+2519,193,10,the2, the
+2520,193,11,year2, year
+2521,193,12,end_cc, 16
+2522,194,0,bos,<|endoftext|>
+2523,194,1,the0,The
+2524,194,2,noun, famine
+2525,194,3,lasted, lasted
+2526,194,4,from, from
+2527,194,5,the1, the
+2528,194,6,year1, year
+2529,194,7,start_cc, 12
+2530,194,8,start_yy,91
+2531,194,9,to, to
+2532,194,10,the2, the
+2533,194,11,year2, year
+2534,194,12,end_cc, 12
+2535,195,0,bos,<|endoftext|>
+2536,195,1,the0,The
+2537,195,2,noun, siege
+2538,195,3,lasted, lasted
+2539,195,4,from, from
+2540,195,5,the1, the
+2541,195,6,year1, year
+2542,195,7,start_cc, 13
+2543,195,8,start_yy,91
+2544,195,9,to, to
+2545,195,10,the2, the
+2546,195,11,year2, year
+2547,195,12,end_cc, 13
+2548,196,0,bos,<|endoftext|>
+2549,196,1,the0,The
+2550,196,2,noun, war
+2551,196,3,lasted, lasted
+2552,196,4,from, from
+2553,196,5,the1, the
+2554,196,6,year1, year
+2555,196,7,start_cc, 13
+2556,196,8,start_yy,96
+2557,196,9,to, to
+2558,196,10,the2, the
+2559,196,11,year2, year
+2560,196,12,end_cc, 13
+2561,197,0,bos,<|endoftext|>
+2562,197,1,the0,The
+2563,197,2,noun, drought
+2564,197,3,lasted, lasted
+2565,197,4,from, from
+2566,197,5,the1, the
+2567,197,6,year1, year
+2568,197,7,start_cc, 16
+2569,197,8,start_yy,93
+2570,197,9,to, to
+2571,197,10,the2, the
+2572,197,11,year2, year
+2573,197,12,end_cc, 16
+2574,198,0,bos,<|endoftext|>
+2575,198,1,the0,The
+2576,198,2,noun, conflict
+2577,198,3,lasted, lasted
+2578,198,4,from, from
+2579,198,5,the1, the
+2580,198,6,year1, year
+2581,198,7,start_cc, 15
+2582,198,8,start_yy,93
+2583,198,9,to, to
+2584,198,10,the2, the
+2585,198,11,year2, year
+2586,198,12,end_cc, 15
+2587,199,0,bos,<|endoftext|>
+2588,199,1,the0,The
+2589,199,2,noun, conflict
+2590,199,3,lasted, lasted
+2591,199,4,from, from
+2592,199,5,the1, the
+2593,199,6,year1, year
+2594,199,7,start_cc, 16
+2595,199,8,start_yy,94
+2596,199,9,to, to
+2597,199,10,the2, the
+2598,199,11,year2, year
+2599,199,12,end_cc, 16
+2600,200,0,bos,<|endoftext|>
+2601,200,1,the0,The
+2602,200,2,noun, conflict
+2603,200,3,lasted, lasted
+2604,200,4,from, from
+2605,200,5,the1, the
+2606,200,6,year1, year
+2607,200,7,start_cc, 17
+2608,200,8,start_yy,90
+2609,200,9,to, to
+2610,200,10,the2, the
+2611,200,11,year2, year
+2612,200,12,end_cc, 17
+2613,201,0,bos,<|endoftext|>
+2614,201,1,the0,The
+2615,201,2,noun, famine
+2616,201,3,lasted, lasted
+2617,201,4,from, from
+2618,201,5,the1, the
+2619,201,6,year1, year
+2620,201,7,start_cc, 15
+2621,201,8,start_yy,96
+2622,201,9,to, to
+2623,201,10,the2, the
+2624,201,11,year2, year
+2625,201,12,end_cc, 15
+2626,202,0,bos,<|endoftext|>
+2627,202,1,the0,The
+2628,202,2,noun, famine
+2629,202,3,lasted, lasted
+2630,202,4,from, from
+2631,202,5,the1, the
+2632,202,6,year1, year
+2633,202,7,start_cc, 16
+2634,202,8,start_yy,97
+2635,202,9,to, to
+2636,202,10,the2, the
+2637,202,11,year2, year
+2638,202,12,end_cc, 16
+2639,203,0,bos,<|endoftext|>
+2640,203,1,the0,The
+2641,203,2,noun, siege
+2642,203,3,lasted, lasted
+2643,203,4,from, from
+2644,203,5,the1, the
+2645,203,6,year1, year
+2646,203,7,start_cc, 14
+2647,203,8,start_yy,92
+2648,203,9,to, to
+2649,203,10,the2, the
+2650,203,11,year2, year
+2651,203,12,end_cc, 14
+2652,204,0,bos,<|endoftext|>
+2653,204,1,the0,The
+2654,204,2,noun, voyage
+2655,204,3,lasted, lasted
+2656,204,4,from, from
+2657,204,5,the1, the
+2658,204,6,year1, year
+2659,204,7,start_cc, 15
+2660,204,8,start_yy,98
+2661,204,9,to, to
+2662,204,10,the2, the
+2663,204,11,year2, year
+2664,204,12,end_cc, 15
+2665,205,0,bos,<|endoftext|>
+2666,205,1,the0,The
+2667,205,2,noun, reign
+2668,205,3,lasted, lasted
+2669,205,4,from, from
+2670,205,5,the1, the
+2671,205,6,year1, year
+2672,205,7,start_cc, 14
+2673,205,8,start_yy,96
+2674,205,9,to, to
+2675,205,10,the2, the
+2676,205,11,year2, year
+2677,205,12,end_cc, 14
+2678,206,0,bos,<|endoftext|>
+2679,206,1,the0,The
+2680,206,2,noun, voyage
+2681,206,3,lasted, lasted
+2682,206,4,from, from
+2683,206,5,the1, the
+2684,206,6,year1, year
+2685,206,7,start_cc, 13
+2686,206,8,start_yy,93
+2687,206,9,to, to
+2688,206,10,the2, the
+2689,206,11,year2, year
+2690,206,12,end_cc, 13
+2691,207,0,bos,<|endoftext|>
+2692,207,1,the0,The
+2693,207,2,noun, conflict
+2694,207,3,lasted, lasted
+2695,207,4,from, from
+2696,207,5,the1, the
+2697,207,6,year1, year
+2698,207,7,start_cc, 13
+2699,207,8,start_yy,97
+2700,207,9,to, to
+2701,207,10,the2, the
+2702,207,11,year2, year
+2703,207,12,end_cc, 13
+2704,208,0,bos,<|endoftext|>
+2705,208,1,the0,The
+2706,208,2,noun, expedition
+2707,208,3,lasted, lasted
+2708,208,4,from, from
+2709,208,5,the1, the
+2710,208,6,year1, year
+2711,208,7,start_cc, 17
+2712,208,8,start_yy,97
+2713,208,9,to, to
+2714,208,10,the2, the
+2715,208,11,year2, year
+2716,208,12,end_cc, 17
+2717,209,0,bos,<|endoftext|>
+2718,209,1,the0,The
+2719,209,2,noun, drought
+2720,209,3,lasted, lasted
+2721,209,4,from, from
+2722,209,5,the1, the
+2723,209,6,year1, year
+2724,209,7,start_cc, 13
+2725,209,8,start_yy,90
+2726,209,9,to, to
+2727,209,10,the2, the
+2728,209,11,year2, year
+2729,209,12,end_cc, 13
+2730,210,0,bos,<|endoftext|>
+2731,210,1,the0,The
+2732,210,2,noun, reign
+2733,210,3,lasted, lasted
+2734,210,4,from, from
+2735,210,5,the1, the
+2736,210,6,year1, year
+2737,210,7,start_cc, 17
+2738,210,8,start_yy,95
+2739,210,9,to, to
+2740,210,10,the2, the
+2741,210,11,year2, year
+2742,210,12,end_cc, 17
+2743,211,0,bos,<|endoftext|>
+2744,211,1,the0,The
+2745,211,2,noun, siege
+2746,211,3,lasted, lasted
+2747,211,4,from, from
+2748,211,5,the1, the
+2749,211,6,year1, year
+2750,211,7,start_cc, 14
+2751,211,8,start_yy,93
+2752,211,9,to, to
+2753,211,10,the2, the
+2754,211,11,year2, year
+2755,211,12,end_cc, 14
+2756,212,0,bos,<|endoftext|>
+2757,212,1,the0,The
+2758,212,2,noun, famine
+2759,212,3,lasted, lasted
+2760,212,4,from, from
+2761,212,5,the1, the
+2762,212,6,year1, year
+2763,212,7,start_cc, 17
+2764,212,8,start_yy,94
+2765,212,9,to, to
+2766,212,10,the2, the
+2767,212,11,year2, year
+2768,212,12,end_cc, 17
+2769,213,0,bos,<|endoftext|>
+2770,213,1,the0,The
+2771,213,2,noun, famine
+2772,213,3,lasted, lasted
+2773,213,4,from, from
+2774,213,5,the1, the
+2775,213,6,year1, year
+2776,213,7,start_cc, 13
+2777,213,8,start_yy,94
+2778,213,9,to, to
+2779,213,10,the2, the
+2780,213,11,year2, year
+2781,213,12,end_cc, 13
+2782,214,0,bos,<|endoftext|>
+2783,214,1,the0,The
+2784,214,2,noun, war
+2785,214,3,lasted, lasted
+2786,214,4,from, from
+2787,214,5,the1, the
+2788,214,6,year1, year
+2789,214,7,start_cc, 15
+2790,214,8,start_yy,93
+2791,214,9,to, to
+2792,214,10,the2, the
+2793,214,11,year2, year
+2794,214,12,end_cc, 15
+2795,215,0,bos,<|endoftext|>
+2796,215,1,the0,The
+2797,215,2,noun, conflict
+2798,215,3,lasted, lasted
+2799,215,4,from, from
+2800,215,5,the1, the
+2801,215,6,year1, year
+2802,215,7,start_cc, 12
+2803,215,8,start_yy,96
+2804,215,9,to, to
+2805,215,10,the2, the
+2806,215,11,year2, year
+2807,215,12,end_cc, 12
+2808,216,0,bos,<|endoftext|>
+2809,216,1,the0,The
+2810,216,2,noun, reign
+2811,216,3,lasted, lasted
+2812,216,4,from, from
+2813,216,5,the1, the
+2814,216,6,year1, year
+2815,216,7,start_cc, 15
+2816,216,8,start_yy,93
+2817,216,9,to, to
+2818,216,10,the2, the
+2819,216,11,year2, year
+2820,216,12,end_cc, 15
+2821,217,0,bos,<|endoftext|>
+2822,217,1,the0,The
+2823,217,2,noun, reign
+2824,217,3,lasted, lasted
+2825,217,4,from, from
+2826,217,5,the1, the
+2827,217,6,year1, year
+2828,217,7,start_cc, 16
+2829,217,8,start_yy,97
+2830,217,9,to, to
+2831,217,10,the2, the
+2832,217,11,year2, year
+2833,217,12,end_cc, 16
+2834,218,0,bos,<|endoftext|>
+2835,218,1,the0,The
+2836,218,2,noun, reign
+2837,218,3,lasted, lasted
+2838,218,4,from, from
+2839,218,5,the1, the
+2840,218,6,year1, year
+2841,218,7,start_cc, 17
+2842,218,8,start_yy,90
+2843,218,9,to, to
+2844,218,10,the2, the
+2845,218,11,year2, year
+2846,218,12,end_cc, 17
+2847,219,0,bos,<|endoftext|>
+2848,219,1,the0,The
+2849,219,2,noun, conflict
+2850,219,3,lasted, lasted
+2851,219,4,from, from
+2852,219,5,the1, the
+2853,219,6,year1, year
+2854,219,7,start_cc, 13
+2855,219,8,start_yy,93
+2856,219,9,to, to
+2857,219,10,the2, the
+2858,219,11,year2, year
+2859,219,12,end_cc, 13
+2860,220,0,bos,<|endoftext|>
+2861,220,1,the0,The
+2862,220,2,noun, drought
+2863,220,3,lasted, lasted
+2864,220,4,from, from
+2865,220,5,the1, the
+2866,220,6,year1, year
+2867,220,7,start_cc, 16
+2868,220,8,start_yy,93
+2869,220,9,to, to
+2870,220,10,the2, the
+2871,220,11,year2, year
+2872,220,12,end_cc, 16
+2873,221,0,bos,<|endoftext|>
+2874,221,1,the0,The
+2875,221,2,noun, voyage
+2876,221,3,lasted, lasted
+2877,221,4,from, from
+2878,221,5,the1, the
+2879,221,6,year1, year
+2880,221,7,start_cc, 16
+2881,221,8,start_yy,95
+2882,221,9,to, to
+2883,221,10,the2, the
+2884,221,11,year2, year
+2885,221,12,end_cc, 16
+2886,222,0,bos,<|endoftext|>
+2887,222,1,the0,The
+2888,222,2,noun, reign
+2889,222,3,lasted, lasted
+2890,222,4,from, from
+2891,222,5,the1, the
+2892,222,6,year1, year
+2893,222,7,start_cc, 15
+2894,222,8,start_yy,98
+2895,222,9,to, to
+2896,222,10,the2, the
+2897,222,11,year2, year
+2898,222,12,end_cc, 15
+2899,223,0,bos,<|endoftext|>
+2900,223,1,the0,The
+2901,223,2,noun, famine
+2902,223,3,lasted, lasted
+2903,223,4,from, from
+2904,223,5,the1, the
+2905,223,6,year1, year
+2906,223,7,start_cc, 14
+2907,223,8,start_yy,98
+2908,223,9,to, to
+2909,223,10,the2, the
+2910,223,11,year2, year
+2911,223,12,end_cc, 14
+2912,224,0,bos,<|endoftext|>
+2913,224,1,the0,The
+2914,224,2,noun, famine
+2915,224,3,lasted, lasted
+2916,224,4,from, from
+2917,224,5,the1, the
+2918,224,6,year1, year
+2919,224,7,start_cc, 13
+2920,224,8,start_yy,97
+2921,224,9,to, to
+2922,224,10,the2, the
+2923,224,11,year2, year
+2924,224,12,end_cc, 13
+2925,225,0,bos,<|endoftext|>
+2926,225,1,the0,The
+2927,225,2,noun, voyage
+2928,225,3,lasted, lasted
+2929,225,4,from, from
+2930,225,5,the1, the
+2931,225,6,year1, year
+2932,225,7,start_cc, 13
+2933,225,8,start_yy,94
+2934,225,9,to, to
+2935,225,10,the2, the
+2936,225,11,year2, year
+2937,225,12,end_cc, 13
+2938,226,0,bos,<|endoftext|>
+2939,226,1,the0,The
+2940,226,2,noun, siege
+2941,226,3,lasted, lasted
+2942,226,4,from, from
+2943,226,5,the1, the
+2944,226,6,year1, year
+2945,226,7,start_cc, 12
+2946,226,8,start_yy,93
+2947,226,9,to, to
+2948,226,10,the2, the
+2949,226,11,year2, year
+2950,226,12,end_cc, 12
+2951,227,0,bos,<|endoftext|>
+2952,227,1,the0,The
+2953,227,2,noun, reign
+2954,227,3,lasted, lasted
+2955,227,4,from, from
+2956,227,5,the1, the
+2957,227,6,year1, year
+2958,227,7,start_cc, 13
+2959,227,8,start_yy,98
+2960,227,9,to, to
+2961,227,10,the2, the
+2962,227,11,year2, year
+2963,227,12,end_cc, 13
+2964,228,0,bos,<|endoftext|>
+2965,228,1,the0,The
+2966,228,2,noun, voyage
+2967,228,3,lasted, lasted
+2968,228,4,from, from
+2969,228,5,the1, the
+2970,228,6,year1, year
+2971,228,7,start_cc, 12
+2972,228,8,start_yy,95
+2973,228,9,to, to
+2974,228,10,the2, the
+2975,228,11,year2, year
+2976,228,12,end_cc, 12
+2977,229,0,bos,<|endoftext|>
+2978,229,1,the0,The
+2979,229,2,noun, siege
+2980,229,3,lasted, lasted
+2981,229,4,from, from
+2982,229,5,the1, the
+2983,229,6,year1, year
+2984,229,7,start_cc, 13
+2985,229,8,start_yy,90
+2986,229,9,to, to
+2987,229,10,the2, the
+2988,229,11,year2, year
+2989,229,12,end_cc, 13
+2990,230,0,bos,<|endoftext|>
+2991,230,1,the0,The
+2992,230,2,noun, siege
+2993,230,3,lasted, lasted
+2994,230,4,from, from
+2995,230,5,the1, the
+2996,230,6,year1, year
+2997,230,7,start_cc, 13
+2998,230,8,start_yy,90
+2999,230,9,to, to
+3000,230,10,the2, the
+3001,230,11,year2, year
+3002,230,12,end_cc, 13
+3003,231,0,bos,<|endoftext|>
+3004,231,1,the0,The
+3005,231,2,noun, war
+3006,231,3,lasted, lasted
+3007,231,4,from, from
+3008,231,5,the1, the
+3009,231,6,year1, year
+3010,231,7,start_cc, 15
+3011,231,8,start_yy,94
+3012,231,9,to, to
+3013,231,10,the2, the
+3014,231,11,year2, year
+3015,231,12,end_cc, 15
+3016,232,0,bos,<|endoftext|>
+3017,232,1,the0,The
+3018,232,2,noun, siege
+3019,232,3,lasted, lasted
+3020,232,4,from, from
+3021,232,5,the1, the
+3022,232,6,year1, year
+3023,232,7,start_cc, 16
+3024,232,8,start_yy,97
+3025,232,9,to, to
+3026,232,10,the2, the
+3027,232,11,year2, year
+3028,232,12,end_cc, 16
+3029,233,0,bos,<|endoftext|>
+3030,233,1,the0,The
+3031,233,2,noun, conflict
+3032,233,3,lasted, lasted
+3033,233,4,from, from
+3034,233,5,the1, the
+3035,233,6,year1, year
+3036,233,7,start_cc, 17
+3037,233,8,start_yy,90
+3038,233,9,to, to
+3039,233,10,the2, the
+3040,233,11,year2, year
+3041,233,12,end_cc, 17
+3042,234,0,bos,<|endoftext|>
+3043,234,1,the0,The
+3044,234,2,noun, voyage
+3045,234,3,lasted, lasted
+3046,234,4,from, from
+3047,234,5,the1, the
+3048,234,6,year1, year
+3049,234,7,start_cc, 14
+3050,234,8,start_yy,97
+3051,234,9,to, to
+3052,234,10,the2, the
+3053,234,11,year2, year
+3054,234,12,end_cc, 14
+3055,235,0,bos,<|endoftext|>
+3056,235,1,the0,The
+3057,235,2,noun, reign
+3058,235,3,lasted, lasted
+3059,235,4,from, from
+3060,235,5,the1, the
+3061,235,6,year1, year
+3062,235,7,start_cc, 13
+3063,235,8,start_yy,92
+3064,235,9,to, to
+3065,235,10,the2, the
+3066,235,11,year2, year
+3067,235,12,end_cc, 13
+3068,236,0,bos,<|endoftext|>
+3069,236,1,the0,The
+3070,236,2,noun, war
+3071,236,3,lasted, lasted
+3072,236,4,from, from
+3073,236,5,the1, the
+3074,236,6,year1, year
+3075,236,7,start_cc, 13
+3076,236,8,start_yy,97
+3077,236,9,to, to
+3078,236,10,the2, the
+3079,236,11,year2, year
+3080,236,12,end_cc, 13
+3081,237,0,bos,<|endoftext|>
+3082,237,1,the0,The
+3083,237,2,noun, conflict
+3084,237,3,lasted, lasted
+3085,237,4,from, from
+3086,237,5,the1, the
+3087,237,6,year1, year
+3088,237,7,start_cc, 17
+3089,237,8,start_yy,91
+3090,237,9,to, to
+3091,237,10,the2, the
+3092,237,11,year2, year
+3093,237,12,end_cc, 17
+3094,238,0,bos,<|endoftext|>
+3095,238,1,the0,The
+3096,238,2,noun, drought
+3097,238,3,lasted, lasted
+3098,238,4,from, from
+3099,238,5,the1, the
+3100,238,6,year1, year
+3101,238,7,start_cc, 14
+3102,238,8,start_yy,91
+3103,238,9,to, to
+3104,238,10,the2, the
+3105,238,11,year2, year
+3106,238,12,end_cc, 14
+3107,239,0,bos,<|endoftext|>
+3108,239,1,the0,The
+3109,239,2,noun, war
+3110,239,3,lasted, lasted
+3111,239,4,from, from
+3112,239,5,the1, the
+3113,239,6,year1, year
+3114,239,7,start_cc, 12
+3115,239,8,start_yy,92
+3116,239,9,to, to
+3117,239,10,the2, the
+3118,239,11,year2, year
+3119,239,12,end_cc, 12
+3120,240,0,bos,<|endoftext|>
+3121,240,1,the0,The
+3122,240,2,noun, conflict
+3123,240,3,lasted, lasted
+3124,240,4,from, from
+3125,240,5,the1, the
+3126,240,6,year1, year
+3127,240,7,start_cc, 15
+3128,240,8,start_yy,96
+3129,240,9,to, to
+3130,240,10,the2, the
+3131,240,11,year2, year
+3132,240,12,end_cc, 15
+3133,241,0,bos,<|endoftext|>
+3134,241,1,the0,The
+3135,241,2,noun, expedition
+3136,241,3,lasted, lasted
+3137,241,4,from, from
+3138,241,5,the1, the
+3139,241,6,year1, year
+3140,241,7,start_cc, 17
+3141,241,8,start_yy,98
+3142,241,9,to, to
+3143,241,10,the2, the
+3144,241,11,year2, year
+3145,241,12,end_cc, 17
+3146,242,0,bos,<|endoftext|>
+3147,242,1,the0,The
+3148,242,2,noun, drought
+3149,242,3,lasted, lasted
+3150,242,4,from, from
+3151,242,5,the1, the
+3152,242,6,year1, year
+3153,242,7,start_cc, 14
+3154,242,8,start_yy,97
+3155,242,9,to, to
+3156,242,10,the2, the
+3157,242,11,year2, year
+3158,242,12,end_cc, 14
+3159,243,0,bos,<|endoftext|>
+3160,243,1,the0,The
+3161,243,2,noun, voyage
+3162,243,3,lasted, lasted
+3163,243,4,from, from
+3164,243,5,the1, the
+3165,243,6,year1, year
+3166,243,7,start_cc, 17
+3167,243,8,start_yy,96
+3168,243,9,to, to
+3169,243,10,the2, the
+3170,243,11,year2, year
+3171,243,12,end_cc, 17
+3172,244,0,bos,<|endoftext|>
+3173,244,1,the0,The
+3174,244,2,noun, voyage
+3175,244,3,lasted, lasted
+3176,244,4,from, from
+3177,244,5,the1, the
+3178,244,6,year1, year
+3179,244,7,start_cc, 15
+3180,244,8,start_yy,90
+3181,244,9,to, to
+3182,244,10,the2, the
+3183,244,11,year2, year
+3184,244,12,end_cc, 15
+3185,245,0,bos,<|endoftext|>
+3186,245,1,the0,The
+3187,245,2,noun, conflict
+3188,245,3,lasted, lasted
+3189,245,4,from, from
+3190,245,5,the1, the
+3191,245,6,year1, year
+3192,245,7,start_cc, 17
+3193,245,8,start_yy,93
+3194,245,9,to, to
+3195,245,10,the2, the
+3196,245,11,year2, year
+3197,245,12,end_cc, 17
+3198,246,0,bos,<|endoftext|>
+3199,246,1,the0,The
+3200,246,2,noun, expedition
+3201,246,3,lasted, lasted
+3202,246,4,from, from
+3203,246,5,the1, the
+3204,246,6,year1, year
+3205,246,7,start_cc, 13
+3206,246,8,start_yy,91
+3207,246,9,to, to
+3208,246,10,the2, the
+3209,246,11,year2, year
+3210,246,12,end_cc, 13
+3211,247,0,bos,<|endoftext|>
+3212,247,1,the0,The
+3213,247,2,noun, siege
+3214,247,3,lasted, lasted
+3215,247,4,from, from
+3216,247,5,the1, the
+3217,247,6,year1, year
+3218,247,7,start_cc, 12
+3219,247,8,start_yy,92
+3220,247,9,to, to
+3221,247,10,the2, the
+3222,247,11,year2, year
+3223,247,12,end_cc, 12
+3224,248,0,bos,<|endoftext|>
+3225,248,1,the0,The
+3226,248,2,noun, conflict
+3227,248,3,lasted, lasted
+3228,248,4,from, from
+3229,248,5,the1, the
+3230,248,6,year1, year
+3231,248,7,start_cc, 12
+3232,248,8,start_yy,90
+3233,248,9,to, to
+3234,248,10,the2, the
+3235,248,11,year2, year
+3236,248,12,end_cc, 12
+3237,249,0,bos,<|endoftext|>
+3238,249,1,the0,The
+3239,249,2,noun, drought
+3240,249,3,lasted, lasted
+3241,249,4,from, from
+3242,249,5,the1, the
+3243,249,6,year1, year
+3244,249,7,start_cc, 14
+3245,249,8,start_yy,97
+3246,249,9,to, to
+3247,249,10,the2, the
+3248,249,11,year2, year
+3249,249,12,end_cc, 14
+3250,250,0,bos,<|endoftext|>
+3251,250,1,the0,The
+3252,250,2,noun, voyage
+3253,250,3,lasted, lasted
+3254,250,4,from, from
+3255,250,5,the1, the
+3256,250,6,year1, year
+3257,250,7,start_cc, 16
+3258,250,8,start_yy,94
+3259,250,9,to, to
+3260,250,10,the2, the
+3261,250,11,year2, year
+3262,250,12,end_cc, 16
+3263,251,0,bos,<|endoftext|>
+3264,251,1,the0,The
+3265,251,2,noun, voyage
+3266,251,3,lasted, lasted
+3267,251,4,from, from
+3268,251,5,the1, the
+3269,251,6,year1, year
+3270,251,7,start_cc, 17
+3271,251,8,start_yy,93
+3272,251,9,to, to
+3273,251,10,the2, the
+3274,251,11,year2, year
+3275,251,12,end_cc, 17
+3276,252,0,bos,<|endoftext|>
+3277,252,1,the0,The
+3278,252,2,noun, expedition
+3279,252,3,lasted, lasted
+3280,252,4,from, from
+3281,252,5,the1, the
+3282,252,6,year1, year
+3283,252,7,start_cc, 16
+3284,252,8,start_yy,92
+3285,252,9,to, to
+3286,252,10,the2, the
+3287,252,11,year2, year
+3288,252,12,end_cc, 16
+3289,253,0,bos,<|endoftext|>
+3290,253,1,the0,The
+3291,253,2,noun, voyage
+3292,253,3,lasted, lasted
+3293,253,4,from, from
+3294,253,5,the1, the
+3295,253,6,year1, year
+3296,253,7,start_cc, 17
+3297,253,8,start_yy,92
+3298,253,9,to, to
+3299,253,10,the2, the
+3300,253,11,year2, year
+3301,253,12,end_cc, 17
+3302,254,0,bos,<|endoftext|>
+3303,254,1,the0,The
+3304,254,2,noun, voyage
+3305,254,3,lasted, lasted
+3306,254,4,from, from
+3307,254,5,the1, the
+3308,254,6,year1, year
+3309,254,7,start_cc, 15
+3310,254,8,start_yy,94
+3311,254,9,to, to
+3312,254,10,the2, the
+3313,254,11,year2, year
+3314,254,12,end_cc, 15
+3315,255,0,bos,<|endoftext|>
+3316,255,1,the0,The
+3317,255,2,noun, voyage
+3318,255,3,lasted, lasted
+3319,255,4,from, from
+3320,255,5,the1, the
+3321,255,6,year1, year
+3322,255,7,start_cc, 16
+3323,255,8,start_yy,96
+3324,255,9,to, to
+3325,255,10,the2, the
+3326,255,11,year2, year
+3327,255,12,end_cc, 16
+3328,256,0,bos,<|endoftext|>
+3329,256,1,the0,The
+3330,256,2,noun, voyage
+3331,256,3,lasted, lasted
+3332,256,4,from, from
+3333,256,5,the1, the
+3334,256,6,year1, year
+3335,256,7,start_cc, 15
+3336,256,8,start_yy,98
+3337,256,9,to, to
+3338,256,10,the2, the
+3339,256,11,year2, year
+3340,256,12,end_cc, 15
+3341,257,0,bos,<|endoftext|>
+3342,257,1,the0,The
+3343,257,2,noun, reign
+3344,257,3,lasted, lasted
+3345,257,4,from, from
+3346,257,5,the1, the
+3347,257,6,year1, year
+3348,257,7,start_cc, 14
+3349,257,8,start_yy,91
+3350,257,9,to, to
+3351,257,10,the2, the
+3352,257,11,year2, year
+3353,257,12,end_cc, 14
+3354,258,0,bos,<|endoftext|>
+3355,258,1,the0,The
+3356,258,2,noun, war
+3357,258,3,lasted, lasted
+3358,258,4,from, from
+3359,258,5,the1, the
+3360,258,6,year1, year
+3361,258,7,start_cc, 14
+3362,258,8,start_yy,95
+3363,258,9,to, to
+3364,258,10,the2, the
+3365,258,11,year2, year
+3366,258,12,end_cc, 14
+3367,259,0,bos,<|endoftext|>
+3368,259,1,the0,The
+3369,259,2,noun, expedition
+3370,259,3,lasted, lasted
+3371,259,4,from, from
+3372,259,5,the1, the
+3373,259,6,year1, year
+3374,259,7,start_cc, 16
+3375,259,8,start_yy,90
+3376,259,9,to, to
+3377,259,10,the2, the
+3378,259,11,year2, year
+3379,259,12,end_cc, 16
+3380,260,0,bos,<|endoftext|>
+3381,260,1,the0,The
+3382,260,2,noun, voyage
+3383,260,3,lasted, lasted
+3384,260,4,from, from
+3385,260,5,the1, the
+3386,260,6,year1, year
+3387,260,7,start_cc, 15
+3388,260,8,start_yy,90
+3389,260,9,to, to
+3390,260,10,the2, the
+3391,260,11,year2, year
+3392,260,12,end_cc, 15
+3393,261,0,bos,<|endoftext|>
+3394,261,1,the0,The
+3395,261,2,noun, siege
+3396,261,3,lasted, lasted
+3397,261,4,from, from
+3398,261,5,the1, the
+3399,261,6,year1, year
+3400,261,7,start_cc, 14
+3401,261,8,start_yy,98
+3402,261,9,to, to
+3403,261,10,the2, the
+3404,261,11,year2, year
+3405,261,12,end_cc, 14
+3406,262,0,bos,<|endoftext|>
+3407,262,1,the0,The
+3408,262,2,noun, reign
+3409,262,3,lasted, lasted
+3410,262,4,from, from
+3411,262,5,the1, the
+3412,262,6,year1, year
+3413,262,7,start_cc, 13
+3414,262,8,start_yy,92
+3415,262,9,to, to
+3416,262,10,the2, the
+3417,262,11,year2, year
+3418,262,12,end_cc, 13
+3419,263,0,bos,<|endoftext|>
+3420,263,1,the0,The
+3421,263,2,noun, drought
+3422,263,3,lasted, lasted
+3423,263,4,from, from
+3424,263,5,the1, the
+3425,263,6,year1, year
+3426,263,7,start_cc, 16
+3427,263,8,start_yy,97
+3428,263,9,to, to
+3429,263,10,the2, the
+3430,263,11,year2, year
+3431,263,12,end_cc, 16
+3432,264,0,bos,<|endoftext|>
+3433,264,1,the0,The
+3434,264,2,noun, conflict
+3435,264,3,lasted, lasted
+3436,264,4,from, from
+3437,264,5,the1, the
+3438,264,6,year1, year
+3439,264,7,start_cc, 14
+3440,264,8,start_yy,95
+3441,264,9,to, to
+3442,264,10,the2, the
+3443,264,11,year2, year
+3444,264,12,end_cc, 14
+3445,265,0,bos,<|endoftext|>
+3446,265,1,the0,The
+3447,265,2,noun, drought
+3448,265,3,lasted, lasted
+3449,265,4,from, from
+3450,265,5,the1, the
+3451,265,6,year1, year
+3452,265,7,start_cc, 13
+3453,265,8,start_yy,95
+3454,265,9,to, to
+3455,265,10,the2, the
+3456,265,11,year2, year
+3457,265,12,end_cc, 13
+3458,266,0,bos,<|endoftext|>
+3459,266,1,the0,The
+3460,266,2,noun, conflict
+3461,266,3,lasted, lasted
+3462,266,4,from, from
+3463,266,5,the1, the
+3464,266,6,year1, year
+3465,266,7,start_cc, 17
+3466,266,8,start_yy,92
+3467,266,9,to, to
+3468,266,10,the2, the
+3469,266,11,year2, year
+3470,266,12,end_cc, 17
+3471,267,0,bos,<|endoftext|>
+3472,267,1,the0,The
+3473,267,2,noun, famine
+3474,267,3,lasted, lasted
+3475,267,4,from, from
+3476,267,5,the1, the
+3477,267,6,year1, year
+3478,267,7,start_cc, 14
+3479,267,8,start_yy,97
+3480,267,9,to, to
+3481,267,10,the2, the
+3482,267,11,year2, year
+3483,267,12,end_cc, 14
+3484,268,0,bos,<|endoftext|>
+3485,268,1,the0,The
+3486,268,2,noun, voyage
+3487,268,3,lasted, lasted
+3488,268,4,from, from
+3489,268,5,the1, the
+3490,268,6,year1, year
+3491,268,7,start_cc, 16
+3492,268,8,start_yy,96
+3493,268,9,to, to
+3494,268,10,the2, the
+3495,268,11,year2, year
+3496,268,12,end_cc, 16
+3497,269,0,bos,<|endoftext|>
+3498,269,1,the0,The
+3499,269,2,noun, war
+3500,269,3,lasted, lasted
+3501,269,4,from, from
+3502,269,5,the1, the
+3503,269,6,year1, year
+3504,269,7,start_cc, 14
+3505,269,8,start_yy,91
+3506,269,9,to, to
+3507,269,10,the2, the
+3508,269,11,year2, year
+3509,269,12,end_cc, 14
+3510,270,0,bos,<|endoftext|>
+3511,270,1,the0,The
+3512,270,2,noun, famine
+3513,270,3,lasted, lasted
+3514,270,4,from, from
+3515,270,5,the1, the
+3516,270,6,year1, year
+3517,270,7,start_cc, 13
+3518,270,8,start_yy,95
+3519,270,9,to, to
+3520,270,10,the2, the
+3521,270,11,year2, year
+3522,270,12,end_cc, 13
+3523,271,0,bos,<|endoftext|>
+3524,271,1,the0,The
+3525,271,2,noun, conflict
+3526,271,3,lasted, lasted
+3527,271,4,from, from
+3528,271,5,the1, the
+3529,271,6,year1, year
+3530,271,7,start_cc, 17
+3531,271,8,start_yy,96
+3532,271,9,to, to
+3533,271,10,the2, the
+3534,271,11,year2, year
+3535,271,12,end_cc, 17
+3536,272,0,bos,<|endoftext|>
+3537,272,1,the0,The
+3538,272,2,noun, war
+3539,272,3,lasted, lasted
+3540,272,4,from, from
+3541,272,5,the1, the
+3542,272,6,year1, year
+3543,272,7,start_cc, 16
+3544,272,8,start_yy,98
+3545,272,9,to, to
+3546,272,10,the2, the
+3547,272,11,year2, year
+3548,272,12,end_cc, 16
+3549,273,0,bos,<|endoftext|>
+3550,273,1,the0,The
+3551,273,2,noun, reign
+3552,273,3,lasted, lasted
+3553,273,4,from, from
+3554,273,5,the1, the
+3555,273,6,year1, year
+3556,273,7,start_cc, 14
+3557,273,8,start_yy,90
+3558,273,9,to, to
+3559,273,10,the2, the
+3560,273,11,year2, year
+3561,273,12,end_cc, 14
+3562,274,0,bos,<|endoftext|>
+3563,274,1,the0,The
+3564,274,2,noun, expedition
+3565,274,3,lasted, lasted
+3566,274,4,from, from
+3567,274,5,the1, the
+3568,274,6,year1, year
+3569,274,7,start_cc, 15
+3570,274,8,start_yy,95
+3571,274,9,to, to
+3572,274,10,the2, the
+3573,274,11,year2, year
+3574,274,12,end_cc, 15
+3575,275,0,bos,<|endoftext|>
+3576,275,1,the0,The
+3577,275,2,noun, reign
+3578,275,3,lasted, lasted
+3579,275,4,from, from
+3580,275,5,the1, the
+3581,275,6,year1, year
+3582,275,7,start_cc, 16
+3583,275,8,start_yy,97
+3584,275,9,to, to
+3585,275,10,the2, the
+3586,275,11,year2, year
+3587,275,12,end_cc, 16
+3588,276,0,bos,<|endoftext|>
+3589,276,1,the0,The
+3590,276,2,noun, war
+3591,276,3,lasted, lasted
+3592,276,4,from, from
+3593,276,5,the1, the
+3594,276,6,year1, year
+3595,276,7,start_cc, 12
+3596,276,8,start_yy,94
+3597,276,9,to, to
+3598,276,10,the2, the
+3599,276,11,year2, year
+3600,276,12,end_cc, 12
+3601,277,0,bos,<|endoftext|>
+3602,277,1,the0,The
+3603,277,2,noun, siege
+3604,277,3,lasted, lasted
+3605,277,4,from, from
+3606,277,5,the1, the
+3607,277,6,year1, year
+3608,277,7,start_cc, 13
+3609,277,8,start_yy,97
+3610,277,9,to, to
+3611,277,10,the2, the
+3612,277,11,year2, year
+3613,277,12,end_cc, 13
+3614,278,0,bos,<|endoftext|>
+3615,278,1,the0,The
+3616,278,2,noun, expedition
+3617,278,3,lasted, lasted
+3618,278,4,from, from
+3619,278,5,the1, the
+3620,278,6,year1, year
+3621,278,7,start_cc, 16
+3622,278,8,start_yy,92
+3623,278,9,to, to
+3624,278,10,the2, the
+3625,278,11,year2, year
+3626,278,12,end_cc, 16
+3627,279,0,bos,<|endoftext|>
+3628,279,1,the0,The
+3629,279,2,noun, voyage
+3630,279,3,lasted, lasted
+3631,279,4,from, from
+3632,279,5,the1, the
+3633,279,6,year1, year
+3634,279,7,start_cc, 15
+3635,279,8,start_yy,90
+3636,279,9,to, to
+3637,279,10,the2, the
+3638,279,11,year2, year
+3639,279,12,end_cc, 15
+3640,280,0,bos,<|endoftext|>
+3641,280,1,the0,The
+3642,280,2,noun, conflict
+3643,280,3,lasted, lasted
+3644,280,4,from, from
+3645,280,5,the1, the
+3646,280,6,year1, year
+3647,280,7,start_cc, 14
+3648,280,8,start_yy,91
+3649,280,9,to, to
+3650,280,10,the2, the
+3651,280,11,year2, year
+3652,280,12,end_cc, 14
+3653,281,0,bos,<|endoftext|>
+3654,281,1,the0,The
+3655,281,2,noun, siege
+3656,281,3,lasted, lasted
+3657,281,4,from, from
+3658,281,5,the1, the
+3659,281,6,year1, year
+3660,281,7,start_cc, 14
+3661,281,8,start_yy,94
+3662,281,9,to, to
+3663,281,10,the2, the
+3664,281,11,year2, year
+3665,281,12,end_cc, 14
+3666,282,0,bos,<|endoftext|>
+3667,282,1,the0,The
+3668,282,2,noun, voyage
+3669,282,3,lasted, lasted
+3670,282,4,from, from
+3671,282,5,the1, the
+3672,282,6,year1, year
+3673,282,7,start_cc, 14
+3674,282,8,start_yy,97
+3675,282,9,to, to
+3676,282,10,the2, the
+3677,282,11,year2, year
+3678,282,12,end_cc, 14
+3679,283,0,bos,<|endoftext|>
+3680,283,1,the0,The
+3681,283,2,noun, reign
+3682,283,3,lasted, lasted
+3683,283,4,from, from
+3684,283,5,the1, the
+3685,283,6,year1, year
+3686,283,7,start_cc, 12
+3687,283,8,start_yy,97
+3688,283,9,to, to
+3689,283,10,the2, the
+3690,283,11,year2, year
+3691,283,12,end_cc, 12
+3692,284,0,bos,<|endoftext|>
+3693,284,1,the0,The
+3694,284,2,noun, siege
+3695,284,3,lasted, lasted
+3696,284,4,from, from
+3697,284,5,the1, the
+3698,284,6,year1, year
+3699,284,7,start_cc, 14
+3700,284,8,start_yy,93
+3701,284,9,to, to
+3702,284,10,the2, the
+3703,284,11,year2, year
+3704,284,12,end_cc, 14
+3705,285,0,bos,<|endoftext|>
+3706,285,1,the0,The
+3707,285,2,noun, siege
+3708,285,3,lasted, lasted
+3709,285,4,from, from
+3710,285,5,the1, the
+3711,285,6,year1, year
+3712,285,7,start_cc, 17
+3713,285,8,start_yy,91
+3714,285,9,to, to
+3715,285,10,the2, the
+3716,285,11,year2, year
+3717,285,12,end_cc, 17
+3718,286,0,bos,<|endoftext|>
+3719,286,1,the0,The
+3720,286,2,noun, voyage
+3721,286,3,lasted, lasted
+3722,286,4,from, from
+3723,286,5,the1, the
+3724,286,6,year1, year
+3725,286,7,start_cc, 17
+3726,286,8,start_yy,96
+3727,286,9,to, to
+3728,286,10,the2, the
+3729,286,11,year2, year
+3730,286,12,end_cc, 17
+3731,287,0,bos,<|endoftext|>
+3732,287,1,the0,The
+3733,287,2,noun, famine
+3734,287,3,lasted, lasted
+3735,287,4,from, from
+3736,287,5,the1, the
+3737,287,6,year1, year
+3738,287,7,start_cc, 17
+3739,287,8,start_yy,98
+3740,287,9,to, to
+3741,287,10,the2, the
+3742,287,11,year2, year
+3743,287,12,end_cc, 17
+3744,288,0,bos,<|endoftext|>
+3745,288,1,the0,The
+3746,288,2,noun, voyage
+3747,288,3,lasted, lasted
+3748,288,4,from, from
+3749,288,5,the1, the
+3750,288,6,year1, year
+3751,288,7,start_cc, 17
+3752,288,8,start_yy,90
+3753,288,9,to, to
+3754,288,10,the2, the
+3755,288,11,year2, year
+3756,288,12,end_cc, 17
+3757,289,0,bos,<|endoftext|>
+3758,289,1,the0,The
+3759,289,2,noun, voyage
+3760,289,3,lasted, lasted
+3761,289,4,from, from
+3762,289,5,the1, the
+3763,289,6,year1, year
+3764,289,7,start_cc, 16
+3765,289,8,start_yy,94
+3766,289,9,to, to
+3767,289,10,the2, the
+3768,289,11,year2, year
+3769,289,12,end_cc, 16
+3770,290,0,bos,<|endoftext|>
+3771,290,1,the0,The
+3772,290,2,noun, reign
+3773,290,3,lasted, lasted
+3774,290,4,from, from
+3775,290,5,the1, the
+3776,290,6,year1, year
+3777,290,7,start_cc, 17
+3778,290,8,start_yy,92
+3779,290,9,to, to
+3780,290,10,the2, the
+3781,290,11,year2, year
+3782,290,12,end_cc, 17
+3783,291,0,bos,<|endoftext|>
+3784,291,1,the0,The
+3785,291,2,noun, reign
+3786,291,3,lasted, lasted
+3787,291,4,from, from
+3788,291,5,the1, the
+3789,291,6,year1, year
+3790,291,7,start_cc, 15
+3791,291,8,start_yy,97
+3792,291,9,to, to
+3793,291,10,the2, the
+3794,291,11,year2, year
+3795,291,12,end_cc, 15
+3796,292,0,bos,<|endoftext|>
+3797,292,1,the0,The
+3798,292,2,noun, famine
+3799,292,3,lasted, lasted
+3800,292,4,from, from
+3801,292,5,the1, the
+3802,292,6,year1, year
+3803,292,7,start_cc, 13
+3804,292,8,start_yy,98
+3805,292,9,to, to
+3806,292,10,the2, the
+3807,292,11,year2, year
+3808,292,12,end_cc, 13
+3809,293,0,bos,<|endoftext|>
+3810,293,1,the0,The
+3811,293,2,noun, drought
+3812,293,3,lasted, lasted
+3813,293,4,from, from
+3814,293,5,the1, the
+3815,293,6,year1, year
+3816,293,7,start_cc, 14
+3817,293,8,start_yy,95
+3818,293,9,to, to
+3819,293,10,the2, the
+3820,293,11,year2, year
+3821,293,12,end_cc, 14
+3822,294,0,bos,<|endoftext|>
+3823,294,1,the0,The
+3824,294,2,noun, expedition
+3825,294,3,lasted, lasted
+3826,294,4,from, from
+3827,294,5,the1, the
+3828,294,6,year1, year
+3829,294,7,start_cc, 16
+3830,294,8,start_yy,93
+3831,294,9,to, to
+3832,294,10,the2, the
+3833,294,11,year2, year
+3834,294,12,end_cc, 16
+3835,295,0,bos,<|endoftext|>
+3836,295,1,the0,The
+3837,295,2,noun, drought
+3838,295,3,lasted, lasted
+3839,295,4,from, from
+3840,295,5,the1, the
+3841,295,6,year1, year
+3842,295,7,start_cc, 12
+3843,295,8,start_yy,96
+3844,295,9,to, to
+3845,295,10,the2, the
+3846,295,11,year2, year
+3847,295,12,end_cc, 12
+3848,296,0,bos,<|endoftext|>
+3849,296,1,the0,The
+3850,296,2,noun, war
+3851,296,3,lasted, lasted
+3852,296,4,from, from
+3853,296,5,the1, the
+3854,296,6,year1, year
+3855,296,7,start_cc, 13
+3856,296,8,start_yy,97
+3857,296,9,to, to
+3858,296,10,the2, the
+3859,296,11,year2, year
+3860,296,12,end_cc, 13
+3861,297,0,bos,<|endoftext|>
+3862,297,1,the0,The
+3863,297,2,noun, drought
+3864,297,3,lasted, lasted
+3865,297,4,from, from
+3866,297,5,the1, the
+3867,297,6,year1, year
+3868,297,7,start_cc, 14
+3869,297,8,start_yy,92
+3870,297,9,to, to
+3871,297,10,the2, the
+3872,297,11,year2, year
+3873,297,12,end_cc, 14
+3874,298,0,bos,<|endoftext|>
+3875,298,1,the0,The
+3876,298,2,noun, famine
+3877,298,3,lasted, lasted
+3878,298,4,from, from
+3879,298,5,the1, the
+3880,298,6,year1, year
+3881,298,7,start_cc, 17
+3882,298,8,start_yy,91
+3883,298,9,to, to
+3884,298,10,the2, the
+3885,298,11,year2, year
+3886,298,12,end_cc, 17
+3887,299,0,bos,<|endoftext|>
+3888,299,1,the0,The
+3889,299,2,noun, drought
+3890,299,3,lasted, lasted
+3891,299,4,from, from
+3892,299,5,the1, the
+3893,299,6,year1, year
+3894,299,7,start_cc, 17
+3895,299,8,start_yy,92
+3896,299,9,to, to
+3897,299,10,the2, the
+3898,299,11,year2, year
+3899,299,12,end_cc, 17
+3900,300,0,bos,<|endoftext|>
+3901,300,1,the0,The
+3902,300,2,noun, conflict
+3903,300,3,lasted, lasted
+3904,300,4,from, from
+3905,300,5,the1, the
+3906,300,6,year1, year
+3907,300,7,start_cc, 14
+3908,300,8,start_yy,94
+3909,300,9,to, to
+3910,300,10,the2, the
+3911,300,11,year2, year
+3912,300,12,end_cc, 14
+3913,301,0,bos,<|endoftext|>
+3914,301,1,the0,The
+3915,301,2,noun, famine
+3916,301,3,lasted, lasted
+3917,301,4,from, from
+3918,301,5,the1, the
+3919,301,6,year1, year
+3920,301,7,start_cc, 15
+3921,301,8,start_yy,96
+3922,301,9,to, to
+3923,301,10,the2, the
+3924,301,11,year2, year
+3925,301,12,end_cc, 15
+3926,302,0,bos,<|endoftext|>
+3927,302,1,the0,The
+3928,302,2,noun, conflict
+3929,302,3,lasted, lasted
+3930,302,4,from, from
+3931,302,5,the1, the
+3932,302,6,year1, year
+3933,302,7,start_cc, 17
+3934,302,8,start_yy,95
+3935,302,9,to, to
+3936,302,10,the2, the
+3937,302,11,year2, year
+3938,302,12,end_cc, 17
+3939,303,0,bos,<|endoftext|>
+3940,303,1,the0,The
+3941,303,2,noun, drought
+3942,303,3,lasted, lasted
+3943,303,4,from, from
+3944,303,5,the1, the
+3945,303,6,year1, year
+3946,303,7,start_cc, 13
+3947,303,8,start_yy,97
+3948,303,9,to, to
+3949,303,10,the2, the
+3950,303,11,year2, year
+3951,303,12,end_cc, 13
+3952,304,0,bos,<|endoftext|>
+3953,304,1,the0,The
+3954,304,2,noun, war
+3955,304,3,lasted, lasted
+3956,304,4,from, from
+3957,304,5,the1, the
+3958,304,6,year1, year
+3959,304,7,start_cc, 15
+3960,304,8,start_yy,91
+3961,304,9,to, to
+3962,304,10,the2, the
+3963,304,11,year2, year
+3964,304,12,end_cc, 15
+3965,305,0,bos,<|endoftext|>
+3966,305,1,the0,The
+3967,305,2,noun, expedition
+3968,305,3,lasted, lasted
+3969,305,4,from, from
+3970,305,5,the1, the
+3971,305,6,year1, year
+3972,305,7,start_cc, 16
+3973,305,8,start_yy,94
+3974,305,9,to, to
+3975,305,10,the2, the
+3976,305,11,year2, year
+3977,305,12,end_cc, 16
+3978,306,0,bos,<|endoftext|>
+3979,306,1,the0,The
+3980,306,2,noun, expedition
+3981,306,3,lasted, lasted
+3982,306,4,from, from
+3983,306,5,the1, the
+3984,306,6,year1, year
+3985,306,7,start_cc, 16
+3986,306,8,start_yy,91
+3987,306,9,to, to
+3988,306,10,the2, the
+3989,306,11,year2, year
+3990,306,12,end_cc, 16
+3991,307,0,bos,<|endoftext|>
+3992,307,1,the0,The
+3993,307,2,noun, reign
+3994,307,3,lasted, lasted
+3995,307,4,from, from
+3996,307,5,the1, the
+3997,307,6,year1, year
+3998,307,7,start_cc, 12
+3999,307,8,start_yy,94
+4000,307,9,to, to
+4001,307,10,the2, the
+4002,307,11,year2, year
+4003,307,12,end_cc, 12
+4004,308,0,bos,<|endoftext|>
+4005,308,1,the0,The
+4006,308,2,noun, war
+4007,308,3,lasted, lasted
+4008,308,4,from, from
+4009,308,5,the1, the
+4010,308,6,year1, year
+4011,308,7,start_cc, 13
+4012,308,8,start_yy,95
+4013,308,9,to, to
+4014,308,10,the2, the
+4015,308,11,year2, year
+4016,308,12,end_cc, 13
+4017,309,0,bos,<|endoftext|>
+4018,309,1,the0,The
+4019,309,2,noun, famine
+4020,309,3,lasted, lasted
+4021,309,4,from, from
+4022,309,5,the1, the
+4023,309,6,year1, year
+4024,309,7,start_cc, 14
+4025,309,8,start_yy,92
+4026,309,9,to, to
+4027,309,10,the2, the
+4028,309,11,year2, year
+4029,309,12,end_cc, 14
+4030,310,0,bos,<|endoftext|>
+4031,310,1,the0,The
+4032,310,2,noun, expedition
+4033,310,3,lasted, lasted
+4034,310,4,from, from
+4035,310,5,the1, the
+4036,310,6,year1, year
+4037,310,7,start_cc, 15
+4038,310,8,start_yy,96
+4039,310,9,to, to
+4040,310,10,the2, the
+4041,310,11,year2, year
+4042,310,12,end_cc, 15
+4043,311,0,bos,<|endoftext|>
+4044,311,1,the0,The
+4045,311,2,noun, siege
+4046,311,3,lasted, lasted
+4047,311,4,from, from
+4048,311,5,the1, the
+4049,311,6,year1, year
+4050,311,7,start_cc, 12
+4051,311,8,start_yy,92
+4052,311,9,to, to
+4053,311,10,the2, the
+4054,311,11,year2, year
+4055,311,12,end_cc, 12
+4056,312,0,bos,<|endoftext|>
+4057,312,1,the0,The
+4058,312,2,noun, conflict
+4059,312,3,lasted, lasted
+4060,312,4,from, from
+4061,312,5,the1, the
+4062,312,6,year1, year
+4063,312,7,start_cc, 15
+4064,312,8,start_yy,96
+4065,312,9,to, to
+4066,312,10,the2, the
+4067,312,11,year2, year
+4068,312,12,end_cc, 15
+4069,313,0,bos,<|endoftext|>
+4070,313,1,the0,The
+4071,313,2,noun, expedition
+4072,313,3,lasted, lasted
+4073,313,4,from, from
+4074,313,5,the1, the
+4075,313,6,year1, year
+4076,313,7,start_cc, 14
+4077,313,8,start_yy,92
+4078,313,9,to, to
+4079,313,10,the2, the
+4080,313,11,year2, year
+4081,313,12,end_cc, 14
+4082,314,0,bos,<|endoftext|>
+4083,314,1,the0,The
+4084,314,2,noun, expedition
+4085,314,3,lasted, lasted
+4086,314,4,from, from
+4087,314,5,the1, the
+4088,314,6,year1, year
+4089,314,7,start_cc, 14
+4090,314,8,start_yy,94
+4091,314,9,to, to
+4092,314,10,the2, the
+4093,314,11,year2, year
+4094,314,12,end_cc, 14
+4095,315,0,bos,<|endoftext|>
+4096,315,1,the0,The
+4097,315,2,noun, reign
+4098,315,3,lasted, lasted
+4099,315,4,from, from
+4100,315,5,the1, the
+4101,315,6,year1, year
+4102,315,7,start_cc, 13
+4103,315,8,start_yy,90
+4104,315,9,to, to
+4105,315,10,the2, the
+4106,315,11,year2, year
+4107,315,12,end_cc, 13
+4108,316,0,bos,<|endoftext|>
+4109,316,1,the0,The
+4110,316,2,noun, reign
+4111,316,3,lasted, lasted
+4112,316,4,from, from
+4113,316,5,the1, the
+4114,316,6,year1, year
+4115,316,7,start_cc, 13
+4116,316,8,start_yy,98
+4117,316,9,to, to
+4118,316,10,the2, the
+4119,316,11,year2, year
+4120,316,12,end_cc, 13
+4121,317,0,bos,<|endoftext|>
+4122,317,1,the0,The
+4123,317,2,noun, famine
+4124,317,3,lasted, lasted
+4125,317,4,from, from
+4126,317,5,the1, the
+4127,317,6,year1, year
+4128,317,7,start_cc, 15
+4129,317,8,start_yy,94
+4130,317,9,to, to
+4131,317,10,the2, the
+4132,317,11,year2, year
+4133,317,12,end_cc, 15
+4134,318,0,bos,<|endoftext|>
+4135,318,1,the0,The
+4136,318,2,noun, drought
+4137,318,3,lasted, lasted
+4138,318,4,from, from
+4139,318,5,the1, the
+4140,318,6,year1, year
+4141,318,7,start_cc, 16
+4142,318,8,start_yy,94
+4143,318,9,to, to
+4144,318,10,the2, the
+4145,318,11,year2, year
+4146,318,12,end_cc, 16
+4147,319,0,bos,<|endoftext|>
+4148,319,1,the0,The
+4149,319,2,noun, reign
+4150,319,3,lasted, lasted
+4151,319,4,from, from
+4152,319,5,the1, the
+4153,319,6,year1, year
+4154,319,7,start_cc, 17
+4155,319,8,start_yy,94
+4156,319,9,to, to
+4157,319,10,the2, the
+4158,319,11,year2, year
+4159,319,12,end_cc, 17
+4160,320,0,bos,<|endoftext|>
+4161,320,1,the0,The
+4162,320,2,noun, expedition
+4163,320,3,lasted, lasted
+4164,320,4,from, from
+4165,320,5,the1, the
+4166,320,6,year1, year
+4167,320,7,start_cc, 14
+4168,320,8,start_yy,97
+4169,320,9,to, to
+4170,320,10,the2, the
+4171,320,11,year2, year
+4172,320,12,end_cc, 14
+4173,321,0,bos,<|endoftext|>
+4174,321,1,the0,The
+4175,321,2,noun, conflict
+4176,321,3,lasted, lasted
+4177,321,4,from, from
+4178,321,5,the1, the
+4179,321,6,year1, year
+4180,321,7,start_cc, 12
+4181,321,8,start_yy,96
+4182,321,9,to, to
+4183,321,10,the2, the
+4184,321,11,year2, year
+4185,321,12,end_cc, 12
+4186,322,0,bos,<|endoftext|>
+4187,322,1,the0,The
+4188,322,2,noun, famine
+4189,322,3,lasted, lasted
+4190,322,4,from, from
+4191,322,5,the1, the
+4192,322,6,year1, year
+4193,322,7,start_cc, 15
+4194,322,8,start_yy,94
+4195,322,9,to, to
+4196,322,10,the2, the
+4197,322,11,year2, year
+4198,322,12,end_cc, 15
+4199,323,0,bos,<|endoftext|>
+4200,323,1,the0,The
+4201,323,2,noun, reign
+4202,323,3,lasted, lasted
+4203,323,4,from, from
+4204,323,5,the1, the
+4205,323,6,year1, year
+4206,323,7,start_cc, 17
+4207,323,8,start_yy,94
+4208,323,9,to, to
+4209,323,10,the2, the
+4210,323,11,year2, year
+4211,323,12,end_cc, 17
+4212,324,0,bos,<|endoftext|>
+4213,324,1,the0,The
+4214,324,2,noun, expedition
+4215,324,3,lasted, lasted
+4216,324,4,from, from
+4217,324,5,the1, the
+4218,324,6,year1, year
+4219,324,7,start_cc, 15
+4220,324,8,start_yy,95
+4221,324,9,to, to
+4222,324,10,the2, the
+4223,324,11,year2, year
+4224,324,12,end_cc, 15
+4225,325,0,bos,<|endoftext|>
+4226,325,1,the0,The
+4227,325,2,noun, expedition
+4228,325,3,lasted, lasted
+4229,325,4,from, from
+4230,325,5,the1, the
+4231,325,6,year1, year
+4232,325,7,start_cc, 16
+4233,325,8,start_yy,93
+4234,325,9,to, to
+4235,325,10,the2, the
+4236,325,11,year2, year
+4237,325,12,end_cc, 16
+4238,326,0,bos,<|endoftext|>
+4239,326,1,the0,The
+4240,326,2,noun, voyage
+4241,326,3,lasted, lasted
+4242,326,4,from, from
+4243,326,5,the1, the
+4244,326,6,year1, year
+4245,326,7,start_cc, 16
+4246,326,8,start_yy,92
+4247,326,9,to, to
+4248,326,10,the2, the
+4249,326,11,year2, year
+4250,326,12,end_cc, 16
+4251,327,0,bos,<|endoftext|>
+4252,327,1,the0,The
+4253,327,2,noun, conflict
+4254,327,3,lasted, lasted
+4255,327,4,from, from
+4256,327,5,the1, the
+4257,327,6,year1, year
+4258,327,7,start_cc, 16
+4259,327,8,start_yy,90
+4260,327,9,to, to
+4261,327,10,the2, the
+4262,327,11,year2, year
+4263,327,12,end_cc, 16
+4264,328,0,bos,<|endoftext|>
+4265,328,1,the0,The
+4266,328,2,noun, voyage
+4267,328,3,lasted, lasted
+4268,328,4,from, from
+4269,328,5,the1, the
+4270,328,6,year1, year
+4271,328,7,start_cc, 17
+4272,328,8,start_yy,97
+4273,328,9,to, to
+4274,328,10,the2, the
+4275,328,11,year2, year
+4276,328,12,end_cc, 17
+4277,329,0,bos,<|endoftext|>
+4278,329,1,the0,The
+4279,329,2,noun, war
+4280,329,3,lasted, lasted
+4281,329,4,from, from
+4282,329,5,the1, the
+4283,329,6,year1, year
+4284,329,7,start_cc, 15
+4285,329,8,start_yy,95
+4286,329,9,to, to
+4287,329,10,the2, the
+4288,329,11,year2, year
+4289,329,12,end_cc, 15
+4290,330,0,bos,<|endoftext|>
+4291,330,1,the0,The
+4292,330,2,noun, famine
+4293,330,3,lasted, lasted
+4294,330,4,from, from
+4295,330,5,the1, the
+4296,330,6,year1, year
+4297,330,7,start_cc, 16
+4298,330,8,start_yy,96
+4299,330,9,to, to
+4300,330,10,the2, the
+4301,330,11,year2, year
+4302,330,12,end_cc, 16
+4303,331,0,bos,<|endoftext|>
+4304,331,1,the0,The
+4305,331,2,noun, siege
+4306,331,3,lasted, lasted
+4307,331,4,from, from
+4308,331,5,the1, the
+4309,331,6,year1, year
+4310,331,7,start_cc, 12
+4311,331,8,start_yy,92
+4312,331,9,to, to
+4313,331,10,the2, the
+4314,331,11,year2, year
+4315,331,12,end_cc, 12
+4316,332,0,bos,<|endoftext|>
+4317,332,1,the0,The
+4318,332,2,noun, famine
+4319,332,3,lasted, lasted
+4320,332,4,from, from
+4321,332,5,the1, the
+4322,332,6,year1, year
+4323,332,7,start_cc, 15
+4324,332,8,start_yy,98
+4325,332,9,to, to
+4326,332,10,the2, the
+4327,332,11,year2, year
+4328,332,12,end_cc, 15
+4329,333,0,bos,<|endoftext|>
+4330,333,1,the0,The
+4331,333,2,noun, voyage
+4332,333,3,lasted, lasted
+4333,333,4,from, from
+4334,333,5,the1, the
+4335,333,6,year1, year
+4336,333,7,start_cc, 17
+4337,333,8,start_yy,92
+4338,333,9,to, to
+4339,333,10,the2, the
+4340,333,11,year2, year
+4341,333,12,end_cc, 17
+4342,334,0,bos,<|endoftext|>
+4343,334,1,the0,The
+4344,334,2,noun, voyage
+4345,334,3,lasted, lasted
+4346,334,4,from, from
+4347,334,5,the1, the
+4348,334,6,year1, year
+4349,334,7,start_cc, 17
+4350,334,8,start_yy,97
+4351,334,9,to, to
+4352,334,10,the2, the
+4353,334,11,year2, year
+4354,334,12,end_cc, 17
+4355,335,0,bos,<|endoftext|>
+4356,335,1,the0,The
+4357,335,2,noun, voyage
+4358,335,3,lasted, lasted
+4359,335,4,from, from
+4360,335,5,the1, the
+4361,335,6,year1, year
+4362,335,7,start_cc, 16
+4363,335,8,start_yy,95
+4364,335,9,to, to
+4365,335,10,the2, the
+4366,335,11,year2, year
+4367,335,12,end_cc, 16
+4368,336,0,bos,<|endoftext|>
+4369,336,1,the0,The
+4370,336,2,noun, conflict
+4371,336,3,lasted, lasted
+4372,336,4,from, from
+4373,336,5,the1, the
+4374,336,6,year1, year
+4375,336,7,start_cc, 14
+4376,336,8,start_yy,91
+4377,336,9,to, to
+4378,336,10,the2, the
+4379,336,11,year2, year
+4380,336,12,end_cc, 14
+4381,337,0,bos,<|endoftext|>
+4382,337,1,the0,The
+4383,337,2,noun, siege
+4384,337,3,lasted, lasted
+4385,337,4,from, from
+4386,337,5,the1, the
+4387,337,6,year1, year
+4388,337,7,start_cc, 17
+4389,337,8,start_yy,93
+4390,337,9,to, to
+4391,337,10,the2, the
+4392,337,11,year2, year
+4393,337,12,end_cc, 17
+4394,338,0,bos,<|endoftext|>
+4395,338,1,the0,The
+4396,338,2,noun, drought
+4397,338,3,lasted, lasted
+4398,338,4,from, from
+4399,338,5,the1, the
+4400,338,6,year1, year
+4401,338,7,start_cc, 17
+4402,338,8,start_yy,98
+4403,338,9,to, to
+4404,338,10,the2, the
+4405,338,11,year2, year
+4406,338,12,end_cc, 17
+4407,339,0,bos,<|endoftext|>
+4408,339,1,the0,The
+4409,339,2,noun, war
+4410,339,3,lasted, lasted
+4411,339,4,from, from
+4412,339,5,the1, the
+4413,339,6,year1, year
+4414,339,7,start_cc, 13
+4415,339,8,start_yy,98
+4416,339,9,to, to
+4417,339,10,the2, the
+4418,339,11,year2, year
+4419,339,12,end_cc, 13
+4420,340,0,bos,<|endoftext|>
+4421,340,1,the0,The
+4422,340,2,noun, conflict
+4423,340,3,lasted, lasted
+4424,340,4,from, from
+4425,340,5,the1, the
+4426,340,6,year1, year
+4427,340,7,start_cc, 14
+4428,340,8,start_yy,95
+4429,340,9,to, to
+4430,340,10,the2, the
+4431,340,11,year2, year
+4432,340,12,end_cc, 14
+4433,341,0,bos,<|endoftext|>
+4434,341,1,the0,The
+4435,341,2,noun, voyage
+4436,341,3,lasted, lasted
+4437,341,4,from, from
+4438,341,5,the1, the
+4439,341,6,year1, year
+4440,341,7,start_cc, 15
+4441,341,8,start_yy,96
+4442,341,9,to, to
+4443,341,10,the2, the
+4444,341,11,year2, year
+4445,341,12,end_cc, 15
+4446,342,0,bos,<|endoftext|>
+4447,342,1,the0,The
+4448,342,2,noun, famine
+4449,342,3,lasted, lasted
+4450,342,4,from, from
+4451,342,5,the1, the
+4452,342,6,year1, year
+4453,342,7,start_cc, 15
+4454,342,8,start_yy,93
+4455,342,9,to, to
+4456,342,10,the2, the
+4457,342,11,year2, year
+4458,342,12,end_cc, 15
+4459,343,0,bos,<|endoftext|>
+4460,343,1,the0,The
+4461,343,2,noun, conflict
+4462,343,3,lasted, lasted
+4463,343,4,from, from
+4464,343,5,the1, the
+4465,343,6,year1, year
+4466,343,7,start_cc, 16
+4467,343,8,start_yy,97
+4468,343,9,to, to
+4469,343,10,the2, the
+4470,343,11,year2, year
+4471,343,12,end_cc, 16
+4472,344,0,bos,<|endoftext|>
+4473,344,1,the0,The
+4474,344,2,noun, voyage
+4475,344,3,lasted, lasted
+4476,344,4,from, from
+4477,344,5,the1, the
+4478,344,6,year1, year
+4479,344,7,start_cc, 16
+4480,344,8,start_yy,96
+4481,344,9,to, to
+4482,344,10,the2, the
+4483,344,11,year2, year
+4484,344,12,end_cc, 16
+4485,345,0,bos,<|endoftext|>
+4486,345,1,the0,The
+4487,345,2,noun, conflict
+4488,345,3,lasted, lasted
+4489,345,4,from, from
+4490,345,5,the1, the
+4491,345,6,year1, year
+4492,345,7,start_cc, 12
+4493,345,8,start_yy,90
+4494,345,9,to, to
+4495,345,10,the2, the
+4496,345,11,year2, year
+4497,345,12,end_cc, 12
+4498,346,0,bos,<|endoftext|>
+4499,346,1,the0,The
+4500,346,2,noun, war
+4501,346,3,lasted, lasted
+4502,346,4,from, from
+4503,346,5,the1, the
+4504,346,6,year1, year
+4505,346,7,start_cc, 13
+4506,346,8,start_yy,97
+4507,346,9,to, to
+4508,346,10,the2, the
+4509,346,11,year2, year
+4510,346,12,end_cc, 13
+4511,347,0,bos,<|endoftext|>
+4512,347,1,the0,The
+4513,347,2,noun, siege
+4514,347,3,lasted, lasted
+4515,347,4,from, from
+4516,347,5,the1, the
+4517,347,6,year1, year
+4518,347,7,start_cc, 14
+4519,347,8,start_yy,97
+4520,347,9,to, to
+4521,347,10,the2, the
+4522,347,11,year2, year
+4523,347,12,end_cc, 14
+4524,348,0,bos,<|endoftext|>
+4525,348,1,the0,The
+4526,348,2,noun, famine
+4527,348,3,lasted, lasted
+4528,348,4,from, from
+4529,348,5,the1, the
+4530,348,6,year1, year
+4531,348,7,start_cc, 16
+4532,348,8,start_yy,98
+4533,348,9,to, to
+4534,348,10,the2, the
+4535,348,11,year2, year
+4536,348,12,end_cc, 16
+4537,349,0,bos,<|endoftext|>
+4538,349,1,the0,The
+4539,349,2,noun, drought
+4540,349,3,lasted, lasted
+4541,349,4,from, from
+4542,349,5,the1, the
+4543,349,6,year1, year
+4544,349,7,start_cc, 15
+4545,349,8,start_yy,92
+4546,349,9,to, to
+4547,349,10,the2, the
+4548,349,11,year2, year
+4549,349,12,end_cc, 15
+4550,350,0,bos,<|endoftext|>
+4551,350,1,the0,The
+4552,350,2,noun, drought
+4553,350,3,lasted, lasted
+4554,350,4,from, from
+4555,350,5,the1, the
+4556,350,6,year1, year
+4557,350,7,start_cc, 16
+4558,350,8,start_yy,91
+4559,350,9,to, to
+4560,350,10,the2, the
+4561,350,11,year2, year
+4562,350,12,end_cc, 16
+4563,351,0,bos,<|endoftext|>
+4564,351,1,the0,The
+4565,351,2,noun, reign
+4566,351,3,lasted, lasted
+4567,351,4,from, from
+4568,351,5,the1, the
+4569,351,6,year1, year
+4570,351,7,start_cc, 15
+4571,351,8,start_yy,96
+4572,351,9,to, to
+4573,351,10,the2, the
+4574,351,11,year2, year
+4575,351,12,end_cc, 15
+4576,352,0,bos,<|endoftext|>
+4577,352,1,the0,The
+4578,352,2,noun, expedition
+4579,352,3,lasted, lasted
+4580,352,4,from, from
+4581,352,5,the1, the
+4582,352,6,year1, year
+4583,352,7,start_cc, 14
+4584,352,8,start_yy,97
+4585,352,9,to, to
+4586,352,10,the2, the
+4587,352,11,year2, year
+4588,352,12,end_cc, 14
+4589,353,0,bos,<|endoftext|>
+4590,353,1,the0,The
+4591,353,2,noun, expedition
+4592,353,3,lasted, lasted
+4593,353,4,from, from
+4594,353,5,the1, the
+4595,353,6,year1, year
+4596,353,7,start_cc, 17
+4597,353,8,start_yy,95
+4598,353,9,to, to
+4599,353,10,the2, the
+4600,353,11,year2, year
+4601,353,12,end_cc, 17
+4602,354,0,bos,<|endoftext|>
+4603,354,1,the0,The
+4604,354,2,noun, conflict
+4605,354,3,lasted, lasted
+4606,354,4,from, from
+4607,354,5,the1, the
+4608,354,6,year1, year
+4609,354,7,start_cc, 16
+4610,354,8,start_yy,95
+4611,354,9,to, to
+4612,354,10,the2, the
+4613,354,11,year2, year
+4614,354,12,end_cc, 16
+4615,355,0,bos,<|endoftext|>
+4616,355,1,the0,The
+4617,355,2,noun, voyage
+4618,355,3,lasted, lasted
+4619,355,4,from, from
+4620,355,5,the1, the
+4621,355,6,year1, year
+4622,355,7,start_cc, 12
+4623,355,8,start_yy,91
+4624,355,9,to, to
+4625,355,10,the2, the
+4626,355,11,year2, year
+4627,355,12,end_cc, 12
+4628,356,0,bos,<|endoftext|>
+4629,356,1,the0,The
+4630,356,2,noun, expedition
+4631,356,3,lasted, lasted
+4632,356,4,from, from
+4633,356,5,the1, the
+4634,356,6,year1, year
+4635,356,7,start_cc, 12
+4636,356,8,start_yy,93
+4637,356,9,to, to
+4638,356,10,the2, the
+4639,356,11,year2, year
+4640,356,12,end_cc, 12
+4641,357,0,bos,<|endoftext|>
+4642,357,1,the0,The
+4643,357,2,noun, conflict
+4644,357,3,lasted, lasted
+4645,357,4,from, from
+4646,357,5,the1, the
+4647,357,6,year1, year
+4648,357,7,start_cc, 17
+4649,357,8,start_yy,98
+4650,357,9,to, to
+4651,357,10,the2, the
+4652,357,11,year2, year
+4653,357,12,end_cc, 17
+4654,358,0,bos,<|endoftext|>
+4655,358,1,the0,The
+4656,358,2,noun, expedition
+4657,358,3,lasted, lasted
+4658,358,4,from, from
+4659,358,5,the1, the
+4660,358,6,year1, year
+4661,358,7,start_cc, 15
+4662,358,8,start_yy,93
+4663,358,9,to, to
+4664,358,10,the2, the
+4665,358,11,year2, year
+4666,358,12,end_cc, 15
+4667,359,0,bos,<|endoftext|>
+4668,359,1,the0,The
+4669,359,2,noun, expedition
+4670,359,3,lasted, lasted
+4671,359,4,from, from
+4672,359,5,the1, the
+4673,359,6,year1, year
+4674,359,7,start_cc, 13
+4675,359,8,start_yy,92
+4676,359,9,to, to
+4677,359,10,the2, the
+4678,359,11,year2, year
+4679,359,12,end_cc, 13
+4680,360,0,bos,<|endoftext|>
+4681,360,1,the0,The
+4682,360,2,noun, war
+4683,360,3,lasted, lasted
+4684,360,4,from, from
+4685,360,5,the1, the
+4686,360,6,year1, year
+4687,360,7,start_cc, 13
+4688,360,8,start_yy,92
+4689,360,9,to, to
+4690,360,10,the2, the
+4691,360,11,year2, year
+4692,360,12,end_cc, 13
+4693,361,0,bos,<|endoftext|>
+4694,361,1,the0,The
+4695,361,2,noun, siege
+4696,361,3,lasted, lasted
+4697,361,4,from, from
+4698,361,5,the1, the
+4699,361,6,year1, year
+4700,361,7,start_cc, 15
+4701,361,8,start_yy,94
+4702,361,9,to, to
+4703,361,10,the2, the
+4704,361,11,year2, year
+4705,361,12,end_cc, 15
+4706,362,0,bos,<|endoftext|>
+4707,362,1,the0,The
+4708,362,2,noun, expedition
+4709,362,3,lasted, lasted
+4710,362,4,from, from
+4711,362,5,the1, the
+4712,362,6,year1, year
+4713,362,7,start_cc, 15
+4714,362,8,start_yy,95
+4715,362,9,to, to
+4716,362,10,the2, the
+4717,362,11,year2, year
+4718,362,12,end_cc, 15
+4719,363,0,bos,<|endoftext|>
+4720,363,1,the0,The
+4721,363,2,noun, war
+4722,363,3,lasted, lasted
+4723,363,4,from, from
+4724,363,5,the1, the
+4725,363,6,year1, year
+4726,363,7,start_cc, 12
+4727,363,8,start_yy,94
+4728,363,9,to, to
+4729,363,10,the2, the
+4730,363,11,year2, year
+4731,363,12,end_cc, 12
+4732,364,0,bos,<|endoftext|>
+4733,364,1,the0,The
+4734,364,2,noun, war
+4735,364,3,lasted, lasted
+4736,364,4,from, from
+4737,364,5,the1, the
+4738,364,6,year1, year
+4739,364,7,start_cc, 12
+4740,364,8,start_yy,96
+4741,364,9,to, to
+4742,364,10,the2, the
+4743,364,11,year2, year
+4744,364,12,end_cc, 12
+4745,365,0,bos,<|endoftext|>
+4746,365,1,the0,The
+4747,365,2,noun, conflict
+4748,365,3,lasted, lasted
+4749,365,4,from, from
+4750,365,5,the1, the
+4751,365,6,year1, year
+4752,365,7,start_cc, 16
+4753,365,8,start_yy,91
+4754,365,9,to, to
+4755,365,10,the2, the
+4756,365,11,year2, year
+4757,365,12,end_cc, 16
+4758,366,0,bos,<|endoftext|>
+4759,366,1,the0,The
+4760,366,2,noun, reign
+4761,366,3,lasted, lasted
+4762,366,4,from, from
+4763,366,5,the1, the
+4764,366,6,year1, year
+4765,366,7,start_cc, 14
+4766,366,8,start_yy,95
+4767,366,9,to, to
+4768,366,10,the2, the
+4769,366,11,year2, year
+4770,366,12,end_cc, 14
+4771,367,0,bos,<|endoftext|>
+4772,367,1,the0,The
+4773,367,2,noun, conflict
+4774,367,3,lasted, lasted
+4775,367,4,from, from
+4776,367,5,the1, the
+4777,367,6,year1, year
+4778,367,7,start_cc, 14
+4779,367,8,start_yy,98
+4780,367,9,to, to
+4781,367,10,the2, the
+4782,367,11,year2, year
+4783,367,12,end_cc, 14
+4784,368,0,bos,<|endoftext|>
+4785,368,1,the0,The
+4786,368,2,noun, expedition
+4787,368,3,lasted, lasted
+4788,368,4,from, from
+4789,368,5,the1, the
+4790,368,6,year1, year
+4791,368,7,start_cc, 15
+4792,368,8,start_yy,90
+4793,368,9,to, to
+4794,368,10,the2, the
+4795,368,11,year2, year
+4796,368,12,end_cc, 15
+4797,369,0,bos,<|endoftext|>
+4798,369,1,the0,The
+4799,369,2,noun, voyage
+4800,369,3,lasted, lasted
+4801,369,4,from, from
+4802,369,5,the1, the
+4803,369,6,year1, year
+4804,369,7,start_cc, 14
+4805,369,8,start_yy,90
+4806,369,9,to, to
+4807,369,10,the2, the
+4808,369,11,year2, year
+4809,369,12,end_cc, 14
+4810,370,0,bos,<|endoftext|>
+4811,370,1,the0,The
+4812,370,2,noun, war
+4813,370,3,lasted, lasted
+4814,370,4,from, from
+4815,370,5,the1, the
+4816,370,6,year1, year
+4817,370,7,start_cc, 14
+4818,370,8,start_yy,96
+4819,370,9,to, to
+4820,370,10,the2, the
+4821,370,11,year2, year
+4822,370,12,end_cc, 14
+4823,371,0,bos,<|endoftext|>
+4824,371,1,the0,The
+4825,371,2,noun, drought
+4826,371,3,lasted, lasted
+4827,371,4,from, from
+4828,371,5,the1, the
+4829,371,6,year1, year
+4830,371,7,start_cc, 16
+4831,371,8,start_yy,91
+4832,371,9,to, to
+4833,371,10,the2, the
+4834,371,11,year2, year
+4835,371,12,end_cc, 16
+4836,372,0,bos,<|endoftext|>
+4837,372,1,the0,The
+4838,372,2,noun, reign
+4839,372,3,lasted, lasted
+4840,372,4,from, from
+4841,372,5,the1, the
+4842,372,6,year1, year
+4843,372,7,start_cc, 16
+4844,372,8,start_yy,97
+4845,372,9,to, to
+4846,372,10,the2, the
+4847,372,11,year2, year
+4848,372,12,end_cc, 16
+4849,373,0,bos,<|endoftext|>
+4850,373,1,the0,The
+4851,373,2,noun, voyage
+4852,373,3,lasted, lasted
+4853,373,4,from, from
+4854,373,5,the1, the
+4855,373,6,year1, year
+4856,373,7,start_cc, 15
+4857,373,8,start_yy,98
+4858,373,9,to, to
+4859,373,10,the2, the
+4860,373,11,year2, year
+4861,373,12,end_cc, 15
+4862,374,0,bos,<|endoftext|>
+4863,374,1,the0,The
+4864,374,2,noun, famine
+4865,374,3,lasted, lasted
+4866,374,4,from, from
+4867,374,5,the1, the
+4868,374,6,year1, year
+4869,374,7,start_cc, 14
+4870,374,8,start_yy,98
+4871,374,9,to, to
+4872,374,10,the2, the
+4873,374,11,year2, year
+4874,374,12,end_cc, 14
+4875,375,0,bos,<|endoftext|>
+4876,375,1,the0,The
+4877,375,2,noun, voyage
+4878,375,3,lasted, lasted
+4879,375,4,from, from
+4880,375,5,the1, the
+4881,375,6,year1, year
+4882,375,7,start_cc, 14
+4883,375,8,start_yy,98
+4884,375,9,to, to
+4885,375,10,the2, the
+4886,375,11,year2, year
+4887,375,12,end_cc, 14
+4888,376,0,bos,<|endoftext|>
+4889,376,1,the0,The
+4890,376,2,noun, expedition
+4891,376,3,lasted, lasted
+4892,376,4,from, from
+4893,376,5,the1, the
+4894,376,6,year1, year
+4895,376,7,start_cc, 14
+4896,376,8,start_yy,97
+4897,376,9,to, to
+4898,376,10,the2, the
+4899,376,11,year2, year
+4900,376,12,end_cc, 14
+4901,377,0,bos,<|endoftext|>
+4902,377,1,the0,The
+4903,377,2,noun, expedition
+4904,377,3,lasted, lasted
+4905,377,4,from, from
+4906,377,5,the1, the
+4907,377,6,year1, year
+4908,377,7,start_cc, 14
+4909,377,8,start_yy,95
+4910,377,9,to, to
+4911,377,10,the2, the
+4912,377,11,year2, year
+4913,377,12,end_cc, 14
+4914,378,0,bos,<|endoftext|>
+4915,378,1,the0,The
+4916,378,2,noun, reign
+4917,378,3,lasted, lasted
+4918,378,4,from, from
+4919,378,5,the1, the
+4920,378,6,year1, year
+4921,378,7,start_cc, 14
+4922,378,8,start_yy,96
+4923,378,9,to, to
+4924,378,10,the2, the
+4925,378,11,year2, year
+4926,378,12,end_cc, 14
+4927,379,0,bos,<|endoftext|>
+4928,379,1,the0,The
+4929,379,2,noun, conflict
+4930,379,3,lasted, lasted
+4931,379,4,from, from
+4932,379,5,the1, the
+4933,379,6,year1, year
+4934,379,7,start_cc, 13
+4935,379,8,start_yy,96
+4936,379,9,to, to
+4937,379,10,the2, the
+4938,379,11,year2, year
+4939,379,12,end_cc, 13
+4940,380,0,bos,<|endoftext|>
+4941,380,1,the0,The
+4942,380,2,noun, famine
+4943,380,3,lasted, lasted
+4944,380,4,from, from
+4945,380,5,the1, the
+4946,380,6,year1, year
+4947,380,7,start_cc, 16
+4948,380,8,start_yy,94
+4949,380,9,to, to
+4950,380,10,the2, the
+4951,380,11,year2, year
+4952,380,12,end_cc, 16
+4953,381,0,bos,<|endoftext|>
+4954,381,1,the0,The
+4955,381,2,noun, famine
+4956,381,3,lasted, lasted
+4957,381,4,from, from
+4958,381,5,the1, the
+4959,381,6,year1, year
+4960,381,7,start_cc, 12
+4961,381,8,start_yy,97
+4962,381,9,to, to
+4963,381,10,the2, the
+4964,381,11,year2, year
+4965,381,12,end_cc, 12
+4966,382,0,bos,<|endoftext|>
+4967,382,1,the0,The
+4968,382,2,noun, conflict
+4969,382,3,lasted, lasted
+4970,382,4,from, from
+4971,382,5,the1, the
+4972,382,6,year1, year
+4973,382,7,start_cc, 14
+4974,382,8,start_yy,91
+4975,382,9,to, to
+4976,382,10,the2, the
+4977,382,11,year2, year
+4978,382,12,end_cc, 14
+4979,383,0,bos,<|endoftext|>
+4980,383,1,the0,The
+4981,383,2,noun, famine
+4982,383,3,lasted, lasted
+4983,383,4,from, from
+4984,383,5,the1, the
+4985,383,6,year1, year
+4986,383,7,start_cc, 17
+4987,383,8,start_yy,92
+4988,383,9,to, to
+4989,383,10,the2, the
+4990,383,11,year2, year
+4991,383,12,end_cc, 17
+4992,384,0,bos,<|endoftext|>
+4993,384,1,the0,The
+4994,384,2,noun, war
+4995,384,3,lasted, lasted
+4996,384,4,from, from
+4997,384,5,the1, the
+4998,384,6,year1, year
+4999,384,7,start_cc, 15
+5000,384,8,start_yy,98
+5001,384,9,to, to
+5002,384,10,the2, the
+5003,384,11,year2, year
+5004,384,12,end_cc, 15
+5005,385,0,bos,<|endoftext|>
+5006,385,1,the0,The
+5007,385,2,noun, famine
+5008,385,3,lasted, lasted
+5009,385,4,from, from
+5010,385,5,the1, the
+5011,385,6,year1, year
+5012,385,7,start_cc, 16
+5013,385,8,start_yy,91
+5014,385,9,to, to
+5015,385,10,the2, the
+5016,385,11,year2, year
+5017,385,12,end_cc, 16
+5018,386,0,bos,<|endoftext|>
+5019,386,1,the0,The
+5020,386,2,noun, drought
+5021,386,3,lasted, lasted
+5022,386,4,from, from
+5023,386,5,the1, the
+5024,386,6,year1, year
+5025,386,7,start_cc, 13
+5026,386,8,start_yy,96
+5027,386,9,to, to
+5028,386,10,the2, the
+5029,386,11,year2, year
+5030,386,12,end_cc, 13
+5031,387,0,bos,<|endoftext|>
+5032,387,1,the0,The
+5033,387,2,noun, war
+5034,387,3,lasted, lasted
+5035,387,4,from, from
+5036,387,5,the1, the
+5037,387,6,year1, year
+5038,387,7,start_cc, 13
+5039,387,8,start_yy,94
+5040,387,9,to, to
+5041,387,10,the2, the
+5042,387,11,year2, year
+5043,387,12,end_cc, 13
+5044,388,0,bos,<|endoftext|>
+5045,388,1,the0,The
+5046,388,2,noun, expedition
+5047,388,3,lasted, lasted
+5048,388,4,from, from
+5049,388,5,the1, the
+5050,388,6,year1, year
+5051,388,7,start_cc, 12
+5052,388,8,start_yy,97
+5053,388,9,to, to
+5054,388,10,the2, the
+5055,388,11,year2, year
+5056,388,12,end_cc, 12
+5057,389,0,bos,<|endoftext|>
+5058,389,1,the0,The
+5059,389,2,noun, expedition
+5060,389,3,lasted, lasted
+5061,389,4,from, from
+5062,389,5,the1, the
+5063,389,6,year1, year
+5064,389,7,start_cc, 17
+5065,389,8,start_yy,91
+5066,389,9,to, to
+5067,389,10,the2, the
+5068,389,11,year2, year
+5069,389,12,end_cc, 17
+5070,390,0,bos,<|endoftext|>
+5071,390,1,the0,The
+5072,390,2,noun, famine
+5073,390,3,lasted, lasted
+5074,390,4,from, from
+5075,390,5,the1, the
+5076,390,6,year1, year
+5077,390,7,start_cc, 17
+5078,390,8,start_yy,98
+5079,390,9,to, to
+5080,390,10,the2, the
+5081,390,11,year2, year
+5082,390,12,end_cc, 17
+5083,391,0,bos,<|endoftext|>
+5084,391,1,the0,The
+5085,391,2,noun, expedition
+5086,391,3,lasted, lasted
+5087,391,4,from, from
+5088,391,5,the1, the
+5089,391,6,year1, year
+5090,391,7,start_cc, 17
+5091,391,8,start_yy,96
+5092,391,9,to, to
+5093,391,10,the2, the
+5094,391,11,year2, year
+5095,391,12,end_cc, 17
+5096,392,0,bos,<|endoftext|>
+5097,392,1,the0,The
+5098,392,2,noun, war
+5099,392,3,lasted, lasted
+5100,392,4,from, from
+5101,392,5,the1, the
+5102,392,6,year1, year
+5103,392,7,start_cc, 15
+5104,392,8,start_yy,94
+5105,392,9,to, to
+5106,392,10,the2, the
+5107,392,11,year2, year
+5108,392,12,end_cc, 15
+5109,393,0,bos,<|endoftext|>
+5110,393,1,the0,The
+5111,393,2,noun, war
+5112,393,3,lasted, lasted
+5113,393,4,from, from
+5114,393,5,the1, the
+5115,393,6,year1, year
+5116,393,7,start_cc, 12
+5117,393,8,start_yy,94
+5118,393,9,to, to
+5119,393,10,the2, the
+5120,393,11,year2, year
+5121,393,12,end_cc, 12
+5122,394,0,bos,<|endoftext|>
+5123,394,1,the0,The
+5124,394,2,noun, voyage
+5125,394,3,lasted, lasted
+5126,394,4,from, from
+5127,394,5,the1, the
+5128,394,6,year1, year
+5129,394,7,start_cc, 13
+5130,394,8,start_yy,95
+5131,394,9,to, to
+5132,394,10,the2, the
+5133,394,11,year2, year
+5134,394,12,end_cc, 13
+5135,395,0,bos,<|endoftext|>
+5136,395,1,the0,The
+5137,395,2,noun, war
+5138,395,3,lasted, lasted
+5139,395,4,from, from
+5140,395,5,the1, the
+5141,395,6,year1, year
+5142,395,7,start_cc, 12
+5143,395,8,start_yy,92
+5144,395,9,to, to
+5145,395,10,the2, the
+5146,395,11,year2, year
+5147,395,12,end_cc, 12
+5148,396,0,bos,<|endoftext|>
+5149,396,1,the0,The
+5150,396,2,noun, expedition
+5151,396,3,lasted, lasted
+5152,396,4,from, from
+5153,396,5,the1, the
+5154,396,6,year1, year
+5155,396,7,start_cc, 14
+5156,396,8,start_yy,96
+5157,396,9,to, to
+5158,396,10,the2, the
+5159,396,11,year2, year
+5160,396,12,end_cc, 14
+5161,397,0,bos,<|endoftext|>
+5162,397,1,the0,The
+5163,397,2,noun, reign
+5164,397,3,lasted, lasted
+5165,397,4,from, from
+5166,397,5,the1, the
+5167,397,6,year1, year
+5168,397,7,start_cc, 13
+5169,397,8,start_yy,92
+5170,397,9,to, to
+5171,397,10,the2, the
+5172,397,11,year2, year
+5173,397,12,end_cc, 13
+5174,398,0,bos,<|endoftext|>
+5175,398,1,the0,The
+5176,398,2,noun, famine
+5177,398,3,lasted, lasted
+5178,398,4,from, from
+5179,398,5,the1, the
+5180,398,6,year1, year
+5181,398,7,start_cc, 13
+5182,398,8,start_yy,95
+5183,398,9,to, to
+5184,398,10,the2, the
+5185,398,11,year2, year
+5186,398,12,end_cc, 13
+5187,399,0,bos,<|endoftext|>
+5188,399,1,the0,The
+5189,399,2,noun, siege
+5190,399,3,lasted, lasted
+5191,399,4,from, from
+5192,399,5,the1, the
+5193,399,6,year1, year
+5194,399,7,start_cc, 17
+5195,399,8,start_yy,90
+5196,399,9,to, to
+5197,399,10,the2, the
+5198,399,11,year2, year
+5199,399,12,end_cc, 17
+5200,400,0,bos,<|endoftext|>
+5201,400,1,the0,The
+5202,400,2,noun, conflict
+5203,400,3,lasted, lasted
+5204,400,4,from, from
+5205,400,5,the1, the
+5206,400,6,year1, year
+5207,400,7,start_cc, 13
+5208,400,8,start_yy,97
+5209,400,9,to, to
+5210,400,10,the2, the
+5211,400,11,year2, year
+5212,400,12,end_cc, 13
+5213,401,0,bos,<|endoftext|>
+5214,401,1,the0,The
+5215,401,2,noun, drought
+5216,401,3,lasted, lasted
+5217,401,4,from, from
+5218,401,5,the1, the
+5219,401,6,year1, year
+5220,401,7,start_cc, 14
+5221,401,8,start_yy,97
+5222,401,9,to, to
+5223,401,10,the2, the
+5224,401,11,year2, year
+5225,401,12,end_cc, 14
+5226,402,0,bos,<|endoftext|>
+5227,402,1,the0,The
+5228,402,2,noun, drought
+5229,402,3,lasted, lasted
+5230,402,4,from, from
+5231,402,5,the1, the
+5232,402,6,year1, year
+5233,402,7,start_cc, 13
+5234,402,8,start_yy,93
+5235,402,9,to, to
+5236,402,10,the2, the
+5237,402,11,year2, year
+5238,402,12,end_cc, 13
+5239,403,0,bos,<|endoftext|>
+5240,403,1,the0,The
+5241,403,2,noun, conflict
+5242,403,3,lasted, lasted
+5243,403,4,from, from
+5244,403,5,the1, the
+5245,403,6,year1, year
+5246,403,7,start_cc, 13
+5247,403,8,start_yy,96
+5248,403,9,to, to
+5249,403,10,the2, the
+5250,403,11,year2, year
+5251,403,12,end_cc, 13
+5252,404,0,bos,<|endoftext|>
+5253,404,1,the0,The
+5254,404,2,noun, conflict
+5255,404,3,lasted, lasted
+5256,404,4,from, from
+5257,404,5,the1, the
+5258,404,6,year1, year
+5259,404,7,start_cc, 13
+5260,404,8,start_yy,97
+5261,404,9,to, to
+5262,404,10,the2, the
+5263,404,11,year2, year
+5264,404,12,end_cc, 13
+5265,405,0,bos,<|endoftext|>
+5266,405,1,the0,The
+5267,405,2,noun, drought
+5268,405,3,lasted, lasted
+5269,405,4,from, from
+5270,405,5,the1, the
+5271,405,6,year1, year
+5272,405,7,start_cc, 15
+5273,405,8,start_yy,90
+5274,405,9,to, to
+5275,405,10,the2, the
+5276,405,11,year2, year
+5277,405,12,end_cc, 15
+5278,406,0,bos,<|endoftext|>
+5279,406,1,the0,The
+5280,406,2,noun, war
+5281,406,3,lasted, lasted
+5282,406,4,from, from
+5283,406,5,the1, the
+5284,406,6,year1, year
+5285,406,7,start_cc, 12
+5286,406,8,start_yy,94
+5287,406,9,to, to
+5288,406,10,the2, the
+5289,406,11,year2, year
+5290,406,12,end_cc, 12
+5291,407,0,bos,<|endoftext|>
+5292,407,1,the0,The
+5293,407,2,noun, expedition
+5294,407,3,lasted, lasted
+5295,407,4,from, from
+5296,407,5,the1, the
+5297,407,6,year1, year
+5298,407,7,start_cc, 17
+5299,407,8,start_yy,92
+5300,407,9,to, to
+5301,407,10,the2, the
+5302,407,11,year2, year
+5303,407,12,end_cc, 17
+5304,408,0,bos,<|endoftext|>
+5305,408,1,the0,The
+5306,408,2,noun, voyage
+5307,408,3,lasted, lasted
+5308,408,4,from, from
+5309,408,5,the1, the
+5310,408,6,year1, year
+5311,408,7,start_cc, 13
+5312,408,8,start_yy,95
+5313,408,9,to, to
+5314,408,10,the2, the
+5315,408,11,year2, year
+5316,408,12,end_cc, 13
+5317,409,0,bos,<|endoftext|>
+5318,409,1,the0,The
+5319,409,2,noun, drought
+5320,409,3,lasted, lasted
+5321,409,4,from, from
+5322,409,5,the1, the
+5323,409,6,year1, year
+5324,409,7,start_cc, 12
+5325,409,8,start_yy,92
+5326,409,9,to, to
+5327,409,10,the2, the
+5328,409,11,year2, year
+5329,409,12,end_cc, 12
+5330,410,0,bos,<|endoftext|>
+5331,410,1,the0,The
+5332,410,2,noun, drought
+5333,410,3,lasted, lasted
+5334,410,4,from, from
+5335,410,5,the1, the
+5336,410,6,year1, year
+5337,410,7,start_cc, 15
+5338,410,8,start_yy,93
+5339,410,9,to, to
+5340,410,10,the2, the
+5341,410,11,year2, year
+5342,410,12,end_cc, 15
+5343,411,0,bos,<|endoftext|>
+5344,411,1,the0,The
+5345,411,2,noun, war
+5346,411,3,lasted, lasted
+5347,411,4,from, from
+5348,411,5,the1, the
+5349,411,6,year1, year
+5350,411,7,start_cc, 14
+5351,411,8,start_yy,90
+5352,411,9,to, to
+5353,411,10,the2, the
+5354,411,11,year2, year
+5355,411,12,end_cc, 14
+5356,412,0,bos,<|endoftext|>
+5357,412,1,the0,The
+5358,412,2,noun, drought
+5359,412,3,lasted, lasted
+5360,412,4,from, from
+5361,412,5,the1, the
+5362,412,6,year1, year
+5363,412,7,start_cc, 15
+5364,412,8,start_yy,96
+5365,412,9,to, to
+5366,412,10,the2, the
+5367,412,11,year2, year
+5368,412,12,end_cc, 15
+5369,413,0,bos,<|endoftext|>
+5370,413,1,the0,The
+5371,413,2,noun, drought
+5372,413,3,lasted, lasted
+5373,413,4,from, from
+5374,413,5,the1, the
+5375,413,6,year1, year
+5376,413,7,start_cc, 13
+5377,413,8,start_yy,91
+5378,413,9,to, to
+5379,413,10,the2, the
+5380,413,11,year2, year
+5381,413,12,end_cc, 13
+5382,414,0,bos,<|endoftext|>
+5383,414,1,the0,The
+5384,414,2,noun, siege
+5385,414,3,lasted, lasted
+5386,414,4,from, from
+5387,414,5,the1, the
+5388,414,6,year1, year
+5389,414,7,start_cc, 17
+5390,414,8,start_yy,97
+5391,414,9,to, to
+5392,414,10,the2, the
+5393,414,11,year2, year
+5394,414,12,end_cc, 17
+5395,415,0,bos,<|endoftext|>
+5396,415,1,the0,The
+5397,415,2,noun, conflict
+5398,415,3,lasted, lasted
+5399,415,4,from, from
+5400,415,5,the1, the
+5401,415,6,year1, year
+5402,415,7,start_cc, 12
+5403,415,8,start_yy,96
+5404,415,9,to, to
+5405,415,10,the2, the
+5406,415,11,year2, year
+5407,415,12,end_cc, 12
+5408,416,0,bos,<|endoftext|>
+5409,416,1,the0,The
+5410,416,2,noun, drought
+5411,416,3,lasted, lasted
+5412,416,4,from, from
+5413,416,5,the1, the
+5414,416,6,year1, year
+5415,416,7,start_cc, 15
+5416,416,8,start_yy,91
+5417,416,9,to, to
+5418,416,10,the2, the
+5419,416,11,year2, year
+5420,416,12,end_cc, 15
+5421,417,0,bos,<|endoftext|>
+5422,417,1,the0,The
+5423,417,2,noun, drought
+5424,417,3,lasted, lasted
+5425,417,4,from, from
+5426,417,5,the1, the
+5427,417,6,year1, year
+5428,417,7,start_cc, 17
+5429,417,8,start_yy,94
+5430,417,9,to, to
+5431,417,10,the2, the
+5432,417,11,year2, year
+5433,417,12,end_cc, 17
+5434,418,0,bos,<|endoftext|>
+5435,418,1,the0,The
+5436,418,2,noun, famine
+5437,418,3,lasted, lasted
+5438,418,4,from, from
+5439,418,5,the1, the
+5440,418,6,year1, year
+5441,418,7,start_cc, 12
+5442,418,8,start_yy,95
+5443,418,9,to, to
+5444,418,10,the2, the
+5445,418,11,year2, year
+5446,418,12,end_cc, 12
+5447,419,0,bos,<|endoftext|>
+5448,419,1,the0,The
+5449,419,2,noun, conflict
+5450,419,3,lasted, lasted
+5451,419,4,from, from
+5452,419,5,the1, the
+5453,419,6,year1, year
+5454,419,7,start_cc, 15
+5455,419,8,start_yy,98
+5456,419,9,to, to
+5457,419,10,the2, the
+5458,419,11,year2, year
+5459,419,12,end_cc, 15
+5460,420,0,bos,<|endoftext|>
+5461,420,1,the0,The
+5462,420,2,noun, expedition
+5463,420,3,lasted, lasted
+5464,420,4,from, from
+5465,420,5,the1, the
+5466,420,6,year1, year
+5467,420,7,start_cc, 17
+5468,420,8,start_yy,95
+5469,420,9,to, to
+5470,420,10,the2, the
+5471,420,11,year2, year
+5472,420,12,end_cc, 17
+5473,421,0,bos,<|endoftext|>
+5474,421,1,the0,The
+5475,421,2,noun, famine
+5476,421,3,lasted, lasted
+5477,421,4,from, from
+5478,421,5,the1, the
+5479,421,6,year1, year
+5480,421,7,start_cc, 16
+5481,421,8,start_yy,92
+5482,421,9,to, to
+5483,421,10,the2, the
+5484,421,11,year2, year
+5485,421,12,end_cc, 16
+5486,422,0,bos,<|endoftext|>
+5487,422,1,the0,The
+5488,422,2,noun, voyage
+5489,422,3,lasted, lasted
+5490,422,4,from, from
+5491,422,5,the1, the
+5492,422,6,year1, year
+5493,422,7,start_cc, 12
+5494,422,8,start_yy,92
+5495,422,9,to, to
+5496,422,10,the2, the
+5497,422,11,year2, year
+5498,422,12,end_cc, 12
+5499,423,0,bos,<|endoftext|>
+5500,423,1,the0,The
+5501,423,2,noun, siege
+5502,423,3,lasted, lasted
+5503,423,4,from, from
+5504,423,5,the1, the
+5505,423,6,year1, year
+5506,423,7,start_cc, 17
+5507,423,8,start_yy,91
+5508,423,9,to, to
+5509,423,10,the2, the
+5510,423,11,year2, year
+5511,423,12,end_cc, 17
+5512,424,0,bos,<|endoftext|>
+5513,424,1,the0,The
+5514,424,2,noun, siege
+5515,424,3,lasted, lasted
+5516,424,4,from, from
+5517,424,5,the1, the
+5518,424,6,year1, year
+5519,424,7,start_cc, 17
+5520,424,8,start_yy,97
+5521,424,9,to, to
+5522,424,10,the2, the
+5523,424,11,year2, year
+5524,424,12,end_cc, 17
+5525,425,0,bos,<|endoftext|>
+5526,425,1,the0,The
+5527,425,2,noun, reign
+5528,425,3,lasted, lasted
+5529,425,4,from, from
+5530,425,5,the1, the
+5531,425,6,year1, year
+5532,425,7,start_cc, 17
+5533,425,8,start_yy,97
+5534,425,9,to, to
+5535,425,10,the2, the
+5536,425,11,year2, year
+5537,425,12,end_cc, 17
+5538,426,0,bos,<|endoftext|>
+5539,426,1,the0,The
+5540,426,2,noun, famine
+5541,426,3,lasted, lasted
+5542,426,4,from, from
+5543,426,5,the1, the
+5544,426,6,year1, year
+5545,426,7,start_cc, 17
+5546,426,8,start_yy,95
+5547,426,9,to, to
+5548,426,10,the2, the
+5549,426,11,year2, year
+5550,426,12,end_cc, 17
+5551,427,0,bos,<|endoftext|>
+5552,427,1,the0,The
+5553,427,2,noun, siege
+5554,427,3,lasted, lasted
+5555,427,4,from, from
+5556,427,5,the1, the
+5557,427,6,year1, year
+5558,427,7,start_cc, 14
+5559,427,8,start_yy,91
+5560,427,9,to, to
+5561,427,10,the2, the
+5562,427,11,year2, year
+5563,427,12,end_cc, 14
+5564,428,0,bos,<|endoftext|>
+5565,428,1,the0,The
+5566,428,2,noun, reign
+5567,428,3,lasted, lasted
+5568,428,4,from, from
+5569,428,5,the1, the
+5570,428,6,year1, year
+5571,428,7,start_cc, 14
+5572,428,8,start_yy,94
+5573,428,9,to, to
+5574,428,10,the2, the
+5575,428,11,year2, year
+5576,428,12,end_cc, 14
+5577,429,0,bos,<|endoftext|>
+5578,429,1,the0,The
+5579,429,2,noun, voyage
+5580,429,3,lasted, lasted
+5581,429,4,from, from
+5582,429,5,the1, the
+5583,429,6,year1, year
+5584,429,7,start_cc, 15
+5585,429,8,start_yy,90
+5586,429,9,to, to
+5587,429,10,the2, the
+5588,429,11,year2, year
+5589,429,12,end_cc, 15
+5590,430,0,bos,<|endoftext|>
+5591,430,1,the0,The
+5592,430,2,noun, famine
+5593,430,3,lasted, lasted
+5594,430,4,from, from
+5595,430,5,the1, the
+5596,430,6,year1, year
+5597,430,7,start_cc, 15
+5598,430,8,start_yy,91
+5599,430,9,to, to
+5600,430,10,the2, the
+5601,430,11,year2, year
+5602,430,12,end_cc, 15
+5603,431,0,bos,<|endoftext|>
+5604,431,1,the0,The
+5605,431,2,noun, voyage
+5606,431,3,lasted, lasted
+5607,431,4,from, from
+5608,431,5,the1, the
+5609,431,6,year1, year
+5610,431,7,start_cc, 14
+5611,431,8,start_yy,97
+5612,431,9,to, to
+5613,431,10,the2, the
+5614,431,11,year2, year
+5615,431,12,end_cc, 14
+5616,432,0,bos,<|endoftext|>
+5617,432,1,the0,The
+5618,432,2,noun, drought
+5619,432,3,lasted, lasted
+5620,432,4,from, from
+5621,432,5,the1, the
+5622,432,6,year1, year
+5623,432,7,start_cc, 14
+5624,432,8,start_yy,98
+5625,432,9,to, to
+5626,432,10,the2, the
+5627,432,11,year2, year
+5628,432,12,end_cc, 14
+5629,433,0,bos,<|endoftext|>
+5630,433,1,the0,The
+5631,433,2,noun, war
+5632,433,3,lasted, lasted
+5633,433,4,from, from
+5634,433,5,the1, the
+5635,433,6,year1, year
+5636,433,7,start_cc, 14
+5637,433,8,start_yy,93
+5638,433,9,to, to
+5639,433,10,the2, the
+5640,433,11,year2, year
+5641,433,12,end_cc, 14
+5642,434,0,bos,<|endoftext|>
+5643,434,1,the0,The
+5644,434,2,noun, famine
+5645,434,3,lasted, lasted
+5646,434,4,from, from
+5647,434,5,the1, the
+5648,434,6,year1, year
+5649,434,7,start_cc, 15
+5650,434,8,start_yy,97
+5651,434,9,to, to
+5652,434,10,the2, the
+5653,434,11,year2, year
+5654,434,12,end_cc, 15
+5655,435,0,bos,<|endoftext|>
+5656,435,1,the0,The
+5657,435,2,noun, conflict
+5658,435,3,lasted, lasted
+5659,435,4,from, from
+5660,435,5,the1, the
+5661,435,6,year1, year
+5662,435,7,start_cc, 17
+5663,435,8,start_yy,95
+5664,435,9,to, to
+5665,435,10,the2, the
+5666,435,11,year2, year
+5667,435,12,end_cc, 17
+5668,436,0,bos,<|endoftext|>
+5669,436,1,the0,The
+5670,436,2,noun, conflict
+5671,436,3,lasted, lasted
+5672,436,4,from, from
+5673,436,5,the1, the
+5674,436,6,year1, year
+5675,436,7,start_cc, 15
+5676,436,8,start_yy,92
+5677,436,9,to, to
+5678,436,10,the2, the
+5679,436,11,year2, year
+5680,436,12,end_cc, 15
+5681,437,0,bos,<|endoftext|>
+5682,437,1,the0,The
+5683,437,2,noun, war
+5684,437,3,lasted, lasted
+5685,437,4,from, from
+5686,437,5,the1, the
+5687,437,6,year1, year
+5688,437,7,start_cc, 12
+5689,437,8,start_yy,97
+5690,437,9,to, to
+5691,437,10,the2, the
+5692,437,11,year2, year
+5693,437,12,end_cc, 12
+5694,438,0,bos,<|endoftext|>
+5695,438,1,the0,The
+5696,438,2,noun, reign
+5697,438,3,lasted, lasted
+5698,438,4,from, from
+5699,438,5,the1, the
+5700,438,6,year1, year
+5701,438,7,start_cc, 15
+5702,438,8,start_yy,98
+5703,438,9,to, to
+5704,438,10,the2, the
+5705,438,11,year2, year
+5706,438,12,end_cc, 15
+5707,439,0,bos,<|endoftext|>
+5708,439,1,the0,The
+5709,439,2,noun, siege
+5710,439,3,lasted, lasted
+5711,439,4,from, from
+5712,439,5,the1, the
+5713,439,6,year1, year
+5714,439,7,start_cc, 13
+5715,439,8,start_yy,95
+5716,439,9,to, to
+5717,439,10,the2, the
+5718,439,11,year2, year
+5719,439,12,end_cc, 13
+5720,440,0,bos,<|endoftext|>
+5721,440,1,the0,The
+5722,440,2,noun, voyage
+5723,440,3,lasted, lasted
+5724,440,4,from, from
+5725,440,5,the1, the
+5726,440,6,year1, year
+5727,440,7,start_cc, 14
+5728,440,8,start_yy,96
+5729,440,9,to, to
+5730,440,10,the2, the
+5731,440,11,year2, year
+5732,440,12,end_cc, 14
+5733,441,0,bos,<|endoftext|>
+5734,441,1,the0,The
+5735,441,2,noun, famine
+5736,441,3,lasted, lasted
+5737,441,4,from, from
+5738,441,5,the1, the
+5739,441,6,year1, year
+5740,441,7,start_cc, 16
+5741,441,8,start_yy,90
+5742,441,9,to, to
+5743,441,10,the2, the
+5744,441,11,year2, year
+5745,441,12,end_cc, 16
+5746,442,0,bos,<|endoftext|>
+5747,442,1,the0,The
+5748,442,2,noun, conflict
+5749,442,3,lasted, lasted
+5750,442,4,from, from
+5751,442,5,the1, the
+5752,442,6,year1, year
+5753,442,7,start_cc, 15
+5754,442,8,start_yy,96
+5755,442,9,to, to
+5756,442,10,the2, the
+5757,442,11,year2, year
+5758,442,12,end_cc, 15
+5759,443,0,bos,<|endoftext|>
+5760,443,1,the0,The
+5761,443,2,noun, voyage
+5762,443,3,lasted, lasted
+5763,443,4,from, from
+5764,443,5,the1, the
+5765,443,6,year1, year
+5766,443,7,start_cc, 13
+5767,443,8,start_yy,92
+5768,443,9,to, to
+5769,443,10,the2, the
+5770,443,11,year2, year
+5771,443,12,end_cc, 13
+5772,444,0,bos,<|endoftext|>
+5773,444,1,the0,The
+5774,444,2,noun, famine
+5775,444,3,lasted, lasted
+5776,444,4,from, from
+5777,444,5,the1, the
+5778,444,6,year1, year
+5779,444,7,start_cc, 13
+5780,444,8,start_yy,96
+5781,444,9,to, to
+5782,444,10,the2, the
+5783,444,11,year2, year
+5784,444,12,end_cc, 13
+5785,445,0,bos,<|endoftext|>
+5786,445,1,the0,The
+5787,445,2,noun, siege
+5788,445,3,lasted, lasted
+5789,445,4,from, from
+5790,445,5,the1, the
+5791,445,6,year1, year
+5792,445,7,start_cc, 15
+5793,445,8,start_yy,91
+5794,445,9,to, to
+5795,445,10,the2, the
+5796,445,11,year2, year
+5797,445,12,end_cc, 15
+5798,446,0,bos,<|endoftext|>
+5799,446,1,the0,The
+5800,446,2,noun, voyage
+5801,446,3,lasted, lasted
+5802,446,4,from, from
+5803,446,5,the1, the
+5804,446,6,year1, year
+5805,446,7,start_cc, 15
+5806,446,8,start_yy,96
+5807,446,9,to, to
+5808,446,10,the2, the
+5809,446,11,year2, year
+5810,446,12,end_cc, 15
+5811,447,0,bos,<|endoftext|>
+5812,447,1,the0,The
+5813,447,2,noun, famine
+5814,447,3,lasted, lasted
+5815,447,4,from, from
+5816,447,5,the1, the
+5817,447,6,year1, year
+5818,447,7,start_cc, 17
+5819,447,8,start_yy,92
+5820,447,9,to, to
+5821,447,10,the2, the
+5822,447,11,year2, year
+5823,447,12,end_cc, 17
+5824,448,0,bos,<|endoftext|>
+5825,448,1,the0,The
+5826,448,2,noun, conflict
+5827,448,3,lasted, lasted
+5828,448,4,from, from
+5829,448,5,the1, the
+5830,448,6,year1, year
+5831,448,7,start_cc, 16
+5832,448,8,start_yy,96
+5833,448,9,to, to
+5834,448,10,the2, the
+5835,448,11,year2, year
+5836,448,12,end_cc, 16
+5837,449,0,bos,<|endoftext|>
+5838,449,1,the0,The
+5839,449,2,noun, voyage
+5840,449,3,lasted, lasted
+5841,449,4,from, from
+5842,449,5,the1, the
+5843,449,6,year1, year
+5844,449,7,start_cc, 12
+5845,449,8,start_yy,93
+5846,449,9,to, to
+5847,449,10,the2, the
+5848,449,11,year2, year
+5849,449,12,end_cc, 12
+5850,450,0,bos,<|endoftext|>
+5851,450,1,the0,The
+5852,450,2,noun, famine
+5853,450,3,lasted, lasted
+5854,450,4,from, from
+5855,450,5,the1, the
+5856,450,6,year1, year
+5857,450,7,start_cc, 17
+5858,450,8,start_yy,97
+5859,450,9,to, to
+5860,450,10,the2, the
+5861,450,11,year2, year
+5862,450,12,end_cc, 17
+5863,451,0,bos,<|endoftext|>
+5864,451,1,the0,The
+5865,451,2,noun, expedition
+5866,451,3,lasted, lasted
+5867,451,4,from, from
+5868,451,5,the1, the
+5869,451,6,year1, year
+5870,451,7,start_cc, 12
+5871,451,8,start_yy,92
+5872,451,9,to, to
+5873,451,10,the2, the
+5874,451,11,year2, year
+5875,451,12,end_cc, 12
+5876,452,0,bos,<|endoftext|>
+5877,452,1,the0,The
+5878,452,2,noun, conflict
+5879,452,3,lasted, lasted
+5880,452,4,from, from
+5881,452,5,the1, the
+5882,452,6,year1, year
+5883,452,7,start_cc, 15
+5884,452,8,start_yy,98
+5885,452,9,to, to
+5886,452,10,the2, the
+5887,452,11,year2, year
+5888,452,12,end_cc, 15
+5889,453,0,bos,<|endoftext|>
+5890,453,1,the0,The
+5891,453,2,noun, war
+5892,453,3,lasted, lasted
+5893,453,4,from, from
+5894,453,5,the1, the
+5895,453,6,year1, year
+5896,453,7,start_cc, 16
+5897,453,8,start_yy,95
+5898,453,9,to, to
+5899,453,10,the2, the
+5900,453,11,year2, year
+5901,453,12,end_cc, 16
+5902,454,0,bos,<|endoftext|>
+5903,454,1,the0,The
+5904,454,2,noun, siege
+5905,454,3,lasted, lasted
+5906,454,4,from, from
+5907,454,5,the1, the
+5908,454,6,year1, year
+5909,454,7,start_cc, 15
+5910,454,8,start_yy,96
+5911,454,9,to, to
+5912,454,10,the2, the
+5913,454,11,year2, year
+5914,454,12,end_cc, 15
+5915,455,0,bos,<|endoftext|>
+5916,455,1,the0,The
+5917,455,2,noun, siege
+5918,455,3,lasted, lasted
+5919,455,4,from, from
+5920,455,5,the1, the
+5921,455,6,year1, year
+5922,455,7,start_cc, 12
+5923,455,8,start_yy,92
+5924,455,9,to, to
+5925,455,10,the2, the
+5926,455,11,year2, year
+5927,455,12,end_cc, 12
+5928,456,0,bos,<|endoftext|>
+5929,456,1,the0,The
+5930,456,2,noun, siege
+5931,456,3,lasted, lasted
+5932,456,4,from, from
+5933,456,5,the1, the
+5934,456,6,year1, year
+5935,456,7,start_cc, 16
+5936,456,8,start_yy,97
+5937,456,9,to, to
+5938,456,10,the2, the
+5939,456,11,year2, year
+5940,456,12,end_cc, 16
+5941,457,0,bos,<|endoftext|>
+5942,457,1,the0,The
+5943,457,2,noun, war
+5944,457,3,lasted, lasted
+5945,457,4,from, from
+5946,457,5,the1, the
+5947,457,6,year1, year
+5948,457,7,start_cc, 14
+5949,457,8,start_yy,95
+5950,457,9,to, to
+5951,457,10,the2, the
+5952,457,11,year2, year
+5953,457,12,end_cc, 14
+5954,458,0,bos,<|endoftext|>
+5955,458,1,the0,The
+5956,458,2,noun, expedition
+5957,458,3,lasted, lasted
+5958,458,4,from, from
+5959,458,5,the1, the
+5960,458,6,year1, year
+5961,458,7,start_cc, 14
+5962,458,8,start_yy,94
+5963,458,9,to, to
+5964,458,10,the2, the
+5965,458,11,year2, year
+5966,458,12,end_cc, 14
+5967,459,0,bos,<|endoftext|>
+5968,459,1,the0,The
+5969,459,2,noun, reign
+5970,459,3,lasted, lasted
+5971,459,4,from, from
+5972,459,5,the1, the
+5973,459,6,year1, year
+5974,459,7,start_cc, 12
+5975,459,8,start_yy,98
+5976,459,9,to, to
+5977,459,10,the2, the
+5978,459,11,year2, year
+5979,459,12,end_cc, 12
+5980,460,0,bos,<|endoftext|>
+5981,460,1,the0,The
+5982,460,2,noun, expedition
+5983,460,3,lasted, lasted
+5984,460,4,from, from
+5985,460,5,the1, the
+5986,460,6,year1, year
+5987,460,7,start_cc, 13
+5988,460,8,start_yy,97
+5989,460,9,to, to
+5990,460,10,the2, the
+5991,460,11,year2, year
+5992,460,12,end_cc, 13
+5993,461,0,bos,<|endoftext|>
+5994,461,1,the0,The
+5995,461,2,noun, expedition
+5996,461,3,lasted, lasted
+5997,461,4,from, from
+5998,461,5,the1, the
+5999,461,6,year1, year
+6000,461,7,start_cc, 13
+6001,461,8,start_yy,97
+6002,461,9,to, to
+6003,461,10,the2, the
+6004,461,11,year2, year
+6005,461,12,end_cc, 13
+6006,462,0,bos,<|endoftext|>
+6007,462,1,the0,The
+6008,462,2,noun, reign
+6009,462,3,lasted, lasted
+6010,462,4,from, from
+6011,462,5,the1, the
+6012,462,6,year1, year
+6013,462,7,start_cc, 17
+6014,462,8,start_yy,94
+6015,462,9,to, to
+6016,462,10,the2, the
+6017,462,11,year2, year
+6018,462,12,end_cc, 17
+6019,463,0,bos,<|endoftext|>
+6020,463,1,the0,The
+6021,463,2,noun, drought
+6022,463,3,lasted, lasted
+6023,463,4,from, from
+6024,463,5,the1, the
+6025,463,6,year1, year
+6026,463,7,start_cc, 15
+6027,463,8,start_yy,98
+6028,463,9,to, to
+6029,463,10,the2, the
+6030,463,11,year2, year
+6031,463,12,end_cc, 15
+6032,464,0,bos,<|endoftext|>
+6033,464,1,the0,The
+6034,464,2,noun, drought
+6035,464,3,lasted, lasted
+6036,464,4,from, from
+6037,464,5,the1, the
+6038,464,6,year1, year
+6039,464,7,start_cc, 12
+6040,464,8,start_yy,93
+6041,464,9,to, to
+6042,464,10,the2, the
+6043,464,11,year2, year
+6044,464,12,end_cc, 12
+6045,465,0,bos,<|endoftext|>
+6046,465,1,the0,The
+6047,465,2,noun, siege
+6048,465,3,lasted, lasted
+6049,465,4,from, from
+6050,465,5,the1, the
+6051,465,6,year1, year
+6052,465,7,start_cc, 17
+6053,465,8,start_yy,94
+6054,465,9,to, to
+6055,465,10,the2, the
+6056,465,11,year2, year
+6057,465,12,end_cc, 17
+6058,466,0,bos,<|endoftext|>
+6059,466,1,the0,The
+6060,466,2,noun, war
+6061,466,3,lasted, lasted
+6062,466,4,from, from
+6063,466,5,the1, the
+6064,466,6,year1, year
+6065,466,7,start_cc, 16
+6066,466,8,start_yy,97
+6067,466,9,to, to
+6068,466,10,the2, the
+6069,466,11,year2, year
+6070,466,12,end_cc, 16
+6071,467,0,bos,<|endoftext|>
+6072,467,1,the0,The
+6073,467,2,noun, famine
+6074,467,3,lasted, lasted
+6075,467,4,from, from
+6076,467,5,the1, the
+6077,467,6,year1, year
+6078,467,7,start_cc, 15
+6079,467,8,start_yy,91
+6080,467,9,to, to
+6081,467,10,the2, the
+6082,467,11,year2, year
+6083,467,12,end_cc, 15
+6084,468,0,bos,<|endoftext|>
+6085,468,1,the0,The
+6086,468,2,noun, conflict
+6087,468,3,lasted, lasted
+6088,468,4,from, from
+6089,468,5,the1, the
+6090,468,6,year1, year
+6091,468,7,start_cc, 13
+6092,468,8,start_yy,91
+6093,468,9,to, to
+6094,468,10,the2, the
+6095,468,11,year2, year
+6096,468,12,end_cc, 13
+6097,469,0,bos,<|endoftext|>
+6098,469,1,the0,The
+6099,469,2,noun, siege
+6100,469,3,lasted, lasted
+6101,469,4,from, from
+6102,469,5,the1, the
+6103,469,6,year1, year
+6104,469,7,start_cc, 13
+6105,469,8,start_yy,97
+6106,469,9,to, to
+6107,469,10,the2, the
+6108,469,11,year2, year
+6109,469,12,end_cc, 13
+6110,470,0,bos,<|endoftext|>
+6111,470,1,the0,The
+6112,470,2,noun, siege
+6113,470,3,lasted, lasted
+6114,470,4,from, from
+6115,470,5,the1, the
+6116,470,6,year1, year
+6117,470,7,start_cc, 17
+6118,470,8,start_yy,96
+6119,470,9,to, to
+6120,470,10,the2, the
+6121,470,11,year2, year
+6122,470,12,end_cc, 17
+6123,471,0,bos,<|endoftext|>
+6124,471,1,the0,The
+6125,471,2,noun, conflict
+6126,471,3,lasted, lasted
+6127,471,4,from, from
+6128,471,5,the1, the
+6129,471,6,year1, year
+6130,471,7,start_cc, 12
+6131,471,8,start_yy,97
+6132,471,9,to, to
+6133,471,10,the2, the
+6134,471,11,year2, year
+6135,471,12,end_cc, 12
+6136,472,0,bos,<|endoftext|>
+6137,472,1,the0,The
+6138,472,2,noun, war
+6139,472,3,lasted, lasted
+6140,472,4,from, from
+6141,472,5,the1, the
+6142,472,6,year1, year
+6143,472,7,start_cc, 14
+6144,472,8,start_yy,98
+6145,472,9,to, to
+6146,472,10,the2, the
+6147,472,11,year2, year
+6148,472,12,end_cc, 14
+6149,473,0,bos,<|endoftext|>
+6150,473,1,the0,The
+6151,473,2,noun, famine
+6152,473,3,lasted, lasted
+6153,473,4,from, from
+6154,473,5,the1, the
+6155,473,6,year1, year
+6156,473,7,start_cc, 12
+6157,473,8,start_yy,96
+6158,473,9,to, to
+6159,473,10,the2, the
+6160,473,11,year2, year
+6161,473,12,end_cc, 12
+6162,474,0,bos,<|endoftext|>
+6163,474,1,the0,The
+6164,474,2,noun, conflict
+6165,474,3,lasted, lasted
+6166,474,4,from, from
+6167,474,5,the1, the
+6168,474,6,year1, year
+6169,474,7,start_cc, 13
+6170,474,8,start_yy,93
+6171,474,9,to, to
+6172,474,10,the2, the
+6173,474,11,year2, year
+6174,474,12,end_cc, 13
+6175,475,0,bos,<|endoftext|>
+6176,475,1,the0,The
+6177,475,2,noun, war
+6178,475,3,lasted, lasted
+6179,475,4,from, from
+6180,475,5,the1, the
+6181,475,6,year1, year
+6182,475,7,start_cc, 13
+6183,475,8,start_yy,91
+6184,475,9,to, to
+6185,475,10,the2, the
+6186,475,11,year2, year
+6187,475,12,end_cc, 13
+6188,476,0,bos,<|endoftext|>
+6189,476,1,the0,The
+6190,476,2,noun, famine
+6191,476,3,lasted, lasted
+6192,476,4,from, from
+6193,476,5,the1, the
+6194,476,6,year1, year
+6195,476,7,start_cc, 17
+6196,476,8,start_yy,92
+6197,476,9,to, to
+6198,476,10,the2, the
+6199,476,11,year2, year
+6200,476,12,end_cc, 17
+6201,477,0,bos,<|endoftext|>
+6202,477,1,the0,The
+6203,477,2,noun, reign
+6204,477,3,lasted, lasted
+6205,477,4,from, from
+6206,477,5,the1, the
+6207,477,6,year1, year
+6208,477,7,start_cc, 16
+6209,477,8,start_yy,92
+6210,477,9,to, to
+6211,477,10,the2, the
+6212,477,11,year2, year
+6213,477,12,end_cc, 16
+6214,478,0,bos,<|endoftext|>
+6215,478,1,the0,The
+6216,478,2,noun, reign
+6217,478,3,lasted, lasted
+6218,478,4,from, from
+6219,478,5,the1, the
+6220,478,6,year1, year
+6221,478,7,start_cc, 14
+6222,478,8,start_yy,90
+6223,478,9,to, to
+6224,478,10,the2, the
+6225,478,11,year2, year
+6226,478,12,end_cc, 14
+6227,479,0,bos,<|endoftext|>
+6228,479,1,the0,The
+6229,479,2,noun, expedition
+6230,479,3,lasted, lasted
+6231,479,4,from, from
+6232,479,5,the1, the
+6233,479,6,year1, year
+6234,479,7,start_cc, 17
+6235,479,8,start_yy,92
+6236,479,9,to, to
+6237,479,10,the2, the
+6238,479,11,year2, year
+6239,479,12,end_cc, 17
+6240,480,0,bos,<|endoftext|>
+6241,480,1,the0,The
+6242,480,2,noun, expedition
+6243,480,3,lasted, lasted
+6244,480,4,from, from
+6245,480,5,the1, the
+6246,480,6,year1, year
+6247,480,7,start_cc, 13
+6248,480,8,start_yy,91
+6249,480,9,to, to
+6250,480,10,the2, the
+6251,480,11,year2, year
+6252,480,12,end_cc, 13
+6253,481,0,bos,<|endoftext|>
+6254,481,1,the0,The
+6255,481,2,noun, war
+6256,481,3,lasted, lasted
+6257,481,4,from, from
+6258,481,5,the1, the
+6259,481,6,year1, year
+6260,481,7,start_cc, 12
+6261,481,8,start_yy,96
+6262,481,9,to, to
+6263,481,10,the2, the
+6264,481,11,year2, year
+6265,481,12,end_cc, 12
+6266,482,0,bos,<|endoftext|>
+6267,482,1,the0,The
+6268,482,2,noun, reign
+6269,482,3,lasted, lasted
+6270,482,4,from, from
+6271,482,5,the1, the
+6272,482,6,year1, year
+6273,482,7,start_cc, 15
+6274,482,8,start_yy,98
+6275,482,9,to, to
+6276,482,10,the2, the
+6277,482,11,year2, year
+6278,482,12,end_cc, 15
+6279,483,0,bos,<|endoftext|>
+6280,483,1,the0,The
+6281,483,2,noun, war
+6282,483,3,lasted, lasted
+6283,483,4,from, from
+6284,483,5,the1, the
+6285,483,6,year1, year
+6286,483,7,start_cc, 16
+6287,483,8,start_yy,98
+6288,483,9,to, to
+6289,483,10,the2, the
+6290,483,11,year2, year
+6291,483,12,end_cc, 16
+6292,484,0,bos,<|endoftext|>
+6293,484,1,the0,The
+6294,484,2,noun, expedition
+6295,484,3,lasted, lasted
+6296,484,4,from, from
+6297,484,5,the1, the
+6298,484,6,year1, year
+6299,484,7,start_cc, 16
+6300,484,8,start_yy,92
+6301,484,9,to, to
+6302,484,10,the2, the
+6303,484,11,year2, year
+6304,484,12,end_cc, 16
+6305,485,0,bos,<|endoftext|>
+6306,485,1,the0,The
+6307,485,2,noun, voyage
+6308,485,3,lasted, lasted
+6309,485,4,from, from
+6310,485,5,the1, the
+6311,485,6,year1, year
+6312,485,7,start_cc, 14
+6313,485,8,start_yy,90
+6314,485,9,to, to
+6315,485,10,the2, the
+6316,485,11,year2, year
+6317,485,12,end_cc, 14
+6318,486,0,bos,<|endoftext|>
+6319,486,1,the0,The
+6320,486,2,noun, famine
+6321,486,3,lasted, lasted
+6322,486,4,from, from
+6323,486,5,the1, the
+6324,486,6,year1, year
+6325,486,7,start_cc, 12
+6326,486,8,start_yy,96
+6327,486,9,to, to
+6328,486,10,the2, the
+6329,486,11,year2, year
+6330,486,12,end_cc, 12
+6331,487,0,bos,<|endoftext|>
+6332,487,1,the0,The
+6333,487,2,noun, siege
+6334,487,3,lasted, lasted
+6335,487,4,from, from
+6336,487,5,the1, the
+6337,487,6,year1, year
+6338,487,7,start_cc, 16
+6339,487,8,start_yy,91
+6340,487,9,to, to
+6341,487,10,the2, the
+6342,487,11,year2, year
+6343,487,12,end_cc, 16
+6344,488,0,bos,<|endoftext|>
+6345,488,1,the0,The
+6346,488,2,noun, war
+6347,488,3,lasted, lasted
+6348,488,4,from, from
+6349,488,5,the1, the
+6350,488,6,year1, year
+6351,488,7,start_cc, 14
+6352,488,8,start_yy,97
+6353,488,9,to, to
+6354,488,10,the2, the
+6355,488,11,year2, year
+6356,488,12,end_cc, 14
+6357,489,0,bos,<|endoftext|>
+6358,489,1,the0,The
+6359,489,2,noun, war
+6360,489,3,lasted, lasted
+6361,489,4,from, from
+6362,489,5,the1, the
+6363,489,6,year1, year
+6364,489,7,start_cc, 16
+6365,489,8,start_yy,96
+6366,489,9,to, to
+6367,489,10,the2, the
+6368,489,11,year2, year
+6369,489,12,end_cc, 16
+6370,490,0,bos,<|endoftext|>
+6371,490,1,the0,The
+6372,490,2,noun, famine
+6373,490,3,lasted, lasted
+6374,490,4,from, from
+6375,490,5,the1, the
+6376,490,6,year1, year
+6377,490,7,start_cc, 13
+6378,490,8,start_yy,90
+6379,490,9,to, to
+6380,490,10,the2, the
+6381,490,11,year2, year
+6382,490,12,end_cc, 13
+6383,491,0,bos,<|endoftext|>
+6384,491,1,the0,The
+6385,491,2,noun, famine
+6386,491,3,lasted, lasted
+6387,491,4,from, from
+6388,491,5,the1, the
+6389,491,6,year1, year
+6390,491,7,start_cc, 17
+6391,491,8,start_yy,91
+6392,491,9,to, to
+6393,491,10,the2, the
+6394,491,11,year2, year
+6395,491,12,end_cc, 17
+6396,492,0,bos,<|endoftext|>
+6397,492,1,the0,The
+6398,492,2,noun, famine
+6399,492,3,lasted, lasted
+6400,492,4,from, from
+6401,492,5,the1, the
+6402,492,6,year1, year
+6403,492,7,start_cc, 12
+6404,492,8,start_yy,91
+6405,492,9,to, to
+6406,492,10,the2, the
+6407,492,11,year2, year
+6408,492,12,end_cc, 12
+6409,493,0,bos,<|endoftext|>
+6410,493,1,the0,The
+6411,493,2,noun, famine
+6412,493,3,lasted, lasted
+6413,493,4,from, from
+6414,493,5,the1, the
+6415,493,6,year1, year
+6416,493,7,start_cc, 12
+6417,493,8,start_yy,90
+6418,493,9,to, to
+6419,493,10,the2, the
+6420,493,11,year2, year
+6421,493,12,end_cc, 12
+6422,494,0,bos,<|endoftext|>
+6423,494,1,the0,The
+6424,494,2,noun, famine
+6425,494,3,lasted, lasted
+6426,494,4,from, from
+6427,494,5,the1, the
+6428,494,6,year1, year
+6429,494,7,start_cc, 15
+6430,494,8,start_yy,95
+6431,494,9,to, to
+6432,494,10,the2, the
+6433,494,11,year2, year
+6434,494,12,end_cc, 15
+6435,495,0,bos,<|endoftext|>
+6436,495,1,the0,The
+6437,495,2,noun, siege
+6438,495,3,lasted, lasted
+6439,495,4,from, from
+6440,495,5,the1, the
+6441,495,6,year1, year
+6442,495,7,start_cc, 17
+6443,495,8,start_yy,97
+6444,495,9,to, to
+6445,495,10,the2, the
+6446,495,11,year2, year
+6447,495,12,end_cc, 17
+6448,496,0,bos,<|endoftext|>
+6449,496,1,the0,The
+6450,496,2,noun, reign
+6451,496,3,lasted, lasted
+6452,496,4,from, from
+6453,496,5,the1, the
+6454,496,6,year1, year
+6455,496,7,start_cc, 16
+6456,496,8,start_yy,92
+6457,496,9,to, to
+6458,496,10,the2, the
+6459,496,11,year2, year
+6460,496,12,end_cc, 16
+6461,497,0,bos,<|endoftext|>
+6462,497,1,the0,The
+6463,497,2,noun, war
+6464,497,3,lasted, lasted
+6465,497,4,from, from
+6466,497,5,the1, the
+6467,497,6,year1, year
+6468,497,7,start_cc, 13
+6469,497,8,start_yy,93
+6470,497,9,to, to
+6471,497,10,the2, the
+6472,497,11,year2, year
+6473,497,12,end_cc, 13
+6474,498,0,bos,<|endoftext|>
+6475,498,1,the0,The
+6476,498,2,noun, war
+6477,498,3,lasted, lasted
+6478,498,4,from, from
+6479,498,5,the1, the
+6480,498,6,year1, year
+6481,498,7,start_cc, 17
+6482,498,8,start_yy,93
+6483,498,9,to, to
+6484,498,10,the2, the
+6485,498,11,year2, year
+6486,498,12,end_cc, 17
+6487,499,0,bos,<|endoftext|>
+6488,499,1,the0,The
+6489,499,2,noun, war
+6490,499,3,lasted, lasted
+6491,499,4,from, from
+6492,499,5,the1, the
+6493,499,6,year1, year
+6494,499,7,start_cc, 13
+6495,499,8,start_yy,94
+6496,499,9,to, to
+6497,499,10,the2, the
+6498,499,11,year2, year
+6499,499,12,end_cc, 13
+6500,500,0,bos,<|endoftext|>
+6501,500,1,the0,The
+6502,500,2,noun, drought
+6503,500,3,lasted, lasted
+6504,500,4,from, from
+6505,500,5,the1, the
+6506,500,6,year1, year
+6507,500,7,start_cc, 17
+6508,500,8,start_yy,98
+6509,500,9,to, to
+6510,500,10,the2, the
+6511,500,11,year2, year
+6512,500,12,end_cc, 17
+6513,501,0,bos,<|endoftext|>
+6514,501,1,the0,The
+6515,501,2,noun, reign
+6516,501,3,lasted, lasted
+6517,501,4,from, from
+6518,501,5,the1, the
+6519,501,6,year1, year
+6520,501,7,start_cc, 13
+6521,501,8,start_yy,90
+6522,501,9,to, to
+6523,501,10,the2, the
+6524,501,11,year2, year
+6525,501,12,end_cc, 13
+6526,502,0,bos,<|endoftext|>
+6527,502,1,the0,The
+6528,502,2,noun, expedition
+6529,502,3,lasted, lasted
+6530,502,4,from, from
+6531,502,5,the1, the
+6532,502,6,year1, year
+6533,502,7,start_cc, 13
+6534,502,8,start_yy,95
+6535,502,9,to, to
+6536,502,10,the2, the
+6537,502,11,year2, year
+6538,502,12,end_cc, 13
+6539,503,0,bos,<|endoftext|>
+6540,503,1,the0,The
+6541,503,2,noun, war
+6542,503,3,lasted, lasted
+6543,503,4,from, from
+6544,503,5,the1, the
+6545,503,6,year1, year
+6546,503,7,start_cc, 17
+6547,503,8,start_yy,95
+6548,503,9,to, to
+6549,503,10,the2, the
+6550,503,11,year2, year
+6551,503,12,end_cc, 17
+6552,504,0,bos,<|endoftext|>
+6553,504,1,the0,The
+6554,504,2,noun, drought
+6555,504,3,lasted, lasted
+6556,504,4,from, from
+6557,504,5,the1, the
+6558,504,6,year1, year
+6559,504,7,start_cc, 14
+6560,504,8,start_yy,97
+6561,504,9,to, to
+6562,504,10,the2, the
+6563,504,11,year2, year
+6564,504,12,end_cc, 14
+6565,505,0,bos,<|endoftext|>
+6566,505,1,the0,The
+6567,505,2,noun, drought
+6568,505,3,lasted, lasted
+6569,505,4,from, from
+6570,505,5,the1, the
+6571,505,6,year1, year
+6572,505,7,start_cc, 13
+6573,505,8,start_yy,92
+6574,505,9,to, to
+6575,505,10,the2, the
+6576,505,11,year2, year
+6577,505,12,end_cc, 13
+6578,506,0,bos,<|endoftext|>
+6579,506,1,the0,The
+6580,506,2,noun, reign
+6581,506,3,lasted, lasted
+6582,506,4,from, from
+6583,506,5,the1, the
+6584,506,6,year1, year
+6585,506,7,start_cc, 16
+6586,506,8,start_yy,97
+6587,506,9,to, to
+6588,506,10,the2, the
+6589,506,11,year2, year
+6590,506,12,end_cc, 16
+6591,507,0,bos,<|endoftext|>
+6592,507,1,the0,The
+6593,507,2,noun, famine
+6594,507,3,lasted, lasted
+6595,507,4,from, from
+6596,507,5,the1, the
+6597,507,6,year1, year
+6598,507,7,start_cc, 17
+6599,507,8,start_yy,98
+6600,507,9,to, to
+6601,507,10,the2, the
+6602,507,11,year2, year
+6603,507,12,end_cc, 17
+6604,508,0,bos,<|endoftext|>
+6605,508,1,the0,The
+6606,508,2,noun, voyage
+6607,508,3,lasted, lasted
+6608,508,4,from, from
+6609,508,5,the1, the
+6610,508,6,year1, year
+6611,508,7,start_cc, 17
+6612,508,8,start_yy,91
+6613,508,9,to, to
+6614,508,10,the2, the
+6615,508,11,year2, year
+6616,508,12,end_cc, 17
+6617,509,0,bos,<|endoftext|>
+6618,509,1,the0,The
+6619,509,2,noun, siege
+6620,509,3,lasted, lasted
+6621,509,4,from, from
+6622,509,5,the1, the
+6623,509,6,year1, year
+6624,509,7,start_cc, 15
+6625,509,8,start_yy,94
+6626,509,9,to, to
+6627,509,10,the2, the
+6628,509,11,year2, year
+6629,509,12,end_cc, 15
+6630,510,0,bos,<|endoftext|>
+6631,510,1,the0,The
+6632,510,2,noun, famine
+6633,510,3,lasted, lasted
+6634,510,4,from, from
+6635,510,5,the1, the
+6636,510,6,year1, year
+6637,510,7,start_cc, 16
+6638,510,8,start_yy,94
+6639,510,9,to, to
+6640,510,10,the2, the
+6641,510,11,year2, year
+6642,510,12,end_cc, 16
+6643,511,0,bos,<|endoftext|>
+6644,511,1,the0,The
+6645,511,2,noun, voyage
+6646,511,3,lasted, lasted
+6647,511,4,from, from
+6648,511,5,the1, the
+6649,511,6,year1, year
+6650,511,7,start_cc, 14
+6651,511,8,start_yy,96
+6652,511,9,to, to
+6653,511,10,the2, the
+6654,511,11,year2, year
+6655,511,12,end_cc, 14
+6656,512,0,bos,<|endoftext|>
+6657,512,1,the0,The
+6658,512,2,noun, siege
+6659,512,3,lasted, lasted
+6660,512,4,from, from
+6661,512,5,the1, the
+6662,512,6,year1, year
+6663,512,7,start_cc, 16
+6664,512,8,start_yy,97
+6665,512,9,to, to
+6666,512,10,the2, the
+6667,512,11,year2, year
+6668,512,12,end_cc, 16
+6669,513,0,bos,<|endoftext|>
+6670,513,1,the0,The
+6671,513,2,noun, famine
+6672,513,3,lasted, lasted
+6673,513,4,from, from
+6674,513,5,the1, the
+6675,513,6,year1, year
+6676,513,7,start_cc, 14
+6677,513,8,start_yy,90
+6678,513,9,to, to
+6679,513,10,the2, the
+6680,513,11,year2, year
+6681,513,12,end_cc, 14
+6682,514,0,bos,<|endoftext|>
+6683,514,1,the0,The
+6684,514,2,noun, famine
+6685,514,3,lasted, lasted
+6686,514,4,from, from
+6687,514,5,the1, the
+6688,514,6,year1, year
+6689,514,7,start_cc, 15
+6690,514,8,start_yy,96
+6691,514,9,to, to
+6692,514,10,the2, the
+6693,514,11,year2, year
+6694,514,12,end_cc, 15
+6695,515,0,bos,<|endoftext|>
+6696,515,1,the0,The
+6697,515,2,noun, voyage
+6698,515,3,lasted, lasted
+6699,515,4,from, from
+6700,515,5,the1, the
+6701,515,6,year1, year
+6702,515,7,start_cc, 16
+6703,515,8,start_yy,90
+6704,515,9,to, to
+6705,515,10,the2, the
+6706,515,11,year2, year
+6707,515,12,end_cc, 16
+6708,516,0,bos,<|endoftext|>
+6709,516,1,the0,The
+6710,516,2,noun, conflict
+6711,516,3,lasted, lasted
+6712,516,4,from, from
+6713,516,5,the1, the
+6714,516,6,year1, year
+6715,516,7,start_cc, 16
+6716,516,8,start_yy,96
+6717,516,9,to, to
+6718,516,10,the2, the
+6719,516,11,year2, year
+6720,516,12,end_cc, 16
+6721,517,0,bos,<|endoftext|>
+6722,517,1,the0,The
+6723,517,2,noun, famine
+6724,517,3,lasted, lasted
+6725,517,4,from, from
+6726,517,5,the1, the
+6727,517,6,year1, year
+6728,517,7,start_cc, 15
+6729,517,8,start_yy,92
+6730,517,9,to, to
+6731,517,10,the2, the
+6732,517,11,year2, year
+6733,517,12,end_cc, 15
+6734,518,0,bos,<|endoftext|>
+6735,518,1,the0,The
+6736,518,2,noun, war
+6737,518,3,lasted, lasted
+6738,518,4,from, from
+6739,518,5,the1, the
+6740,518,6,year1, year
+6741,518,7,start_cc, 12
+6742,518,8,start_yy,97
+6743,518,9,to, to
+6744,518,10,the2, the
+6745,518,11,year2, year
+6746,518,12,end_cc, 12
+6747,519,0,bos,<|endoftext|>
+6748,519,1,the0,The
+6749,519,2,noun, war
+6750,519,3,lasted, lasted
+6751,519,4,from, from
+6752,519,5,the1, the
+6753,519,6,year1, year
+6754,519,7,start_cc, 12
+6755,519,8,start_yy,91
+6756,519,9,to, to
+6757,519,10,the2, the
+6758,519,11,year2, year
+6759,519,12,end_cc, 12
+6760,520,0,bos,<|endoftext|>
+6761,520,1,the0,The
+6762,520,2,noun, expedition
+6763,520,3,lasted, lasted
+6764,520,4,from, from
+6765,520,5,the1, the
+6766,520,6,year1, year
+6767,520,7,start_cc, 17
+6768,520,8,start_yy,95
+6769,520,9,to, to
+6770,520,10,the2, the
+6771,520,11,year2, year
+6772,520,12,end_cc, 17
+6773,521,0,bos,<|endoftext|>
+6774,521,1,the0,The
+6775,521,2,noun, famine
+6776,521,3,lasted, lasted
+6777,521,4,from, from
+6778,521,5,the1, the
+6779,521,6,year1, year
+6780,521,7,start_cc, 14
+6781,521,8,start_yy,90
+6782,521,9,to, to
+6783,521,10,the2, the
+6784,521,11,year2, year
+6785,521,12,end_cc, 14
+6786,522,0,bos,<|endoftext|>
+6787,522,1,the0,The
+6788,522,2,noun, siege
+6789,522,3,lasted, lasted
+6790,522,4,from, from
+6791,522,5,the1, the
+6792,522,6,year1, year
+6793,522,7,start_cc, 16
+6794,522,8,start_yy,97
+6795,522,9,to, to
+6796,522,10,the2, the
+6797,522,11,year2, year
+6798,522,12,end_cc, 16
+6799,523,0,bos,<|endoftext|>
+6800,523,1,the0,The
+6801,523,2,noun, famine
+6802,523,3,lasted, lasted
+6803,523,4,from, from
+6804,523,5,the1, the
+6805,523,6,year1, year
+6806,523,7,start_cc, 13
+6807,523,8,start_yy,97
+6808,523,9,to, to
+6809,523,10,the2, the
+6810,523,11,year2, year
+6811,523,12,end_cc, 13
+6812,524,0,bos,<|endoftext|>
+6813,524,1,the0,The
+6814,524,2,noun, conflict
+6815,524,3,lasted, lasted
+6816,524,4,from, from
+6817,524,5,the1, the
+6818,524,6,year1, year
+6819,524,7,start_cc, 15
+6820,524,8,start_yy,92
+6821,524,9,to, to
+6822,524,10,the2, the
+6823,524,11,year2, year
+6824,524,12,end_cc, 15
+6825,525,0,bos,<|endoftext|>
+6826,525,1,the0,The
+6827,525,2,noun, famine
+6828,525,3,lasted, lasted
+6829,525,4,from, from
+6830,525,5,the1, the
+6831,525,6,year1, year
+6832,525,7,start_cc, 14
+6833,525,8,start_yy,95
+6834,525,9,to, to
+6835,525,10,the2, the
+6836,525,11,year2, year
+6837,525,12,end_cc, 14
+6838,526,0,bos,<|endoftext|>
+6839,526,1,the0,The
+6840,526,2,noun, voyage
+6841,526,3,lasted, lasted
+6842,526,4,from, from
+6843,526,5,the1, the
+6844,526,6,year1, year
+6845,526,7,start_cc, 12
+6846,526,8,start_yy,91
+6847,526,9,to, to
+6848,526,10,the2, the
+6849,526,11,year2, year
+6850,526,12,end_cc, 12
+6851,527,0,bos,<|endoftext|>
+6852,527,1,the0,The
+6853,527,2,noun, war
+6854,527,3,lasted, lasted
+6855,527,4,from, from
+6856,527,5,the1, the
+6857,527,6,year1, year
+6858,527,7,start_cc, 16
+6859,527,8,start_yy,92
+6860,527,9,to, to
+6861,527,10,the2, the
+6862,527,11,year2, year
+6863,527,12,end_cc, 16
+6864,528,0,bos,<|endoftext|>
+6865,528,1,the0,The
+6866,528,2,noun, reign
+6867,528,3,lasted, lasted
+6868,528,4,from, from
+6869,528,5,the1, the
+6870,528,6,year1, year
+6871,528,7,start_cc, 15
+6872,528,8,start_yy,96
+6873,528,9,to, to
+6874,528,10,the2, the
+6875,528,11,year2, year
+6876,528,12,end_cc, 15
+6877,529,0,bos,<|endoftext|>
+6878,529,1,the0,The
+6879,529,2,noun, conflict
+6880,529,3,lasted, lasted
+6881,529,4,from, from
+6882,529,5,the1, the
+6883,529,6,year1, year
+6884,529,7,start_cc, 13
+6885,529,8,start_yy,94
+6886,529,9,to, to
+6887,529,10,the2, the
+6888,529,11,year2, year
+6889,529,12,end_cc, 13
+6890,530,0,bos,<|endoftext|>
+6891,530,1,the0,The
+6892,530,2,noun, reign
+6893,530,3,lasted, lasted
+6894,530,4,from, from
+6895,530,5,the1, the
+6896,530,6,year1, year
+6897,530,7,start_cc, 12
+6898,530,8,start_yy,94
+6899,530,9,to, to
+6900,530,10,the2, the
+6901,530,11,year2, year
+6902,530,12,end_cc, 12
+6903,531,0,bos,<|endoftext|>
+6904,531,1,the0,The
+6905,531,2,noun, reign
+6906,531,3,lasted, lasted
+6907,531,4,from, from
+6908,531,5,the1, the
+6909,531,6,year1, year
+6910,531,7,start_cc, 12
+6911,531,8,start_yy,91
+6912,531,9,to, to
+6913,531,10,the2, the
+6914,531,11,year2, year
+6915,531,12,end_cc, 12
+6916,532,0,bos,<|endoftext|>
+6917,532,1,the0,The
+6918,532,2,noun, siege
+6919,532,3,lasted, lasted
+6920,532,4,from, from
+6921,532,5,the1, the
+6922,532,6,year1, year
+6923,532,7,start_cc, 17
+6924,532,8,start_yy,91
+6925,532,9,to, to
+6926,532,10,the2, the
+6927,532,11,year2, year
+6928,532,12,end_cc, 17
+6929,533,0,bos,<|endoftext|>
+6930,533,1,the0,The
+6931,533,2,noun, reign
+6932,533,3,lasted, lasted
+6933,533,4,from, from
+6934,533,5,the1, the
+6935,533,6,year1, year
+6936,533,7,start_cc, 12
+6937,533,8,start_yy,97
+6938,533,9,to, to
+6939,533,10,the2, the
+6940,533,11,year2, year
+6941,533,12,end_cc, 12
+6942,534,0,bos,<|endoftext|>
+6943,534,1,the0,The
+6944,534,2,noun, conflict
+6945,534,3,lasted, lasted
+6946,534,4,from, from
+6947,534,5,the1, the
+6948,534,6,year1, year
+6949,534,7,start_cc, 17
+6950,534,8,start_yy,95
+6951,534,9,to, to
+6952,534,10,the2, the
+6953,534,11,year2, year
+6954,534,12,end_cc, 17
+6955,535,0,bos,<|endoftext|>
+6956,535,1,the0,The
+6957,535,2,noun, famine
+6958,535,3,lasted, lasted
+6959,535,4,from, from
+6960,535,5,the1, the
+6961,535,6,year1, year
+6962,535,7,start_cc, 16
+6963,535,8,start_yy,91
+6964,535,9,to, to
+6965,535,10,the2, the
+6966,535,11,year2, year
+6967,535,12,end_cc, 16
+6968,536,0,bos,<|endoftext|>
+6969,536,1,the0,The
+6970,536,2,noun, voyage
+6971,536,3,lasted, lasted
+6972,536,4,from, from
+6973,536,5,the1, the
+6974,536,6,year1, year
+6975,536,7,start_cc, 13
+6976,536,8,start_yy,92
+6977,536,9,to, to
+6978,536,10,the2, the
+6979,536,11,year2, year
+6980,536,12,end_cc, 13
+6981,537,0,bos,<|endoftext|>
+6982,537,1,the0,The
+6983,537,2,noun, siege
+6984,537,3,lasted, lasted
+6985,537,4,from, from
+6986,537,5,the1, the
+6987,537,6,year1, year
+6988,537,7,start_cc, 17
+6989,537,8,start_yy,95
+6990,537,9,to, to
+6991,537,10,the2, the
+6992,537,11,year2, year
+6993,537,12,end_cc, 17
+6994,538,0,bos,<|endoftext|>
+6995,538,1,the0,The
+6996,538,2,noun, siege
+6997,538,3,lasted, lasted
+6998,538,4,from, from
+6999,538,5,the1, the
+7000,538,6,year1, year
+7001,538,7,start_cc, 12
+7002,538,8,start_yy,97
+7003,538,9,to, to
+7004,538,10,the2, the
+7005,538,11,year2, year
+7006,538,12,end_cc, 12
+7007,539,0,bos,<|endoftext|>
+7008,539,1,the0,The
+7009,539,2,noun, war
+7010,539,3,lasted, lasted
+7011,539,4,from, from
+7012,539,5,the1, the
+7013,539,6,year1, year
+7014,539,7,start_cc, 13
+7015,539,8,start_yy,98
+7016,539,9,to, to
+7017,539,10,the2, the
+7018,539,11,year2, year
+7019,539,12,end_cc, 13
+7020,540,0,bos,<|endoftext|>
+7021,540,1,the0,The
+7022,540,2,noun, famine
+7023,540,3,lasted, lasted
+7024,540,4,from, from
+7025,540,5,the1, the
+7026,540,6,year1, year
+7027,540,7,start_cc, 14
+7028,540,8,start_yy,98
+7029,540,9,to, to
+7030,540,10,the2, the
+7031,540,11,year2, year
+7032,540,12,end_cc, 14
+7033,541,0,bos,<|endoftext|>
+7034,541,1,the0,The
+7035,541,2,noun, siege
+7036,541,3,lasted, lasted
+7037,541,4,from, from
+7038,541,5,the1, the
+7039,541,6,year1, year
+7040,541,7,start_cc, 15
+7041,541,8,start_yy,91
+7042,541,9,to, to
+7043,541,10,the2, the
+7044,541,11,year2, year
+7045,541,12,end_cc, 15
+7046,542,0,bos,<|endoftext|>
+7047,542,1,the0,The
+7048,542,2,noun, conflict
+7049,542,3,lasted, lasted
+7050,542,4,from, from
+7051,542,5,the1, the
+7052,542,6,year1, year
+7053,542,7,start_cc, 13
+7054,542,8,start_yy,96
+7055,542,9,to, to
+7056,542,10,the2, the
+7057,542,11,year2, year
+7058,542,12,end_cc, 13
+7059,543,0,bos,<|endoftext|>
+7060,543,1,the0,The
+7061,543,2,noun, reign
+7062,543,3,lasted, lasted
+7063,543,4,from, from
+7064,543,5,the1, the
+7065,543,6,year1, year
+7066,543,7,start_cc, 15
+7067,543,8,start_yy,96
+7068,543,9,to, to
+7069,543,10,the2, the
+7070,543,11,year2, year
+7071,543,12,end_cc, 15
+7072,544,0,bos,<|endoftext|>
+7073,544,1,the0,The
+7074,544,2,noun, drought
+7075,544,3,lasted, lasted
+7076,544,4,from, from
+7077,544,5,the1, the
+7078,544,6,year1, year
+7079,544,7,start_cc, 17
+7080,544,8,start_yy,91
+7081,544,9,to, to
+7082,544,10,the2, the
+7083,544,11,year2, year
+7084,544,12,end_cc, 17
+7085,545,0,bos,<|endoftext|>
+7086,545,1,the0,The
+7087,545,2,noun, siege
+7088,545,3,lasted, lasted
+7089,545,4,from, from
+7090,545,5,the1, the
+7091,545,6,year1, year
+7092,545,7,start_cc, 13
+7093,545,8,start_yy,91
+7094,545,9,to, to
+7095,545,10,the2, the
+7096,545,11,year2, year
+7097,545,12,end_cc, 13
+7098,546,0,bos,<|endoftext|>
+7099,546,1,the0,The
+7100,546,2,noun, reign
+7101,546,3,lasted, lasted
+7102,546,4,from, from
+7103,546,5,the1, the
+7104,546,6,year1, year
+7105,546,7,start_cc, 14
+7106,546,8,start_yy,98
+7107,546,9,to, to
+7108,546,10,the2, the
+7109,546,11,year2, year
+7110,546,12,end_cc, 14
+7111,547,0,bos,<|endoftext|>
+7112,547,1,the0,The
+7113,547,2,noun, famine
+7114,547,3,lasted, lasted
+7115,547,4,from, from
+7116,547,5,the1, the
+7117,547,6,year1, year
+7118,547,7,start_cc, 12
+7119,547,8,start_yy,98
+7120,547,9,to, to
+7121,547,10,the2, the
+7122,547,11,year2, year
+7123,547,12,end_cc, 12
+7124,548,0,bos,<|endoftext|>
+7125,548,1,the0,The
+7126,548,2,noun, siege
+7127,548,3,lasted, lasted
+7128,548,4,from, from
+7129,548,5,the1, the
+7130,548,6,year1, year
+7131,548,7,start_cc, 17
+7132,548,8,start_yy,92
+7133,548,9,to, to
+7134,548,10,the2, the
+7135,548,11,year2, year
+7136,548,12,end_cc, 17
+7137,549,0,bos,<|endoftext|>
+7138,549,1,the0,The
+7139,549,2,noun, drought
+7140,549,3,lasted, lasted
+7141,549,4,from, from
+7142,549,5,the1, the
+7143,549,6,year1, year
+7144,549,7,start_cc, 15
+7145,549,8,start_yy,90
+7146,549,9,to, to
+7147,549,10,the2, the
+7148,549,11,year2, year
+7149,549,12,end_cc, 15
+7150,550,0,bos,<|endoftext|>
+7151,550,1,the0,The
+7152,550,2,noun, conflict
+7153,550,3,lasted, lasted
+7154,550,4,from, from
+7155,550,5,the1, the
+7156,550,6,year1, year
+7157,550,7,start_cc, 15
+7158,550,8,start_yy,92
+7159,550,9,to, to
+7160,550,10,the2, the
+7161,550,11,year2, year
+7162,550,12,end_cc, 15
+7163,551,0,bos,<|endoftext|>
+7164,551,1,the0,The
+7165,551,2,noun, voyage
+7166,551,3,lasted, lasted
+7167,551,4,from, from
+7168,551,5,the1, the
+7169,551,6,year1, year
+7170,551,7,start_cc, 12
+7171,551,8,start_yy,92
+7172,551,9,to, to
+7173,551,10,the2, the
+7174,551,11,year2, year
+7175,551,12,end_cc, 12
+7176,552,0,bos,<|endoftext|>
+7177,552,1,the0,The
+7178,552,2,noun, famine
+7179,552,3,lasted, lasted
+7180,552,4,from, from
+7181,552,5,the1, the
+7182,552,6,year1, year
+7183,552,7,start_cc, 16
+7184,552,8,start_yy,93
+7185,552,9,to, to
+7186,552,10,the2, the
+7187,552,11,year2, year
+7188,552,12,end_cc, 16
+7189,553,0,bos,<|endoftext|>
+7190,553,1,the0,The
+7191,553,2,noun, famine
+7192,553,3,lasted, lasted
+7193,553,4,from, from
+7194,553,5,the1, the
+7195,553,6,year1, year
+7196,553,7,start_cc, 15
+7197,553,8,start_yy,94
+7198,553,9,to, to
+7199,553,10,the2, the
+7200,553,11,year2, year
+7201,553,12,end_cc, 15
+7202,554,0,bos,<|endoftext|>
+7203,554,1,the0,The
+7204,554,2,noun, conflict
+7205,554,3,lasted, lasted
+7206,554,4,from, from
+7207,554,5,the1, the
+7208,554,6,year1, year
+7209,554,7,start_cc, 13
+7210,554,8,start_yy,93
+7211,554,9,to, to
+7212,554,10,the2, the
+7213,554,11,year2, year
+7214,554,12,end_cc, 13
+7215,555,0,bos,<|endoftext|>
+7216,555,1,the0,The
+7217,555,2,noun, voyage
+7218,555,3,lasted, lasted
+7219,555,4,from, from
+7220,555,5,the1, the
+7221,555,6,year1, year
+7222,555,7,start_cc, 12
+7223,555,8,start_yy,94
+7224,555,9,to, to
+7225,555,10,the2, the
+7226,555,11,year2, year
+7227,555,12,end_cc, 12
+7228,556,0,bos,<|endoftext|>
+7229,556,1,the0,The
+7230,556,2,noun, conflict
+7231,556,3,lasted, lasted
+7232,556,4,from, from
+7233,556,5,the1, the
+7234,556,6,year1, year
+7235,556,7,start_cc, 15
+7236,556,8,start_yy,92
+7237,556,9,to, to
+7238,556,10,the2, the
+7239,556,11,year2, year
+7240,556,12,end_cc, 15
+7241,557,0,bos,<|endoftext|>
+7242,557,1,the0,The
+7243,557,2,noun, siege
+7244,557,3,lasted, lasted
+7245,557,4,from, from
+7246,557,5,the1, the
+7247,557,6,year1, year
+7248,557,7,start_cc, 12
+7249,557,8,start_yy,95
+7250,557,9,to, to
+7251,557,10,the2, the
+7252,557,11,year2, year
+7253,557,12,end_cc, 12
+7254,558,0,bos,<|endoftext|>
+7255,558,1,the0,The
+7256,558,2,noun, war
+7257,558,3,lasted, lasted
+7258,558,4,from, from
+7259,558,5,the1, the
+7260,558,6,year1, year
+7261,558,7,start_cc, 17
+7262,558,8,start_yy,90
+7263,558,9,to, to
+7264,558,10,the2, the
+7265,558,11,year2, year
+7266,558,12,end_cc, 17
+7267,559,0,bos,<|endoftext|>
+7268,559,1,the0,The
+7269,559,2,noun, expedition
+7270,559,3,lasted, lasted
+7271,559,4,from, from
+7272,559,5,the1, the
+7273,559,6,year1, year
+7274,559,7,start_cc, 17
+7275,559,8,start_yy,96
+7276,559,9,to, to
+7277,559,10,the2, the
+7278,559,11,year2, year
+7279,559,12,end_cc, 17
+7280,560,0,bos,<|endoftext|>
+7281,560,1,the0,The
+7282,560,2,noun, war
+7283,560,3,lasted, lasted
+7284,560,4,from, from
+7285,560,5,the1, the
+7286,560,6,year1, year
+7287,560,7,start_cc, 14
+7288,560,8,start_yy,98
+7289,560,9,to, to
+7290,560,10,the2, the
+7291,560,11,year2, year
+7292,560,12,end_cc, 14
+7293,561,0,bos,<|endoftext|>
+7294,561,1,the0,The
+7295,561,2,noun, voyage
+7296,561,3,lasted, lasted
+7297,561,4,from, from
+7298,561,5,the1, the
+7299,561,6,year1, year
+7300,561,7,start_cc, 16
+7301,561,8,start_yy,94
+7302,561,9,to, to
+7303,561,10,the2, the
+7304,561,11,year2, year
+7305,561,12,end_cc, 16
+7306,562,0,bos,<|endoftext|>
+7307,562,1,the0,The
+7308,562,2,noun, reign
+7309,562,3,lasted, lasted
+7310,562,4,from, from
+7311,562,5,the1, the
+7312,562,6,year1, year
+7313,562,7,start_cc, 12
+7314,562,8,start_yy,96
+7315,562,9,to, to
+7316,562,10,the2, the
+7317,562,11,year2, year
+7318,562,12,end_cc, 12
+7319,563,0,bos,<|endoftext|>
+7320,563,1,the0,The
+7321,563,2,noun, voyage
+7322,563,3,lasted, lasted
+7323,563,4,from, from
+7324,563,5,the1, the
+7325,563,6,year1, year
+7326,563,7,start_cc, 14
+7327,563,8,start_yy,91
+7328,563,9,to, to
+7329,563,10,the2, the
+7330,563,11,year2, year
+7331,563,12,end_cc, 14
+7332,564,0,bos,<|endoftext|>
+7333,564,1,the0,The
+7334,564,2,noun, war
+7335,564,3,lasted, lasted
+7336,564,4,from, from
+7337,564,5,the1, the
+7338,564,6,year1, year
+7339,564,7,start_cc, 12
+7340,564,8,start_yy,97
+7341,564,9,to, to
+7342,564,10,the2, the
+7343,564,11,year2, year
+7344,564,12,end_cc, 12
+7345,565,0,bos,<|endoftext|>
+7346,565,1,the0,The
+7347,565,2,noun, drought
+7348,565,3,lasted, lasted
+7349,565,4,from, from
+7350,565,5,the1, the
+7351,565,6,year1, year
+7352,565,7,start_cc, 14
+7353,565,8,start_yy,97
+7354,565,9,to, to
+7355,565,10,the2, the
+7356,565,11,year2, year
+7357,565,12,end_cc, 14
+7358,566,0,bos,<|endoftext|>
+7359,566,1,the0,The
+7360,566,2,noun, expedition
+7361,566,3,lasted, lasted
+7362,566,4,from, from
+7363,566,5,the1, the
+7364,566,6,year1, year
+7365,566,7,start_cc, 13
+7366,566,8,start_yy,92
+7367,566,9,to, to
+7368,566,10,the2, the
+7369,566,11,year2, year
+7370,566,12,end_cc, 13
+7371,567,0,bos,<|endoftext|>
+7372,567,1,the0,The
+7373,567,2,noun, famine
+7374,567,3,lasted, lasted
+7375,567,4,from, from
+7376,567,5,the1, the
+7377,567,6,year1, year
+7378,567,7,start_cc, 17
+7379,567,8,start_yy,95
+7380,567,9,to, to
+7381,567,10,the2, the
+7382,567,11,year2, year
+7383,567,12,end_cc, 17
+7384,568,0,bos,<|endoftext|>
+7385,568,1,the0,The
+7386,568,2,noun, famine
+7387,568,3,lasted, lasted
+7388,568,4,from, from
+7389,568,5,the1, the
+7390,568,6,year1, year
+7391,568,7,start_cc, 14
+7392,568,8,start_yy,92
+7393,568,9,to, to
+7394,568,10,the2, the
+7395,568,11,year2, year
+7396,568,12,end_cc, 14
+7397,569,0,bos,<|endoftext|>
+7398,569,1,the0,The
+7399,569,2,noun, famine
+7400,569,3,lasted, lasted
+7401,569,4,from, from
+7402,569,5,the1, the
+7403,569,6,year1, year
+7404,569,7,start_cc, 15
+7405,569,8,start_yy,98
+7406,569,9,to, to
+7407,569,10,the2, the
+7408,569,11,year2, year
+7409,569,12,end_cc, 15
+7410,570,0,bos,<|endoftext|>
+7411,570,1,the0,The
+7412,570,2,noun, conflict
+7413,570,3,lasted, lasted
+7414,570,4,from, from
+7415,570,5,the1, the
+7416,570,6,year1, year
+7417,570,7,start_cc, 13
+7418,570,8,start_yy,93
+7419,570,9,to, to
+7420,570,10,the2, the
+7421,570,11,year2, year
+7422,570,12,end_cc, 13
+7423,571,0,bos,<|endoftext|>
+7424,571,1,the0,The
+7425,571,2,noun, reign
+7426,571,3,lasted, lasted
+7427,571,4,from, from
+7428,571,5,the1, the
+7429,571,6,year1, year
+7430,571,7,start_cc, 12
+7431,571,8,start_yy,92
+7432,571,9,to, to
+7433,571,10,the2, the
+7434,571,11,year2, year
+7435,571,12,end_cc, 12
+7436,572,0,bos,<|endoftext|>
+7437,572,1,the0,The
+7438,572,2,noun, drought
+7439,572,3,lasted, lasted
+7440,572,4,from, from
+7441,572,5,the1, the
+7442,572,6,year1, year
+7443,572,7,start_cc, 17
+7444,572,8,start_yy,96
+7445,572,9,to, to
+7446,572,10,the2, the
+7447,572,11,year2, year
+7448,572,12,end_cc, 17
+7449,573,0,bos,<|endoftext|>
+7450,573,1,the0,The
+7451,573,2,noun, expedition
+7452,573,3,lasted, lasted
+7453,573,4,from, from
+7454,573,5,the1, the
+7455,573,6,year1, year
+7456,573,7,start_cc, 17
+7457,573,8,start_yy,92
+7458,573,9,to, to
+7459,573,10,the2, the
+7460,573,11,year2, year
+7461,573,12,end_cc, 17
+7462,574,0,bos,<|endoftext|>
+7463,574,1,the0,The
+7464,574,2,noun, famine
+7465,574,3,lasted, lasted
+7466,574,4,from, from
+7467,574,5,the1, the
+7468,574,6,year1, year
+7469,574,7,start_cc, 15
+7470,574,8,start_yy,95
+7471,574,9,to, to
+7472,574,10,the2, the
+7473,574,11,year2, year
+7474,574,12,end_cc, 15
+7475,575,0,bos,<|endoftext|>
+7476,575,1,the0,The
+7477,575,2,noun, expedition
+7478,575,3,lasted, lasted
+7479,575,4,from, from
+7480,575,5,the1, the
+7481,575,6,year1, year
+7482,575,7,start_cc, 17
+7483,575,8,start_yy,92
+7484,575,9,to, to
+7485,575,10,the2, the
+7486,575,11,year2, year
+7487,575,12,end_cc, 17
+7488,576,0,bos,<|endoftext|>
+7489,576,1,the0,The
+7490,576,2,noun, reign
+7491,576,3,lasted, lasted
+7492,576,4,from, from
+7493,576,5,the1, the
+7494,576,6,year1, year
+7495,576,7,start_cc, 15
+7496,576,8,start_yy,97
+7497,576,9,to, to
+7498,576,10,the2, the
+7499,576,11,year2, year
+7500,576,12,end_cc, 15
+7501,577,0,bos,<|endoftext|>
+7502,577,1,the0,The
+7503,577,2,noun, reign
+7504,577,3,lasted, lasted
+7505,577,4,from, from
+7506,577,5,the1, the
+7507,577,6,year1, year
+7508,577,7,start_cc, 13
+7509,577,8,start_yy,97
+7510,577,9,to, to
+7511,577,10,the2, the
+7512,577,11,year2, year
+7513,577,12,end_cc, 13
+7514,578,0,bos,<|endoftext|>
+7515,578,1,the0,The
+7516,578,2,noun, reign
+7517,578,3,lasted, lasted
+7518,578,4,from, from
+7519,578,5,the1, the
+7520,578,6,year1, year
+7521,578,7,start_cc, 12
+7522,578,8,start_yy,93
+7523,578,9,to, to
+7524,578,10,the2, the
+7525,578,11,year2, year
+7526,578,12,end_cc, 12
+7527,579,0,bos,<|endoftext|>
+7528,579,1,the0,The
+7529,579,2,noun, voyage
+7530,579,3,lasted, lasted
+7531,579,4,from, from
+7532,579,5,the1, the
+7533,579,6,year1, year
+7534,579,7,start_cc, 14
+7535,579,8,start_yy,97
+7536,579,9,to, to
+7537,579,10,the2, the
+7538,579,11,year2, year
+7539,579,12,end_cc, 14
+7540,580,0,bos,<|endoftext|>
+7541,580,1,the0,The
+7542,580,2,noun, voyage
+7543,580,3,lasted, lasted
+7544,580,4,from, from
+7545,580,5,the1, the
+7546,580,6,year1, year
+7547,580,7,start_cc, 15
+7548,580,8,start_yy,90
+7549,580,9,to, to
+7550,580,10,the2, the
+7551,580,11,year2, year
+7552,580,12,end_cc, 15
+7553,581,0,bos,<|endoftext|>
+7554,581,1,the0,The
+7555,581,2,noun, conflict
+7556,581,3,lasted, lasted
+7557,581,4,from, from
+7558,581,5,the1, the
+7559,581,6,year1, year
+7560,581,7,start_cc, 14
+7561,581,8,start_yy,92
+7562,581,9,to, to
+7563,581,10,the2, the
+7564,581,11,year2, year
+7565,581,12,end_cc, 14
+7566,582,0,bos,<|endoftext|>
+7567,582,1,the0,The
+7568,582,2,noun, voyage
+7569,582,3,lasted, lasted
+7570,582,4,from, from
+7571,582,5,the1, the
+7572,582,6,year1, year
+7573,582,7,start_cc, 16
+7574,582,8,start_yy,95
+7575,582,9,to, to
+7576,582,10,the2, the
+7577,582,11,year2, year
+7578,582,12,end_cc, 16
+7579,583,0,bos,<|endoftext|>
+7580,583,1,the0,The
+7581,583,2,noun, drought
+7582,583,3,lasted, lasted
+7583,583,4,from, from
+7584,583,5,the1, the
+7585,583,6,year1, year
+7586,583,7,start_cc, 13
+7587,583,8,start_yy,90
+7588,583,9,to, to
+7589,583,10,the2, the
+7590,583,11,year2, year
+7591,583,12,end_cc, 13
+7592,584,0,bos,<|endoftext|>
+7593,584,1,the0,The
+7594,584,2,noun, expedition
+7595,584,3,lasted, lasted
+7596,584,4,from, from
+7597,584,5,the1, the
+7598,584,6,year1, year
+7599,584,7,start_cc, 13
+7600,584,8,start_yy,98
+7601,584,9,to, to
+7602,584,10,the2, the
+7603,584,11,year2, year
+7604,584,12,end_cc, 13
+7605,585,0,bos,<|endoftext|>
+7606,585,1,the0,The
+7607,585,2,noun, reign
+7608,585,3,lasted, lasted
+7609,585,4,from, from
+7610,585,5,the1, the
+7611,585,6,year1, year
+7612,585,7,start_cc, 17
+7613,585,8,start_yy,98
+7614,585,9,to, to
+7615,585,10,the2, the
+7616,585,11,year2, year
+7617,585,12,end_cc, 17
+7618,586,0,bos,<|endoftext|>
+7619,586,1,the0,The
+7620,586,2,noun, voyage
+7621,586,3,lasted, lasted
+7622,586,4,from, from
+7623,586,5,the1, the
+7624,586,6,year1, year
+7625,586,7,start_cc, 17
+7626,586,8,start_yy,91
+7627,586,9,to, to
+7628,586,10,the2, the
+7629,586,11,year2, year
+7630,586,12,end_cc, 17
+7631,587,0,bos,<|endoftext|>
+7632,587,1,the0,The
+7633,587,2,noun, famine
+7634,587,3,lasted, lasted
+7635,587,4,from, from
+7636,587,5,the1, the
+7637,587,6,year1, year
+7638,587,7,start_cc, 17
+7639,587,8,start_yy,95
+7640,587,9,to, to
+7641,587,10,the2, the
+7642,587,11,year2, year
+7643,587,12,end_cc, 17
+7644,588,0,bos,<|endoftext|>
+7645,588,1,the0,The
+7646,588,2,noun, famine
+7647,588,3,lasted, lasted
+7648,588,4,from, from
+7649,588,5,the1, the
+7650,588,6,year1, year
+7651,588,7,start_cc, 17
+7652,588,8,start_yy,92
+7653,588,9,to, to
+7654,588,10,the2, the
+7655,588,11,year2, year
+7656,588,12,end_cc, 17
+7657,589,0,bos,<|endoftext|>
+7658,589,1,the0,The
+7659,589,2,noun, expedition
+7660,589,3,lasted, lasted
+7661,589,4,from, from
+7662,589,5,the1, the
+7663,589,6,year1, year
+7664,589,7,start_cc, 15
+7665,589,8,start_yy,98
+7666,589,9,to, to
+7667,589,10,the2, the
+7668,589,11,year2, year
+7669,589,12,end_cc, 15
+7670,590,0,bos,<|endoftext|>
+7671,590,1,the0,The
+7672,590,2,noun, drought
+7673,590,3,lasted, lasted
+7674,590,4,from, from
+7675,590,5,the1, the
+7676,590,6,year1, year
+7677,590,7,start_cc, 15
+7678,590,8,start_yy,90
+7679,590,9,to, to
+7680,590,10,the2, the
+7681,590,11,year2, year
+7682,590,12,end_cc, 15
+7683,591,0,bos,<|endoftext|>
+7684,591,1,the0,The
+7685,591,2,noun, famine
+7686,591,3,lasted, lasted
+7687,591,4,from, from
+7688,591,5,the1, the
+7689,591,6,year1, year
+7690,591,7,start_cc, 17
+7691,591,8,start_yy,97
+7692,591,9,to, to
+7693,591,10,the2, the
+7694,591,11,year2, year
+7695,591,12,end_cc, 17
+7696,592,0,bos,<|endoftext|>
+7697,592,1,the0,The
+7698,592,2,noun, reign
+7699,592,3,lasted, lasted
+7700,592,4,from, from
+7701,592,5,the1, the
+7702,592,6,year1, year
+7703,592,7,start_cc, 12
+7704,592,8,start_yy,98
+7705,592,9,to, to
+7706,592,10,the2, the
+7707,592,11,year2, year
+7708,592,12,end_cc, 12
+7709,593,0,bos,<|endoftext|>
+7710,593,1,the0,The
+7711,593,2,noun, siege
+7712,593,3,lasted, lasted
+7713,593,4,from, from
+7714,593,5,the1, the
+7715,593,6,year1, year
+7716,593,7,start_cc, 13
+7717,593,8,start_yy,95
+7718,593,9,to, to
+7719,593,10,the2, the
+7720,593,11,year2, year
+7721,593,12,end_cc, 13
+7722,594,0,bos,<|endoftext|>
+7723,594,1,the0,The
+7724,594,2,noun, siege
+7725,594,3,lasted, lasted
+7726,594,4,from, from
+7727,594,5,the1, the
+7728,594,6,year1, year
+7729,594,7,start_cc, 14
+7730,594,8,start_yy,94
+7731,594,9,to, to
+7732,594,10,the2, the
+7733,594,11,year2, year
+7734,594,12,end_cc, 14
+7735,595,0,bos,<|endoftext|>
+7736,595,1,the0,The
+7737,595,2,noun, famine
+7738,595,3,lasted, lasted
+7739,595,4,from, from
+7740,595,5,the1, the
+7741,595,6,year1, year
+7742,595,7,start_cc, 15
+7743,595,8,start_yy,98
+7744,595,9,to, to
+7745,595,10,the2, the
+7746,595,11,year2, year
+7747,595,12,end_cc, 15
+7748,596,0,bos,<|endoftext|>
+7749,596,1,the0,The
+7750,596,2,noun, reign
+7751,596,3,lasted, lasted
+7752,596,4,from, from
+7753,596,5,the1, the
+7754,596,6,year1, year
+7755,596,7,start_cc, 16
+7756,596,8,start_yy,94
+7757,596,9,to, to
+7758,596,10,the2, the
+7759,596,11,year2, year
+7760,596,12,end_cc, 16
+7761,597,0,bos,<|endoftext|>
+7762,597,1,the0,The
+7763,597,2,noun, reign
+7764,597,3,lasted, lasted
+7765,597,4,from, from
+7766,597,5,the1, the
+7767,597,6,year1, year
+7768,597,7,start_cc, 17
+7769,597,8,start_yy,90
+7770,597,9,to, to
+7771,597,10,the2, the
+7772,597,11,year2, year
+7773,597,12,end_cc, 17
+7774,598,0,bos,<|endoftext|>
+7775,598,1,the0,The
+7776,598,2,noun, famine
+7777,598,3,lasted, lasted
+7778,598,4,from, from
+7779,598,5,the1, the
+7780,598,6,year1, year
+7781,598,7,start_cc, 13
+7782,598,8,start_yy,91
+7783,598,9,to, to
+7784,598,10,the2, the
+7785,598,11,year2, year
+7786,598,12,end_cc, 13
+7787,599,0,bos,<|endoftext|>
+7788,599,1,the0,The
+7789,599,2,noun, drought
+7790,599,3,lasted, lasted
+7791,599,4,from, from
+7792,599,5,the1, the
+7793,599,6,year1, year
+7794,599,7,start_cc, 15
+7795,599,8,start_yy,94
+7796,599,9,to, to
+7797,599,10,the2, the
+7798,599,11,year2, year
+7799,599,12,end_cc, 15
