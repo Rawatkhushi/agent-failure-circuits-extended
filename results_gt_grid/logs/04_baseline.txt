@@ -1,0 +1,32 @@
+N=432, failures=56
+
+-- known confounds only --
+  century                                AUC = 0.884 (sd 0.048)
+  century + start_yy                     AUC = 0.949 (sd 0.018)
+  century + start_yy + noun              AUC = 0.976 (sd 0.015)
+
+-- representations (mean of last 3 tokens) --
+  raw residual (768)                     AUC = 0.991 (sd 0.006)
+  SAE top-1 LEAKY (selected on all data) AUC = 0.868 (sd 0.052)
+  SAE top-1 NESTED (in-fold selection)   AUC = 0.842 (sd 0.043)
+  SAE top-10 LEAKY (selected on all data) AUC = 0.960 (sd 0.016)
+  SAE top-10 NESTED (in-fold selection)  AUC = 0.956 (sd 0.019)
+  SAE top-50 LEAKY (selected on all data) AUC = 0.983 (sd 0.008)
+  SAE top-50 NESTED (in-fold selection)  AUC = 0.981 (sd 0.009)
+  SAE top-100 LEAKY (selected on all data) AUC = 0.986 (sd 0.008)
+  SAE top-100 NESTED (in-fold selection) AUC = 0.987 (sd 0.007)
+
+-- raw residual at a SINGLE token role (where does the information live?) --
+  raw @ noun                             AUC = 0.604 (sd 0.095)
+  raw @ lasted                           AUC = 0.604 (sd 0.095)
+  raw @ from                             AUC = 0.604 (sd 0.095)
+  raw @ the1                             AUC = 0.604 (sd 0.095)
+  raw @ year1                            AUC = 0.604 (sd 0.095)
+  raw @ start_cc                         AUC = 0.921 (sd 0.023)
+  raw @ start_yy                         AUC = 0.989 (sd 0.008)
+  raw @ to                               AUC = 0.990 (sd 0.007)
+  raw @ the2                             AUC = 0.989 (sd 0.008)
+  raw @ year2                            AUC = 0.989 (sd 0.006)
+  raw @ end_cc                           AUC = 0.991 (sd 0.006)
+
+wrote results_gt_grid/position_analysis/baseline_auc.csv

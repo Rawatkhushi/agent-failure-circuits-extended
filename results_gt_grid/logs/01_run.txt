@@ -1,0 +1,19 @@
+W1104 13:14:07.676000 1392 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+  model = HookedSAETransformer.from_pretrained(model_name, device=device)
+device: cpu
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 10869.69it/s]
+This SAE has non-empty model_from_pretrained_kwargs. 
+For optimal performance, load the model like so:
+model = HookedSAETransformer.from_pretrained_no_processing(..., **cfg.model_from_pretrained_kwargs)
+  warnings.warn(
+Loaded pretrained model gpt2 into HookedTransformer
+SAE gpt2-small-res-jb/blocks.8.hook_resid_pre: d_in=768, d_sae=24576
+432 tasks, hook blocks.8.hook_resid_pre
+  100/432
+  200/432
+  300/432
+  400/432
+
+wrote files to results_gt_grid
+rows (prompt x position): 5616; acts_pos nnz = 319954
+logit-fail 56/432 = 0.130; greedy-fail 21/432

@@ -1,0 +1,32 @@
+N = 600 (526 success, 74 fail, acc = 0.877)
+Features: 24576
+computing per-feature statistics ...
+computing effect sizes ...
+wrote results_gt_seed3/feature_stats_last3.csv
+top 20 features by |Cohen's d|:
+  feat 23414  d=+2.091  mean_fail=6.7987  mean_succ=0.9087  p_holm=0.0000
+  feat  8350  d=+2.023  mean_fail=0.2516  mean_succ=0.0296  p_holm=0.0000
+  feat  7807  d=-1.807  mean_fail=0.0807  mean_succ=0.5346  p_holm=0.0000
+  feat 22476  d=+1.704  mean_fail=0.1793  mean_succ=0.0433  p_holm=0.0000
+  feat 23742  d=+1.601  mean_fail=1.0116  mean_succ=0.6170  p_holm=0.0000
+  feat 11842  d=-1.488  mean_fail=1.3232  mean_succ=1.8388  p_holm=0.0000
+  feat  4152  d=+1.454  mean_fail=0.0351  mean_succ=0.0043  p_holm=0.0002
+  feat 17942  d=+1.449  mean_fail=1.6175  mean_succ=1.2498  p_holm=0.0000
+  feat  4903  d=-1.408  mean_fail=0.5417  mean_succ=1.0416  p_holm=0.0000
+  feat 10107  d=-1.399  mean_fail=3.0630  mean_succ=4.2522  p_holm=0.0000
+  feat  2506  d=-1.373  mean_fail=1.0869  mean_succ=1.7420  p_holm=0.0000
+  feat 18492  d=-1.370  mean_fail=0.4706  mean_succ=0.8030  p_holm=0.0000
+  feat  6111  d=+1.363  mean_fail=0.4274  mean_succ=0.1339  p_holm=0.0000
+  feat 18923  d=+1.360  mean_fail=0.4423  mean_succ=0.2661  p_holm=0.0000
+  feat  5868  d=+1.350  mean_fail=0.2054  mean_succ=0.0456  p_holm=0.0000
+  feat 11565  d=-1.316  mean_fail=1.0991  mean_succ=1.7823  p_holm=0.0000
+  feat  7662  d=+1.275  mean_fail=0.1990  mean_succ=0.1051  p_holm=0.0000
+  feat  6081  d=+1.221  mean_fail=0.1901  mean_succ=0.0371  p_holm=0.0002
+  feat 10715  d=+1.201  mean_fail=6.2831  mean_succ=5.7372  p_holm=0.0000
+  feat 15835  d=+1.201  mean_fail=2.0456  mean_succ=0.8459  p_holm=0.0000
+wrote results_gt_seed3/top_features_last3.md
+wrote results_gt_seed3/effect_last3.png
+
+Significant (Holm p < 0.05): 118 / 24576
+|Cohen's d| > 0.5: 128 / 24576
+|Cohen's d| > 0.8 (large): 60 / 24576

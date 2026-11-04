@@ -1,0 +1,25 @@
+W1104 13:15:26.481000 1419 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+  model = HookedSAETransformer.from_pretrained("gpt2", device=device)
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 23053.33it/s]
+This SAE has non-empty model_from_pretrained_kwargs. 
+For optimal performance, load the model like so:
+model = HookedSAETransformer.from_pretrained_no_processing(..., **cfg.model_from_pretrained_kwargs)
+  warnings.warn(
+Loaded pretrained model gpt2 into HookedTransformer
+  100/432
+  200/432
+  300/432
+  400/432
+
+===== ABLATION of features [23414] at positions ['end_cc'] =====
+all              n=432 | fail rate 0.130 -> 0.035 (delta -0.095) | prob_diff 0.410 -> 0.493 (delta +0.083)
+                   fixed (fail->ok) 41, broken (ok->fail) 0, exact paired p = 9.1e-13
+                   size-matched random direction: fail delta +0.008 (range +0.000..+0.014), prob_diff delta -0.013 (range -0.015..-0.011)
+century 12       n= 72 | fail rate 0.597 -> 0.097 (delta -0.500) | prob_diff -0.076 -> 0.381 (delta +0.457)
+                   fixed (fail->ok) 36, broken (ok->fail) 0, exact paired p = 2.9e-11
+                   size-matched random direction: fail delta +0.061 (range +0.014..+0.083), prob_diff delta -0.080 (range -0.089..-0.066)
+other centuries  n=360 | fail rate 0.036 -> 0.022 (delta -0.014) | prob_diff 0.508 -> 0.516 (delta +0.008)
+                   fixed (fail->ok) 5, broken (ok->fail) 0, exact paired p = 0.062
+                   size-matched random direction: fail delta -0.002 (range -0.006..+0.000), prob_diff delta +0.000 (range -0.000..+0.000)
+
+wrote results_gt_grid/causal_ablate_23414__end_cc.csv

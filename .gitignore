@@ -9,3 +9,6 @@ venv/
 # Large model caches — not committed
 .cache/
 huggingface/
+results_repro/
+results*/*.npy
+results*/*.npz

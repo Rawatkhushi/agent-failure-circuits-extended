@@ -1,0 +1,111 @@
+N=432, failures=56 (c12: 43), strata = ['century', 'start_yy'], 54 strata, 200 permutations per null
+  done pooled_last3  all
+  done pooled_last3  no_c12
+  done noun          all
+  done noun          no_c12
+  done lasted        all
+  done lasted        no_c12
+  done from          all
+  done from          no_c12
+  done the1          all
+  done the1          no_c12
+  done year1         all
+  done year1         no_c12
+  done start_cc      all
+  done start_cc      no_c12
+  done start_yy      all
+  done start_yy      no_c12
+  done to            all
+  done to            no_c12
+  done the2          all
+  done the2          no_c12
+  done year2         all
+  done year2         no_c12
+  done end_cc        all
+  done end_cc        no_c12
+
+=== A. How many features pass |d|>0.8: observed vs chance ===
+(full = labels shuffled everywhere; strat = shuffled within strata => what the confounds alone give)
+       scope subset  n_fail  obs_n_|d|>.8  full_null_n_mean  full_null_n_95  strat_null_n_mean  strat_null_n_95
+pooled_last3    all      56            85               0.0               0               68.6               74
+pooled_last3 no_c12      13            84               6.3              15               30.4               47
+        noun    all      56             0               0.0               0                0.0                0
+        noun no_c12      13            53               2.7              29                2.2               19
+      lasted    all      56             0               0.0               0                0.0                0
+      lasted no_c12      13            31               1.7              12                1.0                8
+        from    all      56             0               0.0               0                0.0                0
+        from no_c12      13            18               1.0              10                0.6                6
+        the1    all      56             0               0.0               0                0.0                0
+        the1 no_c12      13            17               1.2               7                0.7                5
+       year1    all      56             0               0.0               0                0.0                0
+       year1 no_c12      13            35               0.5               3                0.3                2
+    start_cc    all      56            32               0.0               0               30.2               32
+    start_cc no_c12      13            18               1.4               5                7.1               12
+    start_yy    all      56            50               0.0               0               47.4               50
+    start_yy no_c12      13            37               5.8              11               30.5               37
+          to    all      56            18               0.0               0               13.1               14
+          to no_c12      13            22               2.3               5                6.0               12
+        the2    all      56            13               0.0               0                4.9                7
+        the2 no_c12      13            33               1.4               5                4.3               11
+       year2    all      56            54               0.0               0               44.7               49
+       year2 no_c12      13            48               2.1               6               15.8               29
+      end_cc    all      56            37               0.0               0               30.5               34
+      end_cc no_c12      13            25               4.1               9               19.0               25
+
+=== B. Max |d|: observed vs null 95th percentile; features with family-wise p<.05 ===
+       scope subset  obs_max|d|  full_null_max_95  strat_null_max_95  n_feat_FWER<.05_full  n_feat_FWER<.05_strat
+pooled_last3    all        2.35              0.62               2.41                   115                      0
+pooled_last3 no_c12        1.97              1.79               2.23                     6                      0
+        noun    all        0.65              0.44               0.27                    48                     61
+        noun no_c12        1.71              0.86               0.85                    51                     53
+      lasted    all        0.63              0.45               0.28                    20                     41
+      lasted no_c12        1.71              0.84               0.85                    30                     29
+        from    all        0.64              0.44               0.28                    13                     32
+        from no_c12        1.65              0.88               0.82                    17                     17
+        the1    all        0.61              0.45               0.27                    10                     25
+        the1 no_c12        1.64              0.91               0.85                    13                     14
+       year1    all        0.63              0.46               0.26                    17                     42
+       year1 no_c12        1.69              0.85               0.82                    33                     35
+    start_cc    all        2.35              0.52               2.38                    46                      0
+    start_cc no_c12        2.00              1.27               1.49                     5                      2
+    start_yy    all        1.99              0.64               2.01                    63                      0
+    start_yy no_c12        2.33              1.86               2.52                     5                      0
+          to    all        1.74              0.55               1.74                    31                      1
+          to no_c12        2.08              1.57               2.02                     3                      2
+        the2    all        1.16              0.53               1.72                    33                      0
+        the2 no_c12        1.89              1.51               1.85                     5                      0
+       year2    all        2.28              0.57               2.04                    68                      1
+       year2 no_c12        1.87              1.56               1.87                     7                      0
+      end_cc    all        2.35              0.56               2.41                    57                      0
+      end_cc no_c12        1.97              1.66               2.12                     3                      0
+
+=== C. Target features (d and max-T p-values; strat p<.05 => signal BEYOND the strata) ===
+       scope subset  feature     d  p_maxT_full  p_maxT_strat
+pooled_last3    all    23414  2.35        0.005         1.000
+pooled_last3    all     8350  2.28        0.005         1.000
+pooled_last3    all     7807 -1.97        0.005         1.000
+pooled_last3    all    11842 -1.68        0.005         1.000
+pooled_last3    all     5868  1.72        0.005         1.000
+pooled_last3    all    17942  1.80        0.005         1.000
+pooled_last3    all    20679  1.35        0.005         1.000
+pooled_last3 no_c12     8350  1.76        0.060         0.378
+pooled_last3 no_c12     7807 -1.84        0.050         0.294
+pooled_last3 no_c12    11842 -1.41        0.687         0.960
+pooled_last3 no_c12     5868  0.84        0.980         1.000
+    start_cc    all    23414  2.35        0.005         0.955
+    start_cc    all    17942  0.98        0.005         1.000
+    start_cc no_c12    23414  0.92        0.214         0.841
+       year2    all     8350  2.28        0.005         0.005
+       year2    all     5868  1.72        0.005         1.000
+       year2 no_c12     8350  1.76        0.025         0.100
+       year2 no_c12     5868  0.84        0.771         0.995
+      end_cc    all    23414  2.35        0.005         1.000
+      end_cc    all     7807 -1.96        0.005         1.000
+      end_cc    all    11842 -1.68        0.005         1.000
+      end_cc    all    17942  1.98        0.005         1.000
+      end_cc    all    20679  1.35        0.005         1.000
+      end_cc no_c12     7807 -1.83        0.035         0.224
+      end_cc no_c12    11842 -1.41        0.612         0.866
+      end_cc no_c12    17942  0.55        1.000         1.000
+
+wrote CSVs to results_gt_grid/position_analysis

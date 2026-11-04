@@ -1,0 +1,34 @@
+/Users/khushirawat/Desktop/agent-failure-circuits-extended/src/analyze.py:91: RuntimeWarning: invalid value encountered in divide
+  t_stat = np.where(se > 0, (mean_fail - mean_succ) / se, 0.0)
+N = 432 (376 success, 56 fail, acc = 0.870)
+Features: 24576
+computing per-feature statistics ...
+computing effect sizes ...
+wrote results_gt_grid/feature_stats_last3.csv
+top 20 features by |Cohen's d|:
+  feat 23414  d=+2.351  mean_fail=7.5250  mean_succ=0.9244  p_holm=0.0000
+  feat  8350  d=+2.276  mean_fail=0.2730  mean_succ=0.0283  p_holm=0.0000
+  feat  7807  d=-1.965  mean_fail=0.0657  mean_succ=0.5594  p_holm=0.0000
+  feat 23742  d=+1.861  mean_fail=1.0534  mean_succ=0.5997  p_holm=0.0000
+  feat 22476  d=+1.808  mean_fail=0.1954  mean_succ=0.0455  p_holm=0.0000
+  feat 17942  d=+1.802  mean_fail=1.6996  mean_succ=1.2394  p_holm=0.0000
+  feat  4152  d=+1.779  mean_fail=0.0410  mean_succ=0.0033  p_holm=0.0022
+  feat  5868  d=+1.721  mean_fail=0.2561  mean_succ=0.0444  p_holm=0.0000
+  feat 11842  d=-1.684  mean_fail=1.2856  mean_succ=1.8646  p_holm=0.0000
+  feat  4903  d=-1.670  mean_fail=0.4941  mean_succ=1.0491  p_holm=0.0000
+  feat 18492  d=-1.654  mean_fail=0.4241  mean_succ=0.8105  p_holm=0.0000
+  feat 10107  d=-1.574  mean_fail=2.9723  mean_succ=4.3310  p_holm=0.0000
+  feat 18923  d=+1.563  mean_fail=0.4546  mean_succ=0.2544  p_holm=0.0000
+  feat  7662  d=+1.472  mean_fail=0.2099  mean_succ=0.1008  p_holm=0.0000
+  feat 15835  d=+1.440  mean_fail=2.1986  mean_succ=0.7866  p_holm=0.0000
+  feat  6111  d=+1.430  mean_fail=0.4398  mean_succ=0.1360  p_holm=0.0000
+  feat   390  d=-1.398  mean_fail=0.3741  mean_succ=0.6625  p_holm=0.0000
+  feat 10715  d=+1.383  mean_fail=6.3574  mean_succ=5.7207  p_holm=0.0000
+  feat 24286  d=+1.366  mean_fail=0.0567  mean_succ=0.0043  p_holm=0.9457
+  feat 11565  d=-1.366  mean_fail=1.0995  mean_succ=1.8322  p_holm=0.0000
+wrote results_gt_grid/top_features_last3.md
+wrote results_gt_grid/effect_last3.png
+
+Significant (Holm p < 0.05): 103 / 24576
+|Cohen's d| > 0.5: 141 / 24576
+|Cohen's d| > 0.8 (large): 85 / 24576

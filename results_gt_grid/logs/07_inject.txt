@@ -1,0 +1,35 @@
+W1104 13:19:21.416000 1465 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+  model = HookedSAETransformer.from_pretrained("gpt2", device=device)
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 23787.44it/s]
+This SAE has non-empty model_from_pretrained_kwargs. 
+For optimal performance, load the model like so:
+model = HookedSAETransformer.from_pretrained_no_processing(..., **cfg.model_from_pretrained_kwargs)
+  warnings.warn(
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  w_norm = float(w.norm())
+Loaded pretrained model gpt2 into HookedTransformer
+feature 23414: mean activation on century-12 prompts by role = {'end_cc': 29.242022699779934}
+  100/432
+  200/432
+  300/432
+  400/432
+
+===== DOSE-RESPONSE: feature 23414 set to scale x century-12 level at ['end_cc'] =====
+
+other centuries  (n=360)
+     scale | fail rate | prob_diff | fixed | broken | paired p
+  baseline |     0.036 |     0.508 |
+      0.25 |     0.075 |     0.422 |     0 |     14 | 0.00012
+       0.5 |     0.150 |     0.311 |     0 |     41 | 9.1e-13
+       1.0 |     0.419 |     0.055 |     0 |    138 | 5.7e-42
+  random direction, same norm (scale 1.0, 5 draws): fail rate 0.087 (range 0.083..0.097), prob_diff 0.431 (range 0.425..0.439)
+
+century 12 (s<1 = partial ablation)  (n=72)
+     scale | fail rate | prob_diff | fixed | broken | paired p
+  baseline |     0.597 |    -0.076 |
+      0.25 |     0.167 |     0.305 |    31 |      0 | 9.3e-10
+       0.5 |     0.292 |     0.200 |    22 |      0 | 4.8e-07
+       1.0 |     0.583 |    -0.076 |     1 |      0 | 1
+  random direction, same norm (scale 1.0, 5 draws): fail rate 0.597 (range 0.597..0.597), prob_diff -0.076 (range -0.077..-0.075)
+
+wrote results_gt_grid/inject_23414__end_cc.csv
