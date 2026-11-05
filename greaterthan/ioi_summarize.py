@@ -25,7 +25,9 @@ def summarize(path):
         fx = int(((d.ok_base == 0) & (d.ok_int == 1)).sum()); br = int(((d.ok_base == 1) & (d.ok_int == 0)).sum())
         p = sstats.binomtest(fx, fx + br, 0.5).pvalue if fx + br else float("nan")
         print(f"{name:14s} n={len(d):3d} | accuracy {d.ok_base.mean():.3f} -> {d.ok_int.mean():.3f} | "
-              f"logit_diff {d.ld_base.mean():+.2f} -> {d.ld_int.mean():+.2f} | gained {fx}, lost {br}, paired p = {p:.2g}")
+              f"logit_diff {d.ld_base.mean():+.2f} -> {d.ld_int.mean():+.2f} | "
+              + (f"the-gap {d.gap_base.mean():+.2f} -> {d.gap_int.mean():+.2f} | " if "gap_base" in d.columns else "")
+              + f"gained {fx}, lost {br}, paired p = {p:.2g}")
         if n_rd:
             acc = [d[f"ok_rd{j}"].mean() for j in range(n_rd)]; ld = [d[f"ld_rd{j}"].mean() for j in range(n_rd)]
             print(f"{'':14s}   size-matched random direction: accuracy {np.mean(acc):.3f} "

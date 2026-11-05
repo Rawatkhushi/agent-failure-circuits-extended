@@ -30,3 +30,11 @@ Partly. Statistical audits (even stratified permutation) and interventions DISAG
 
 ## Cautions
 Earlier Claude errors corrected: predicted 23414 would fail ablation (wrong); overstated the leaky-CV flaw (negligible); suspected permutation chance counts (wrong under full shuffle); duplicate-prompt design flaw. Cohen's d inflates for near-silent features. Report both failure definitions.
+
+## UPDATE v4: IOI cross-check (supersedes the "Pending" list above)
+- ioi_position_check.py, ioi_causal.py (--positions all|to|obj|the_obj|last3, --mode ablate|add, --random-dir), ioi_summarize.py (offline summary of saved CSVs in results_ioi_pos/). Baseline first-token accuracy 0.813 vs paper 0.797; 295/300 prompt flags agree.
+- Position check: 17491 on keys prompts: 38.4 at the ' keys' token (-2), 6.3 at the final ' to' (-1), ~0 at -3..-6; ~0 everywhere on non-keys prompts. All failure-discriminating signal is in the last two tokens (79 and 57 features with |d|>.8; none at -3..-6). Within-keys d (0.45-0.73) is unreliable (3 successes among 45).
+- IOI causal (first-token scoring): ablating 17491 at all / obj / to positions = 0 gained, 0 lost (keys accuracy 0.178 unchanged; logit_diff IO-S +1.77 -> +1.77/+1.80); random same-norm directions the same. Injection at the object token (to the keys level, 38.4) into all prompts: 2 gained, 0 lost (p=0.5). So 17491 is inert, unlike GT feature 23414.
+- CROSS-TASK CONCLUSION: the audit ranks a lexical token detector first in both tasks, but it is inert in IOI and causal (necessary, sufficient, dose-dependent) in GT; "correlate, not cause" is NOT a general property of the method; statistics alone cannot distinguish them, interventions can.
+- LIMITS: IOI keys failures are mostly the model predicting " the" (not name confusion), which logit_diff (IO-S) cannot see; the-gap = logit[" the"] - logit[IO] metric added to ioi_causal.py. Injection so far only at the object token; need injection at both obj and final token (--positions last3 --mode add). Rerun: ablate all with the-gap, add at last3.
+- NEXT: finish those two reruns, then write-up and figures (role-d plots, heatmap, GT dose-response, IOI vs GT comparison table, AUC comparison, permutation-null table). Optional: layer sweep.
