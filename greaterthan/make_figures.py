@@ -47,6 +47,7 @@ def fig1_roles(gt, out):
     ax[1].bar(ROLE_ORDER, a.max_abs_d, color=cols)
     ax[1].axhline(0.8, color="k", ls="--", lw=0.8)
     ax[1].set_title("Max |Cohen's d| per token role")
+    ax[0].set_ylabel("number of features"); ax[1].set_ylabel("max |d| over features")
     for x in ax:
         x.tick_params(axis="x", rotation=60)
     fig.tight_layout(); fig.savefig(out / "fig1_gt_position_signal.png", dpi=170); plt.close(fig)
@@ -73,14 +74,21 @@ def fig2_gt_causal(gt, out):
     # (b) dose-response
     if inj is not None:
         scales = [float(c.split("_s")[1]) for c in inj.columns if c.startswith("fail_s")]
-        for name, m, col in [("other centuries (injection)", inj.century != 12, RED), ("century 12 (s<1 = partial ablation)", inj.century == 12, BLUE)]:
-            d = inj[m]
-            ys = [100 * d.fail_base.mean()] + [100 * d[f"fail_s{s}"].mean() for s in scales]
-            ax[1].plot([0] + scales, ys, "o-", color=col, label=name)
-        rr = 100 * rd_mean(inj[inj.century != 12], "fail_rd")
+        o = inj[inj.century != 12]
+        ys = [100 * o.fail_base.mean()] + [100 * o[f"fail_s{s}"].mean() for s in scales]
+        ax[1].plot([0] + scales, ys, "o-", color=RED, label="other centuries (feature injected from ~0)")
+        c = inj[inj.century == 12]
+        xs, ys = [], []
+        if ab is not None:
+            xs.append(0.0); ys.append(100 * ab[ab.century == 12].fail_abl.mean())   # full ablation = level 0
+        xs += scales; ys += [100 * c[f"fail_s{s}"].mean() for s in scales]
+        ax[1].plot(xs, ys, "o-", color=BLUE, label="century 12 (feature lowered from its natural level)")
+        ax[1].scatter([1.0], [100 * c.fail_base.mean()], marker="s", s=90, facecolors="none", edgecolors=BLUE, zorder=5,
+                      label="century 12, natural level (baseline)")
+        rr = 100 * rd_mean(o, "fail_rd")
         ax[1].scatter([1.0], [rr], marker="D", color="k", zorder=5, label="random dir., same norm (other centuries)")
-        ax[1].set_xlabel("feature level (x its century-12 activation)"); ax[1].set_ylabel("failure rate (%)")
-        ax[1].set_title("(b) Dose-response of 23414 at the final token"); ax[1].legend(fontsize=8)
+        ax[1].set_xlabel("feature level (x its century-12 activation at the final token)"); ax[1].set_ylabel("failure rate (%)")
+        ax[1].set_title("(b) Dose-response of 23414 at the final token"); ax[1].legend(fontsize=7, loc="upper left")
     # (c) prob_diff by century under ablation
     if ab is not None:
         g = ab.groupby("century")[["pd_base", "pd_abl"]].mean()
@@ -144,7 +152,9 @@ def fig4_auc(gt, out):
     cols = [BLUE if p.startswith(("century", "metadata")) else (GREEN if p.startswith("raw") else RED) for p in df.predictor]
     ax.barh(df.predictor, df.AUC, xerr=df.sd, color=cols)
     ax.set_xlim(0.5, 1.0); ax.set_xlabel("cross-validated ROC AUC (failure)")
-    ax.set_title("Prompt variables alone vs. raw residual vs. SAE features (Greater-Than)")
+    ax.set_title("Greater-Than: prompt variables vs. raw residual vs. SAE features\n(mean of last 3 tokens; error bars = SD over CV folds)", fontsize=10)
+    from matplotlib.patches import Patch
+    ax.legend(handles=[Patch(color=BLUE, label="prompt variables only"), Patch(color=GREEN, label="raw residual (768-d)"), Patch(color=RED, label="SAE top-K features")], fontsize=8, loc="lower left")
     fig.tight_layout(); fig.savefig(out / "fig4_auc_baselines.png", dpi=170); plt.close(fig)
 
 
@@ -157,10 +167,10 @@ def fig5_perm(gt, out):
     x = np.arange(len(a))
     fig, ax = plt.subplots(figsize=(9, 4))
     ax.bar(x - 0.2, a["obs_n_|d|>.8"], 0.4, color=RED, label="observed")
-    ax.bar(x + 0.2, a["strat_null_n_mean"], 0.4, color=GREY, yerr=a["strat_null_n_95"] - a["strat_null_n_mean"], label="null: labels shuffled within century x start-year (mean, 95th pct)")
+    ax.bar(x + 0.2, a["strat_null_n_mean"], 0.4, color=GREY, yerr=[np.zeros(len(a)), (a["strat_null_n_95"] - a["strat_null_n_mean"]).values], label="null: labels shuffled within century x start-year (mean; bar = 95th percentile)")
     ax.set_xticks(x); ax.set_xticklabels(a.index, rotation=30)
     ax.set_ylabel("features with |d| > 0.8")
-    ax.set_title("Most large-effect features are explained by the known confounds alone"); ax.legend(fontsize=8)
+    ax.set_title("Most, but not all, large-effect features are expected from the known confounds alone", fontsize=10); ax.legend(fontsize=8)
     fig.tight_layout(); fig.savefig(out / "fig5_permutation_null.png", dpi=170); plt.close(fig)
 
 
